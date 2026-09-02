@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 2,
+  "contentVersion": 3,
   "minAppBuildNumber": 0,
-  "generatedAt": 1788346301345,
+  "generatedAt": 1788346947363,
   "files": {
     "data/database.json": {
-      "sha256": "f32dba4a4564fcf35f689691ab98001cfaf6e62d57f5b7b82d0177f7f75c975d",
-      "bytes": 8665697
+      "sha256": "4935d44b4cedf90b2d94037a2fc536d8ab425190d21c41e972c12e71ddac63da",
+      "bytes": 8404590
     },
     "images/basic_kata_adjektif_baharu.webp": {
       "sha256": "54eae0eaacc9ca2a5e9e0373e1538c0b3a8bec884dd505a27d226415d308b8ee",
