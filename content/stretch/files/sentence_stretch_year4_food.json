@@ -1,0 +1,5003 @@
+{
+  "generatedBy": "scripts/extract_sentence_stretch.py",
+  "level": "year4",
+  "topic": "food",
+  "decoys": "none",
+  "note": "PROTOTYPE - not merged into database.json. Human review required.",
+  "orderedBy": "stage ascending, then fine difficulty (easiest first)",
+  "stageLegend": {
+    "1": "add the object (What? / Whom?)",
+    "2": "describe the subject (What kind? / How many? / Whose?)",
+    "3": "describe the action (How? / How often?)",
+    "4": "where it happens (Where?)",
+    "5": "when it happens (When?)",
+    "6": "extra details (With what? / With whom? / For whom? / Where to? / From where? / To whom?)",
+    "7": "two stretches at once",
+    "8": "give a reason (Why?)"
+  },
+  "bandLabels": {
+    "starter": {
+      "en": "Starter",
+      "ms": "Permulaan",
+      "zh": "入门",
+      "iba": "Pun"
+    },
+    "growing": {
+      "en": "Growing",
+      "ms": "Sederhana",
+      "zh": "进阶",
+      "iba": "Tumbuh"
+    },
+    "advanced": {
+      "en": "Advanced",
+      "ms": "Lanjutan",
+      "zh": "高级",
+      "iba": "Tinggi"
+    }
+  },
+  "skillLabels": {
+    "what": {
+      "en": "What?",
+      "ms": "Apa?",
+      "zh": "什么？",
+      "iba": "Nama?"
+    },
+    "whom": {
+      "en": "Whom?",
+      "ms": "Siapa?",
+      "zh": "谁？",
+      "iba": "Sapa?"
+    },
+    "whatkind": {
+      "en": "What kind?",
+      "ms": "Yang bagaimana?",
+      "zh": "什么样的？",
+      "iba": "Ni macham?"
+    },
+    "howmany": {
+      "en": "How many?",
+      "ms": "Berapa banyak?",
+      "zh": "多少？",
+      "iba": "Berapa iku?"
+    },
+    "whose": {
+      "en": "Whose?",
+      "ms": "Kepunyaan siapa?",
+      "zh": "谁的？",
+      "iba": "Enggi sapa?"
+    },
+    "how": {
+      "en": "How?",
+      "ms": "Bagaimana?",
+      "zh": "怎么样？",
+      "iba": "Baka ni?"
+    },
+    "howoften": {
+      "en": "How often?",
+      "ms": "Berapa kerap?",
+      "zh": "多久一次？",
+      "iba": "Berapa kali?"
+    },
+    "where": {
+      "en": "Where?",
+      "ms": "Di mana?",
+      "zh": "在哪里？",
+      "iba": "Dini?"
+    },
+    "when": {
+      "en": "When?",
+      "ms": "Bila?",
+      "zh": "什么时候？",
+      "iba": "Kemaya?"
+    },
+    "withwhat": {
+      "en": "With what?",
+      "ms": "Dengan apa?",
+      "zh": "用什么？",
+      "iba": "Ngena nama?"
+    },
+    "withwhom": {
+      "en": "With whom?",
+      "ms": "Dengan siapa?",
+      "zh": "和谁？",
+      "iba": "Enggau sapa?"
+    },
+    "forwhom": {
+      "en": "For whom?",
+      "ms": "Untuk siapa?",
+      "zh": "为了谁？",
+      "iba": "Ke sapa?"
+    },
+    "whereto": {
+      "en": "Where to?",
+      "ms": "Ke mana?",
+      "zh": "去哪里？",
+      "iba": "Ngagai dini?"
+    },
+    "fromwhere": {
+      "en": "From where?",
+      "ms": "Dari mana?",
+      "zh": "从哪里？",
+      "iba": "Ari dini?"
+    },
+    "towhom": {
+      "en": "To whom?",
+      "ms": "Kepada siapa?",
+      "zh": "给谁？",
+      "iba": "Ngagai sapa?"
+    },
+    "why": {
+      "en": "Why?",
+      "ms": "Mengapa?",
+      "zh": "为什么？",
+      "iba": "Nama kebuah?"
+    }
+  },
+  "authoredOptionsFile": "output\\sentence_stretch_options\\year4_food.json",
+  "tasks": [
+    {
+      "id": "st_year4_food_030",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img683",
+      "image": "koleksigambar/basic_year4_food_fork.webp",
+      "sourceSentenceId": "s002",
+      "original": "The fork has four thin prongs.",
+      "kernel": "The fork has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The fork has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "four thin prongs",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the fork",
+        "determiner": "the",
+        "rest": "fork",
+        "headLemma": "fork",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "prong"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 1
+    },
+    {
+      "id": "st_year4_food_035",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img684",
+      "image": "koleksigambar/basic_year4_food_kiwi.webp",
+      "sourceSentenceId": "s003",
+      "original": "Kiwi has a brown, fuzzy skin.",
+      "kernel": "Kiwi has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Kiwi has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a brown, fuzzy skin",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "kiwi",
+        "determiner": null,
+        "rest": "kiwi",
+        "headLemma": "kiwi",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "skin"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 2
+    },
+    {
+      "id": "st_year4_food_045",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img688",
+      "image": "koleksigambar/basic_year4_food_peach.webp",
+      "sourceSentenceId": "s003",
+      "original": "Peaches have a fuzzy orange skin.",
+      "kernel": "Peaches have.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Peaches have"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a fuzzy orange skin",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "peaches",
+        "determiner": null,
+        "rest": "peaches",
+        "headLemma": "peach",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "skin"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 3
+    },
+    {
+      "id": "st_year4_food_044",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img688",
+      "image": "koleksigambar/basic_year4_food_peach.webp",
+      "sourceSentenceId": "s002",
+      "original": "The half-cut peach shows the stone inside.",
+      "kernel": "The half-cut peach shows inside.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The half-cut peach shows"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "inside."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the stone",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the half-cut peach",
+        "determiner": "the",
+        "rest": "half-cut peach",
+        "headLemma": "peach",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "stone"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 4
+    },
+    {
+      "id": "st_year4_food_010",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img677",
+      "image": "koleksigambar/basic_year4_food_coffee.webp",
+      "sourceSentenceId": "s003",
+      "original": "The coffee has a pleasant, warm aroma.",
+      "kernel": "The coffee has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The coffee has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a pleasant, warm aroma",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the coffee",
+        "determiner": "the",
+        "rest": "coffee",
+        "headLemma": "coffee",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "aroma"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.3,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 5
+    },
+    {
+      "id": "st_year4_food_021",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img680",
+      "image": "koleksigambar/basic_year4_food_drink_milk.webp",
+      "sourceSentenceId": "s004",
+      "original": "Growing children need milk for strong bones.",
+      "kernel": "Growing children need.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Growing children need"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "milk for strong bones",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "growing children",
+        "determiner": null,
+        "rest": "growing children",
+        "headLemma": "child",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "milk"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.3,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "gerund subject parsed as an adjective: 'Growing' - not offered as a chip"
+      ],
+      "order": 6
+    },
+    {
+      "id": "st_year4_food_050",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img689",
+      "image": "koleksigambar/basic_year4_food_peanuts.webp",
+      "sourceSentenceId": "s004",
+      "original": "Peanuts make a healthy and simple snack.",
+      "kernel": "Peanuts make.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Peanuts make"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a healthy and simple snack",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "peanuts",
+        "determiner": null,
+        "rest": "peanuts",
+        "headLemma": "peanut",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "snack"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.4,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 7
+    },
+    {
+      "id": "st_year4_food_023",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img681",
+      "image": "koleksigambar/basic_year4_food_eat_vegetables.webp",
+      "sourceSentenceId": "s002",
+      "original": "Vegetables provide important nutrients for the body.",
+      "kernel": "Vegetables provide.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Vegetables provide"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "important nutrients for the body",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "vegetables",
+        "determiner": null,
+        "rest": "vegetables",
+        "headLemma": "vegetable",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "nutrient"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.4,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 8
+    },
+    {
+      "id": "st_year4_food_016",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img679",
+      "image": "koleksigambar/basic_year4_food_cut_a_piece_of_cheese.webp",
+      "sourceSentenceId": "s004",
+      "original": "A piece of cheese makes a tasty snack.",
+      "kernel": "A piece of cheese makes.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A piece of cheese makes"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a tasty snack",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a piece",
+        "determiner": "a",
+        "rest": "piece",
+        "headLemma": "piece",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "snack"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.4,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 9
+    },
+    {
+      "id": "st_year4_food_019",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img680",
+      "image": "koleksigambar/basic_year4_food_drink_milk.webp",
+      "sourceSentenceId": "s002",
+      "original": "Milk contains calcium that keeps bones strong.",
+      "kernel": "Milk contains.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Milk contains"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "clause",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "calcium that keeps bones strong",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "milk",
+        "determiner": null,
+        "rest": "milk",
+        "headLemma": "milk",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "calcium"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 4.4,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 10
+    },
+    {
+      "id": "st_year4_food_049",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img689",
+      "image": "koleksigambar/basic_year4_food_peanuts.webp",
+      "sourceSentenceId": "s003",
+      "original": "Shelled peanuts are crunchy and tasty.",
+      "kernel": "Peanuts are crunchy and tasty.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "peanuts are crunchy and tasty."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "shelled",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "small",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.3,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'crunchy' pinned as the complement"
+      ],
+      "order": 11
+    },
+    {
+      "id": "st_year4_food_005",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img676",
+      "image": "koleksigambar/basic_year4_food_chocolate_bar.webp",
+      "sourceSentenceId": "s002",
+      "original": "Each square looks sweet and delicious.",
+      "kernel": "Square looks sweet and delicious.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "square looks sweet and delicious."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "each",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany"
+      ],
+      "stage": 2,
+      "difficulty": 2.4,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 1.1,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 12
+    },
+    {
+      "id": "st_year4_food_036",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img684",
+      "image": "koleksigambar/basic_year4_food_kiwi.webp",
+      "sourceSentenceId": "s004",
+      "original": "This tropical fruit tastes tangy and sweet.",
+      "kernel": "This fruit tastes tangy and sweet.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "This"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "fruit tastes tangy and sweet."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "tropical",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "brown",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            },
+            {
+              "text": "fuzzy",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 13
+    },
+    {
+      "id": "st_year4_food_032",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img683",
+      "image": "koleksigambar/basic_year4_food_fork.webp",
+      "sourceSentenceId": "s004",
+      "original": "A fork is an important piece of cutlery.",
+      "kernel": "A fork is a piece of cutlery.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A fork is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "piece of cutlery."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "important",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'piece' pinned as the complement"
+      ],
+      "order": 14
+    },
+    {
+      "id": "st_year4_food_020",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img680",
+      "image": "koleksigambar/basic_year4_food_drink_milk.webp",
+      "sourceSentenceId": "s003",
+      "original": "Drinking milk with meals is a healthy habit.",
+      "kernel": "Drinking milk with meals is a habit.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Drinking milk with meals is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "habit."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "healthy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'habit' pinned as the complement"
+      ],
+      "order": 15
+    },
+    {
+      "id": "st_year4_food_046",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img688",
+      "image": "koleksigambar/basic_year4_food_peach.webp",
+      "sourceSentenceId": "s004",
+      "original": "A ripe peach tastes very sweet and juicy.",
+      "kernel": "A peach tastes very sweet and juicy.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "peach tastes very sweet and juicy."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "ripe",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "fuzzy",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            },
+            {
+              "text": "orange",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 16
+    },
+    {
+      "id": "st_year4_food_003",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img675",
+      "image": "koleksigambar/basic_year4_food_buy_juice.webp",
+      "sourceSentenceId": "s004",
+      "original": "Fruit juice is a popular drink among children.",
+      "kernel": "Fruit juice is a drink among children.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Fruit juice is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "drink among children."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "popular",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'drink' pinned as the complement"
+      ],
+      "order": 17
+    },
+    {
+      "id": "st_year4_food_041",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img686",
+      "image": "koleksigambar/basic_year4_food_lemonade.webp",
+      "sourceSentenceId": "s004",
+      "original": "Lemonade is a refreshing drink on a hot day.",
+      "kernel": "Lemonade is a drink on a hot day.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Lemonade is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "drink on a hot day."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "refreshing",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "fizzy",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.9,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'drink' pinned as the complement"
+      ],
+      "order": 18
+    },
+    {
+      "id": "st_year4_food_033",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img684",
+      "image": "koleksigambar/basic_year4_food_kiwi.webp",
+      "sourceSentenceId": "s001",
+      "original": "One whole kiwi sits next to a sliced one.",
+      "kernel": "One kiwi sits next to a sliced one.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "One"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "kiwi sits next to a sliced one."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "whole",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany"
+      ],
+      "stage": 2,
+      "difficulty": 3.0,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 1.1,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 19
+    },
+    {
+      "id": "st_year4_food_024",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img681",
+      "image": "koleksigambar/basic_year4_food_eat_vegetables.webp",
+      "sourceSentenceId": "s003",
+      "original": "Eating vegetables every day is part of a healthy diet.",
+      "kernel": "Eating vegetables day is part of a healthy diet.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Eating vegetables"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "day is part of a healthy diet."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "every",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany"
+      ],
+      "stage": 2,
+      "difficulty": 3.2,
+      "difficultyParts": {
+        "kernel": 1.8,
+        "chips": 1.1,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'part' pinned as the complement"
+      ],
+      "order": 20
+    },
+    {
+      "id": "st_year4_food_008",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img677",
+      "image": "koleksigambar/basic_year4_food_coffee.webp",
+      "sourceSentenceId": "s001",
+      "original": "A steaming white cup of coffee rests on a saucer.",
+      "kernel": "A white cup of coffee rests on a saucer.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "white cup of coffee rests on a saucer."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "clause",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "steaming",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "hot",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 5.1,
+      "difficultyParts": {
+        "kernel": 1.8,
+        "chips": 1.0,
+        "shapes": 2.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "participial describer 'steaming' - check it is not half of a compound noun (steaming white)",
+        "verb re-parsed with stand-in 'follows' - spaCy tagged 'cup' as a noun"
+      ],
+      "order": 21
+    },
+    {
+      "id": "st_year4_food_026",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img682",
+      "image": "koleksigambar/basic_year4_food_exercise.webp",
+      "sourceSentenceId": "s002",
+      "original": "Jogging regularly helps keep the body fit.",
+      "kernel": "Jogging helps keep the body fit.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Jogging"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "helps keep the body fit."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howoften",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "regularly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "often",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "jogging",
+        "determiner": null,
+        "rest": "jogging",
+        "headLemma": "jog",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "howoften"
+      ],
+      "stage": 3,
+      "difficulty": 3.7,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 2.2,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 22
+    },
+    {
+      "id": "st_year4_food_029",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img683",
+      "image": "koleksigambar/basic_year4_food_fork.webp",
+      "sourceSentenceId": "s001",
+      "original": "One silver fork rests on the table.",
+      "kernel": "One silver fork rests.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "One silver fork rests"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the table",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "one silver fork",
+        "determiner": null,
+        "rest": "one silver fork",
+        "headLemma": "fork",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.3,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 23
+    },
+    {
+      "id": "st_year4_food_039",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img686",
+      "image": "koleksigambar/basic_year4_food_lemonade.webp",
+      "sourceSentenceId": "s002",
+      "original": "Ice cubes float inside the yellow lemonade.",
+      "kernel": "Ice cubes float.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Ice cubes float"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "inside the yellow lemonade",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "ice cubes",
+        "determiner": null,
+        "rest": "ice cubes",
+        "headLemma": "cube",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.4,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 24
+    },
+    {
+      "id": "st_year4_food_037",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img685",
+      "image": "koleksigambar/basic_year4_food_knife.webp",
+      "sourceSentenceId": "s001",
+      "original": "One table knife rests on a plain background.",
+      "kernel": "One table knife rests.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "One table knife rests"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on a plain background",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "one table knife",
+        "determiner": null,
+        "rest": "one table knife",
+        "headLemma": "knife",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.6,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 25
+    },
+    {
+      "id": "st_year4_food_012",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img678",
+      "image": "koleksigambar/basic_year4_food_crisps.webp",
+      "sourceSentenceId": "s002",
+      "original": "They land on a plate on the table.",
+      "kernel": "They land.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "They land"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on a plate on the table",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "they",
+        "determiner": null,
+        "rest": "they",
+        "headLemma": "they",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.8,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.8
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 26
+    },
+    {
+      "id": "st_year4_food_013",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img678",
+      "image": "koleksigambar/basic_year4_food_crisps.webp",
+      "sourceSentenceId": "s004",
+      "original": "Many children enjoy eating crisps after school.",
+      "kernel": "Children enjoy eating after school.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "children enjoy eating"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "after school."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "many",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "crisps",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": null
+      },
+      "skills": [
+        "what",
+        "howmany"
+      ],
+      "stage": 7,
+      "difficulty": 3.2,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 1.6,
+        "shapes": 0.0,
+        "length": 0.6
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 27
+    },
+    {
+      "id": "st_year4_food_007",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img676",
+      "image": "koleksigambar/basic_year4_food_chocolate_bar.webp",
+      "sourceSentenceId": "s004",
+      "original": "A chocolate bar is a favourite sweet treat.",
+      "kernel": "A chocolate bar is a treat.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A chocolate bar is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "treat."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "favourite",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "sweet",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 3.8,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.6
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "copula source: 'treat' pinned as the complement"
+      ],
+      "order": 28
+    },
+    {
+      "id": "st_year4_food_034",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img684",
+      "image": "koleksigambar/basic_year4_food_kiwi.webp",
+      "sourceSentenceId": "s002",
+      "original": "The sliced half shows the green flesh inside.",
+      "kernel": "The half shows.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "half shows"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "sliced",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the green flesh inside",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "flesh"
+      },
+      "skills": [
+        "what",
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 4.6,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 1.5,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 29
+    },
+    {
+      "id": "st_year4_food_028",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img682",
+      "image": "koleksigambar/basic_year4_food_exercise.webp",
+      "sourceSentenceId": "s004",
+      "original": "A healthy routine includes both good food and exercise.",
+      "kernel": "A routine includes.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "routine includes"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "healthy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "both good food and exercise",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "food"
+      },
+      "skills": [
+        "what",
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 4.9,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 1.5,
+        "shapes": 1.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 30
+    },
+    {
+      "id": "st_year4_food_031",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img683",
+      "image": "koleksigambar/basic_year4_food_fork.webp",
+      "sourceSentenceId": "s003",
+      "original": "People use a fork to eat their food.",
+      "kernel": "People use to eat.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "People use"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "to eat"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a fork",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "their food",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "people",
+        "determiner": null,
+        "rest": "people",
+        "headLemma": "people",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "fork"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 7,
+      "difficulty": 5.0,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 1.0,
+        "shapes": 2.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 31
+    },
+    {
+      "id": "st_year4_food_015",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img679",
+      "image": "koleksigambar/basic_year4_food_cut_a_piece_of_cheese.webp",
+      "sourceSentenceId": "s002",
+      "original": "She cuts carefully to make an even slice.",
+      "kernel": "She cuts to make.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She cuts"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "to make"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "carefully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "an even slice",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": null
+      },
+      "skills": [
+        "what",
+        "how"
+      ],
+      "stage": 7,
+      "difficulty": 5.5,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 2.5,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 32
+    },
+    {
+      "id": "st_year4_food_022",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img681",
+      "image": "koleksigambar/basic_year4_food_eat_vegetables.webp",
+      "sourceSentenceId": "s001",
+      "original": "The child happily eats a plate of colourful vegetables.",
+      "kernel": "The child eats.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The child"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "eats"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "happily",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a plate of colourful vegetables",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the child",
+        "determiner": "the",
+        "rest": "child",
+        "headLemma": "child",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "plate"
+      },
+      "skills": [
+        "what",
+        "how"
+      ],
+      "stage": 7,
+      "difficulty": 5.9,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.5,
+        "shapes": 1.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 33
+    },
+    {
+      "id": "st_year4_food_025",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img681",
+      "image": "koleksigambar/basic_year4_food_eat_vegetables.webp",
+      "sourceSentenceId": "s004",
+      "original": "Colourful vegetables often contain many vitamins.",
+      "kernel": "Vegetables contain.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "vegetables"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "contain"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "colourful",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "healthy",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "howoften",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "often",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "many vitamins",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 2,
+        "headLemma": "vitamin"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "howoften"
+      ],
+      "stage": 7,
+      "difficulty": 6.3,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 3.7,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 34
+    },
+    {
+      "id": "st_year4_food_048",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img689",
+      "image": "koleksigambar/basic_year4_food_peanuts.webp",
+      "sourceSentenceId": "s002",
+      "original": "Some peanuts are still in their shells.",
+      "kernel": "Peanuts are still.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "peanuts are still"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "some",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in their shells",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.5,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.7,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "copula source: 'still' pinned as the complement"
+      ],
+      "order": 35
+    },
+    {
+      "id": "st_year4_food_014",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img679",
+      "image": "koleksigambar/basic_year4_food_cut_a_piece_of_cheese.webp",
+      "sourceSentenceId": "s001",
+      "original": "The child uses a butter knife to cut a piece of cheese on a board.",
+      "kernel": "The child uses to cut on a board.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The child uses"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "to cut"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "on a board."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a butter knife",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a piece of cheese",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the child",
+        "determiner": "the",
+        "rest": "child",
+        "headLemma": "child",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "knife"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 7,
+      "difficulty": 6.7,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 1.0,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 36
+    },
+    {
+      "id": "st_year4_food_047",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img689",
+      "image": "koleksigambar/basic_year4_food_peanuts.webp",
+      "sourceSentenceId": "s001",
+      "original": "A small pile of peanuts sits on the table.",
+      "kernel": "A pile of peanuts sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "pile of peanuts sits"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "small",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the table",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.8,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 3.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 37
+    },
+    {
+      "id": "st_year4_food_040",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img686",
+      "image": "koleksigambar/basic_year4_food_lemonade.webp",
+      "sourceSentenceId": "s003",
+      "original": "She drinks the lemonade through a straw.",
+      "kernel": "She drinks.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She drinks"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the lemonade",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "through a straw",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "lemonade"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.0,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 38
+    },
+    {
+      "id": "st_year4_food_052",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img690",
+      "image": "koleksigambar/basic_year4_food_pear.webp",
+      "sourceSentenceId": "s004",
+      "original": "A small stem grows on top of the pear.",
+      "kernel": "A stem grows.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "stem grows"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "small",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "green",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on top of the pear",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.6,
+        "shapes": 1.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 39
+    },
+    {
+      "id": "st_year4_food_038",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img686",
+      "image": "koleksigambar/basic_year4_food_lemonade.webp",
+      "sourceSentenceId": "s001",
+      "original": "A tall glass of fizzy lemonade sits on the table.",
+      "kernel": "A glass of fizzy lemonade sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "glass of fizzy lemonade sits"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "tall",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "refreshing",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the table",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.0,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 3.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 40
+    },
+    {
+      "id": "st_year4_food_006",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img676",
+      "image": "koleksigambar/basic_year4_food_chocolate_bar.webp",
+      "sourceSentenceId": "s003",
+      "original": "Chocolate can melt quickly in warm weather.",
+      "kernel": "Chocolate can melt.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Chocolate can melt"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "quickly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in warm weather",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in his mouth",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "chocolate",
+        "determiner": null,
+        "rest": "chocolate",
+        "headLemma": "chocolate",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.4,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 41
+    },
+    {
+      "id": "st_year4_food_051",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img690",
+      "image": "koleksigambar/basic_year4_food_pear.webp",
+      "sourceSentenceId": "s001",
+      "original": "One whole green pear sits on the table.",
+      "kernel": "One pear sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "One"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "pear sits"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "whole",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "green",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "juicy",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            },
+            {
+              "text": "small",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the table",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany",
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.8,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.7,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 42
+    },
+    {
+      "id": "st_year4_food_027",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img682",
+      "image": "koleksigambar/basic_year4_food_exercise.webp",
+      "sourceSentenceId": "s003",
+      "original": "Exercise gives the body more energy.",
+      "kernel": "Exercise gives.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Exercise gives"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "towhom",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "To whom?",
+            "ms": "Kepada siapa?",
+            "zh": "给谁？",
+            "iba": "Ngagai sapa?"
+          },
+          "options": [
+            {
+              "text": "the body",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "more energy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "exercise",
+        "determiner": null,
+        "rest": "exercise",
+        "headLemma": "exercise",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "energy"
+      },
+      "skills": [
+        "what",
+        "towhom"
+      ],
+      "stage": 7,
+      "difficulty": 7.8,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.2,
+        "shapes": 2.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 43
+    },
+    {
+      "id": "st_year4_food_018",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img680",
+      "image": "koleksigambar/basic_year4_food_drink_milk.webp",
+      "sourceSentenceId": "s001",
+      "original": "The child drinks a glass of milk at the dinner table.",
+      "kernel": "The child drinks.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The child drinks"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a glass of milk",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at the dinner table",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the child",
+        "determiner": "the",
+        "rest": "child",
+        "headLemma": "child",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "glass"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 8.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 2.4
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 44
+    },
+    {
+      "id": "st_year4_food_001",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img675",
+      "image": "koleksigambar/basic_year4_food_buy_juice.webp",
+      "sourceSentenceId": "s001",
+      "original": "The child chooses a carton of juice at a grocery store shelf.",
+      "kernel": "The child chooses.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The child chooses"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a carton of juice",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at a grocery store shelf",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the child",
+        "determiner": "the",
+        "rest": "child",
+        "headLemma": "child",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "carton"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 8.4,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 2.7
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 45
+    },
+    {
+      "id": "st_year4_food_009",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img677",
+      "image": "koleksigambar/basic_year4_food_coffee.webp",
+      "sourceSentenceId": "s002",
+      "original": "Steam rises gently from the hot coffee.",
+      "kernel": "Steam rises.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Steam rises"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "gently",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "fromwhere",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "From where?",
+            "ms": "Dari mana?",
+            "zh": "从哪里？",
+            "iba": "Ari dini?"
+          },
+          "options": [
+            {
+              "text": "from the hot coffee",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "steam",
+        "determiner": null,
+        "rest": "steam",
+        "headLemma": "steam",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "how",
+        "fromwhere"
+      ],
+      "stage": 7,
+      "difficulty": 8.9,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 6.0,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 46
+    },
+    {
+      "id": "st_year4_food_043",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img688",
+      "image": "koleksigambar/basic_year4_food_peach.webp",
+      "sourceSentenceId": "s001",
+      "original": "A whole ripe peach sits beside a half-cut one.",
+      "kernel": "A peach sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "peach sits"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "whole",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "ripe",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "fuzzy",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            },
+            {
+              "text": "orange",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "clause",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "beside a half-cut one",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany",
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 9.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.7,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 47
+    },
+    {
+      "id": "st_year4_food_042",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img687",
+      "image": "koleksigambar/basic_year4_food_make_an_omelette.webp",
+      "sourceSentenceId": "s002",
+      "original": "He cooks the egg carefully in the kitchen.",
+      "kernel": "He cooks.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "He cooks"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the egg",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "carefully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "gently",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            },
+            {
+              "text": "happily",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the kitchen",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "he",
+        "determiner": null,
+        "rest": "he",
+        "headLemma": "he",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "egg"
+      },
+      "skills": [
+        "what",
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 9.3,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 5.1,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 48
+    },
+    {
+      "id": "st_year4_food_011",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img677",
+      "image": "koleksigambar/basic_year4_food_coffee.webp",
+      "sourceSentenceId": "s004",
+      "original": "She sips her coffee slowly in the morning.",
+      "kernel": "She sips.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She sips"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "her coffee",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "slowly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "carefully",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "phrase",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "in the morning",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "coffee"
+      },
+      "skills": [
+        "what",
+        "how",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 9.7,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 5.5,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 49
+    },
+    {
+      "id": "st_year4_food_002",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img675",
+      "image": "koleksigambar/basic_year4_food_buy_juice.webp",
+      "sourceSentenceId": "s002",
+      "original": "She looks at different flavours before deciding.",
+      "kernel": "She looks.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She looks"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at different flavours",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "clause",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "before deciding",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 10.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 5.6,
+        "shapes": 3.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 50
+    },
+    {
+      "id": "st_year4_food_017",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img679",
+      "image": "koleksigambar/basic_year4_food_cut_a_piece_of_cheese.webp",
+      "sourceSentenceId": "s005",
+      "original": "At the wooden table, the careful young child cuts the yellow cheese slowly.",
+      "kernel": "The child cuts.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "child cuts"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at the wooden table",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "careful",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "young",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the yellow cheese",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "slowly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "carefully",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 3,
+        "headLemma": "cheese"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 12.7,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 7.1,
+        "shapes": 2.0,
+        "length": 3.0
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "5 slots - more than year4 would normally show at once (3)"
+      ],
+      "order": 51
+    },
+    {
+      "id": "st_year4_food_004",
+      "level": "year4",
+      "topic": "food",
+      "imageId": "img675",
+      "image": "koleksigambar/basic_year4_food_buy_juice.webp",
+      "sourceSentenceId": "s005",
+      "original": "Every week, the cheerful young child chooses a green juice carton carefully because fruit juice makes a healthy drink.",
+      "kernel": "The child chooses.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "child chooses"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "slot",
+          "slot": 5
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howoften",
+          "shape": "phrase",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "every week",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "cheerful",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "young",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a green juice carton",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "carefully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "happily",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "because fruit juice makes a healthy drink",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 3,
+        "headLemma": "carton"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "how",
+        "howoften",
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 20.7,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 11.3,
+        "shapes": 4.0,
+        "length": 4.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "6 slots - more than year4 would normally show at once (3)"
+      ],
+      "order": 52
+    }
+  ]
+}

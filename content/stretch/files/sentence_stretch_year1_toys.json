@@ -1,0 +1,1869 @@
+{
+  "generatedBy": "scripts/extract_sentence_stretch.py",
+  "level": "year1",
+  "topic": "toys",
+  "decoys": "none",
+  "note": "PROTOTYPE - not merged into database.json. Human review required.",
+  "orderedBy": "stage ascending, then fine difficulty (easiest first)",
+  "stageLegend": {
+    "1": "add the object (What? / Whom?)",
+    "2": "describe the subject (What kind? / How many? / Whose?)",
+    "3": "describe the action (How? / How often?)",
+    "4": "where it happens (Where?)",
+    "5": "when it happens (When?)",
+    "6": "extra details (With what? / With whom? / For whom? / Where to? / From where? / To whom?)",
+    "7": "two stretches at once",
+    "8": "give a reason (Why?)"
+  },
+  "bandLabels": {
+    "starter": {
+      "en": "Starter",
+      "ms": "Permulaan",
+      "zh": "入门",
+      "iba": "Pun"
+    },
+    "growing": {
+      "en": "Growing",
+      "ms": "Sederhana",
+      "zh": "进阶",
+      "iba": "Tumbuh"
+    },
+    "advanced": {
+      "en": "Advanced",
+      "ms": "Lanjutan",
+      "zh": "高级",
+      "iba": "Tinggi"
+    }
+  },
+  "skillLabels": {
+    "what": {
+      "en": "What?",
+      "ms": "Apa?",
+      "zh": "什么？",
+      "iba": "Nama?"
+    },
+    "whom": {
+      "en": "Whom?",
+      "ms": "Siapa?",
+      "zh": "谁？",
+      "iba": "Sapa?"
+    },
+    "whatkind": {
+      "en": "What kind?",
+      "ms": "Yang bagaimana?",
+      "zh": "什么样的？",
+      "iba": "Ni macham?"
+    },
+    "howmany": {
+      "en": "How many?",
+      "ms": "Berapa banyak?",
+      "zh": "多少？",
+      "iba": "Berapa iku?"
+    },
+    "whose": {
+      "en": "Whose?",
+      "ms": "Kepunyaan siapa?",
+      "zh": "谁的？",
+      "iba": "Enggi sapa?"
+    },
+    "how": {
+      "en": "How?",
+      "ms": "Bagaimana?",
+      "zh": "怎么样？",
+      "iba": "Baka ni?"
+    },
+    "howoften": {
+      "en": "How often?",
+      "ms": "Berapa kerap?",
+      "zh": "多久一次？",
+      "iba": "Berapa kali?"
+    },
+    "where": {
+      "en": "Where?",
+      "ms": "Di mana?",
+      "zh": "在哪里？",
+      "iba": "Dini?"
+    },
+    "when": {
+      "en": "When?",
+      "ms": "Bila?",
+      "zh": "什么时候？",
+      "iba": "Kemaya?"
+    },
+    "withwhat": {
+      "en": "With what?",
+      "ms": "Dengan apa?",
+      "zh": "用什么？",
+      "iba": "Ngena nama?"
+    },
+    "withwhom": {
+      "en": "With whom?",
+      "ms": "Dengan siapa?",
+      "zh": "和谁？",
+      "iba": "Enggau sapa?"
+    },
+    "forwhom": {
+      "en": "For whom?",
+      "ms": "Untuk siapa?",
+      "zh": "为了谁？",
+      "iba": "Ke sapa?"
+    },
+    "whereto": {
+      "en": "Where to?",
+      "ms": "Ke mana?",
+      "zh": "去哪里？",
+      "iba": "Ngagai dini?"
+    },
+    "fromwhere": {
+      "en": "From where?",
+      "ms": "Dari mana?",
+      "zh": "从哪里？",
+      "iba": "Ari dini?"
+    },
+    "towhom": {
+      "en": "To whom?",
+      "ms": "Kepada siapa?",
+      "zh": "给谁？",
+      "iba": "Ngagai sapa?"
+    },
+    "why": {
+      "en": "Why?",
+      "ms": "Mengapa?",
+      "zh": "为什么？",
+      "iba": "Nama kebuah?"
+    }
+  },
+  "authoredOptionsFile": "output\\sentence_stretch_options\\year1_toys.json",
+  "tasks": [
+    {
+      "id": "st_year1_toys_014",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img394",
+      "image": "koleksigambar/basic_year1_toys_kite.webp",
+      "sourceSentenceId": "s004",
+      "original": "I fly my kite.",
+      "kernel": "I fly.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "I fly"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "my kite",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "i",
+        "determiner": null,
+        "rest": "i",
+        "headLemma": "i",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "kite"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 1
+    },
+    {
+      "id": "st_year1_toys_001",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img387",
+      "image": "koleksigambar/basic_year1_toys_bike.webp",
+      "sourceSentenceId": "s003",
+      "original": "It has two wheels.",
+      "kernel": "It has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "two wheels",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "wheel"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 2
+    },
+    {
+      "id": "st_year1_toys_002",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img387",
+      "image": "koleksigambar/basic_year1_toys_bike.webp",
+      "sourceSentenceId": "s004",
+      "original": "I ride my bike.",
+      "kernel": "I ride.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "I ride"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "my bike",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "i",
+        "determiner": null,
+        "rest": "i",
+        "headLemma": "i",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "bike"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 3
+    },
+    {
+      "id": "st_year1_toys_012",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img393",
+      "image": "koleksigambar/basic_year1_toys_go_kart.webp",
+      "sourceSentenceId": "s003",
+      "original": "It has four wheels.",
+      "kernel": "It has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "four wheels",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "wheel"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 4
+    },
+    {
+      "id": "st_year1_toys_020",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img398",
+      "image": "koleksigambar/basic_year1_toys_train.webp",
+      "sourceSentenceId": "s003",
+      "original": "It has three carriages.",
+      "kernel": "It has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "three carriages",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "carriage"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 5
+    },
+    {
+      "id": "st_year1_toys_015",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img396",
+      "image": "koleksigambar/basic_year1_toys_plane.webp",
+      "sourceSentenceId": "s002",
+      "original": "The plane has two wings.",
+      "kernel": "The plane has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The plane has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "two wings",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the plane",
+        "determiner": "the",
+        "rest": "plane",
+        "headLemma": "plane",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "wing"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 6
+    },
+    {
+      "id": "st_year1_toys_007",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img391",
+      "image": "koleksigambar/basic_year1_toys_doll.webp",
+      "sourceSentenceId": "s002",
+      "original": "The doll has a pink dress.",
+      "kernel": "The doll has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The doll has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a pink dress",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the doll",
+        "determiner": "the",
+        "rest": "doll",
+        "headLemma": "doll",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "dress"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 7
+    },
+    {
+      "id": "st_year1_toys_017",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img397",
+      "image": "koleksigambar/basic_year1_toys_race_toy_cars.webp",
+      "sourceSentenceId": "s002",
+      "original": "They push the cars as fast as they can.",
+      "kernel": "They push as fast as they can.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "They push"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "as fast as they can."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the cars",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "they",
+        "determiner": null,
+        "rest": "they",
+        "headLemma": "they",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "car"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.5,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 8
+    },
+    {
+      "id": "st_year1_toys_008",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img392",
+      "image": "koleksigambar/basic_year1_toys_fly_a_kite.webp",
+      "sourceSentenceId": "s002",
+      "original": "The wind carries the kite high into the sky.",
+      "kernel": "The wind carries high into the sky.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The wind carries"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "high into the sky."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the kite",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the wind",
+        "determiner": "the",
+        "rest": "wind",
+        "headLemma": "wind",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "kite"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.5,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 9
+    },
+    {
+      "id": "st_year1_toys_004",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img390",
+      "image": "koleksigambar/basic_year1_toys_cut_out_shapes.webp",
+      "sourceSentenceId": "s001",
+      "original": "The child cuts out paper shapes with round-tipped safety scissors.",
+      "kernel": "The child cuts out.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The child cuts out"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "clause",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "paper shapes with round-tipped safety scissors",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the child",
+        "determiner": "the",
+        "rest": "child",
+        "headLemma": "child",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "shape"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 5.1,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 0.5,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 10
+    },
+    {
+      "id": "st_year1_toys_018",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img397",
+      "image": "koleksigambar/basic_year1_toys_race_toy_cars.webp",
+      "sourceSentenceId": "s003",
+      "original": "Racing toy cars is an exciting game.",
+      "kernel": "Racing toy cars is a game.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Racing toy cars is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "game."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "exciting",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "fast",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "gerund subject parsed as an adjective: 'Racing' - not offered as a chip",
+        "copula source: 'game' pinned as the complement"
+      ],
+      "order": 11
+    },
+    {
+      "id": "st_year1_toys_006",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img390",
+      "image": "koleksigambar/basic_year1_toys_cut_out_shapes.webp",
+      "sourceSentenceId": "s003",
+      "original": "Cutting out shapes is a popular craft activity.",
+      "kernel": "Cutting out shapes is a craft activity.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Cutting out shapes is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "craft activity."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "popular",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "careful",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'activity' pinned as the complement"
+      ],
+      "order": 12
+    },
+    {
+      "id": "st_year1_toys_019",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img397",
+      "image": "koleksigambar/basic_year1_toys_race_toy_cars.webp",
+      "sourceSentenceId": "s004",
+      "original": "Both children feel excited to see who wins.",
+      "kernel": "Children feel excited to see who wins.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "children feel excited to see who wins."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "both",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "two",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany"
+      ],
+      "stage": 2,
+      "difficulty": 2.8,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 1.1,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 13
+    },
+    {
+      "id": "st_year1_toys_013",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img394",
+      "image": "koleksigambar/basic_year1_toys_kite.webp",
+      "sourceSentenceId": "s003",
+      "original": "It flies high in the sky.",
+      "kernel": "It flies high.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It flies high"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the sky",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the wind",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 14
+    },
+    {
+      "id": "st_year1_toys_016",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img397",
+      "image": "koleksigambar/basic_year1_toys_race_toy_cars.webp",
+      "sourceSentenceId": "s001",
+      "original": "Two children race toy cars along the floor.",
+      "kernel": "Two children race toy cars.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Two children race toy cars"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "along the floor",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.5,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [
+        "subject descriptor 'race toy' is not the head of the kernel - dropped",
+        "verb re-parsed with stand-in 'follows' - spaCy tagged 'cars' as a noun"
+      ],
+      "order": 15
+    },
+    {
+      "id": "st_year1_toys_010",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img392",
+      "image": "koleksigambar/basic_year1_toys_fly_a_kite.webp",
+      "sourceSentenceId": "s004",
+      "original": "Flying a kite is a fun outdoor activity.",
+      "kernel": "Flying a kite is an activity.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Flying a kite is an"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "activity."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "fun",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "colourful",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "outdoor",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 3.8,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.6
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "copula source: 'activity' pinned as the complement",
+        "2 slots - more than year1 would normally show at once (1)"
+      ],
+      "order": 16
+    },
+    {
+      "id": "st_year1_toys_009",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img392",
+      "image": "koleksigambar/basic_year1_toys_fly_a_kite.webp",
+      "sourceSentenceId": "s003",
+      "original": "He holds the string tightly while running.",
+      "kernel": "He holds while running.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "He holds"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "while running."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the string",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "tightly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "carefully",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "he",
+        "determiner": null,
+        "rest": "he",
+        "headLemma": "he",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "string"
+      },
+      "skills": [
+        "what",
+        "how"
+      ],
+      "stage": 7,
+      "difficulty": 5.2,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 2.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "2 slots - more than year1 would normally show at once (1)"
+      ],
+      "order": 17
+    },
+    {
+      "id": "st_year1_toys_003",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img389",
+      "image": "koleksigambar/basic_year1_toys_computer_game.webp",
+      "sourceSentenceId": "s002",
+      "original": "I see a rocket on the screen.",
+      "kernel": "I see.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "I see"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a rocket",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the screen",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "i",
+        "determiner": null,
+        "rest": "i",
+        "headLemma": "i",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "rocket"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.0,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "2 slots - more than year1 would normally show at once (1)"
+      ],
+      "order": 18
+    },
+    {
+      "id": "st_year1_toys_005",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img390",
+      "image": "koleksigambar/basic_year1_toys_cut_out_shapes.webp",
+      "sourceSentenceId": "s002",
+      "original": "She cuts carefully along the lines.",
+      "kernel": "She cuts.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She cuts"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "carefully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "along the lines",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "on the line",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.2,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "2 slots - more than year1 would normally show at once (1)"
+      ],
+      "order": 19
+    },
+    {
+      "id": "st_year1_toys_011",
+      "level": "year1",
+      "topic": "toys",
+      "imageId": "img392",
+      "image": "koleksigambar/basic_year1_toys_fly_a_kite.webp",
+      "sourceSentenceId": "s005",
+      "original": "On the green grass, the happy young child runs quickly under two colourful kites.",
+      "kernel": "The child runs.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "child runs"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the green grass",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "happy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "young",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "quickly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "happily",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "under two colourful kites",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 15.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 9.2,
+        "shapes": 2.0,
+        "length": 3.3
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "5 slots - more than year1 would normally show at once (1)"
+      ],
+      "order": 20
+    }
+  ]
+}

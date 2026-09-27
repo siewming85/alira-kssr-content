@@ -1,0 +1,2521 @@
+{
+  "generatedBy": "scripts/extract_sentence_stretch.py",
+  "level": "year2",
+  "topic": "animals",
+  "decoys": "none",
+  "note": "PROTOTYPE - not merged into database.json. Human review required.",
+  "orderedBy": "stage ascending, then fine difficulty (easiest first)",
+  "stageLegend": {
+    "1": "add the object (What? / Whom?)",
+    "2": "describe the subject (What kind? / How many? / Whose?)",
+    "3": "describe the action (How? / How often?)",
+    "4": "where it happens (Where?)",
+    "5": "when it happens (When?)",
+    "6": "extra details (With what? / With whom? / For whom? / Where to? / From where? / To whom?)",
+    "7": "two stretches at once",
+    "8": "give a reason (Why?)"
+  },
+  "bandLabels": {
+    "starter": {
+      "en": "Starter",
+      "ms": "Permulaan",
+      "zh": "入门",
+      "iba": "Pun"
+    },
+    "growing": {
+      "en": "Growing",
+      "ms": "Sederhana",
+      "zh": "进阶",
+      "iba": "Tumbuh"
+    },
+    "advanced": {
+      "en": "Advanced",
+      "ms": "Lanjutan",
+      "zh": "高级",
+      "iba": "Tinggi"
+    }
+  },
+  "skillLabels": {
+    "what": {
+      "en": "What?",
+      "ms": "Apa?",
+      "zh": "什么？",
+      "iba": "Nama?"
+    },
+    "whom": {
+      "en": "Whom?",
+      "ms": "Siapa?",
+      "zh": "谁？",
+      "iba": "Sapa?"
+    },
+    "whatkind": {
+      "en": "What kind?",
+      "ms": "Yang bagaimana?",
+      "zh": "什么样的？",
+      "iba": "Ni macham?"
+    },
+    "howmany": {
+      "en": "How many?",
+      "ms": "Berapa banyak?",
+      "zh": "多少？",
+      "iba": "Berapa iku?"
+    },
+    "whose": {
+      "en": "Whose?",
+      "ms": "Kepunyaan siapa?",
+      "zh": "谁的？",
+      "iba": "Enggi sapa?"
+    },
+    "how": {
+      "en": "How?",
+      "ms": "Bagaimana?",
+      "zh": "怎么样？",
+      "iba": "Baka ni?"
+    },
+    "howoften": {
+      "en": "How often?",
+      "ms": "Berapa kerap?",
+      "zh": "多久一次？",
+      "iba": "Berapa kali?"
+    },
+    "where": {
+      "en": "Where?",
+      "ms": "Di mana?",
+      "zh": "在哪里？",
+      "iba": "Dini?"
+    },
+    "when": {
+      "en": "When?",
+      "ms": "Bila?",
+      "zh": "什么时候？",
+      "iba": "Kemaya?"
+    },
+    "withwhat": {
+      "en": "With what?",
+      "ms": "Dengan apa?",
+      "zh": "用什么？",
+      "iba": "Ngena nama?"
+    },
+    "withwhom": {
+      "en": "With whom?",
+      "ms": "Dengan siapa?",
+      "zh": "和谁？",
+      "iba": "Enggau sapa?"
+    },
+    "forwhom": {
+      "en": "For whom?",
+      "ms": "Untuk siapa?",
+      "zh": "为了谁？",
+      "iba": "Ke sapa?"
+    },
+    "whereto": {
+      "en": "Where to?",
+      "ms": "Ke mana?",
+      "zh": "去哪里？",
+      "iba": "Ngagai dini?"
+    },
+    "fromwhere": {
+      "en": "From where?",
+      "ms": "Dari mana?",
+      "zh": "从哪里？",
+      "iba": "Ari dini?"
+    },
+    "towhom": {
+      "en": "To whom?",
+      "ms": "Kepada siapa?",
+      "zh": "给谁？",
+      "iba": "Ngagai sapa?"
+    },
+    "why": {
+      "en": "Why?",
+      "ms": "Mengapa?",
+      "zh": "为什么？",
+      "iba": "Nama kebuah?"
+    }
+  },
+  "authoredOptionsFile": "output\\sentence_stretch_options\\year2_animals.json",
+  "tasks": [
+    {
+      "id": "st_year2_animals_006",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img400",
+      "image": "koleksigambar/basic_year2_animals_cow.webp",
+      "sourceSentenceId": "s004",
+      "original": "Cows give us milk.",
+      "kernel": "Cows give us.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Cows give us"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "milk",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "cows",
+        "determiner": null,
+        "rest": "cows",
+        "headLemma": "cow",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "milk"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 1.4,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 1
+    },
+    {
+      "id": "st_year2_animals_007",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img401",
+      "image": "koleksigambar/basic_year2_animals_goat.webp",
+      "sourceSentenceId": "s001",
+      "original": "The goat has curved horns.",
+      "kernel": "The goat has curved.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The goat has curved"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "horns",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the goat",
+        "determiner": "the",
+        "rest": "goat",
+        "headLemma": "goat",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "horn"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 1.6,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 0.5,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 2
+    },
+    {
+      "id": "st_year2_animals_013",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img403",
+      "image": "koleksigambar/basic_year2_animals_parrot.webp",
+      "sourceSentenceId": "s003",
+      "original": "Parrots have colourful feathers.",
+      "kernel": "Parrots have.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Parrots have"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "colourful feathers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "parrots",
+        "determiner": null,
+        "rest": "parrots",
+        "headLemma": "parrot",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "feather"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 3
+    },
+    {
+      "id": "st_year2_animals_001",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img399",
+      "image": "koleksigambar/basic_year2_animals_camel.webp",
+      "sourceSentenceId": "s001",
+      "original": "The camel has one hump.",
+      "kernel": "The camel has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The camel has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "one hump",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the camel",
+        "determiner": "the",
+        "rest": "camel",
+        "headLemma": "camel",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "hump"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 4
+    },
+    {
+      "id": "st_year2_animals_028",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img408",
+      "image": "koleksigambar/basic_year2_animals_sheep.webp",
+      "sourceSentenceId": "s003",
+      "original": "Sheep give us soft wool.",
+      "kernel": "Sheep give us.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Sheep give us"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "soft wool",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "sheep",
+        "determiner": null,
+        "rest": "sheep",
+        "headLemma": "sheep",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "wool"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 5
+    },
+    {
+      "id": "st_year2_animals_022",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img406",
+      "image": "koleksigambar/basic_year2_animals_rabbit.webp",
+      "sourceSentenceId": "s002",
+      "original": "It has two long ears.",
+      "kernel": "It has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "two long ears",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "ear"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.8,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 6
+    },
+    {
+      "id": "st_year2_animals_025",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img407",
+      "image": "koleksigambar/basic_year2_animals_shark.webp",
+      "sourceSentenceId": "s003",
+      "original": "The shark has very sharp teeth.",
+      "kernel": "The shark has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The shark has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "very sharp teeth",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the shark",
+        "determiner": "the",
+        "rest": "shark",
+        "headLemma": "shark",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "tooth"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 7
+    },
+    {
+      "id": "st_year2_animals_011",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img402",
+      "image": "koleksigambar/basic_year2_animals_jellyfish.webp",
+      "sourceSentenceId": "s003",
+      "original": "The jellyfish has a soft body.",
+      "kernel": "The jellyfish has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The jellyfish has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a soft body",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the jellyfish",
+        "determiner": "the",
+        "rest": "jellyfish",
+        "headLemma": "jellyfish",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "body"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 8
+    },
+    {
+      "id": "st_year2_animals_026",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img407",
+      "image": "koleksigambar/basic_year2_animals_shark.webp",
+      "sourceSentenceId": "s004",
+      "original": "It uses its fins to swim fast.",
+      "kernel": "It uses to swim fast.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It uses"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "to swim fast."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "its fins",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "fin"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 9
+    },
+    {
+      "id": "st_year2_animals_017",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img405",
+      "image": "koleksigambar/basic_year2_animals_polar_bear.webp",
+      "sourceSentenceId": "s001",
+      "original": "The polar bear is white.",
+      "kernel": "The bear is white.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "bear is white."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "polar",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.1,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'white' pinned as the complement"
+      ],
+      "order": 10
+    },
+    {
+      "id": "st_year2_animals_014",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img403",
+      "image": "koleksigambar/basic_year2_animals_parrot.webp",
+      "sourceSentenceId": "s004",
+      "original": "Some parrots can learn to talk.",
+      "kernel": "Parrots can learn to talk.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "parrots can learn to talk."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "some",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany"
+      ],
+      "stage": 2,
+      "difficulty": 2.4,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 1.1,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 11
+    },
+    {
+      "id": "st_year2_animals_002",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img399",
+      "image": "koleksigambar/basic_year2_animals_camel.webp",
+      "sourceSentenceId": "s002",
+      "original": "It stands on the sand.",
+      "kernel": "It stands.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It stands"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the sand",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 4.9,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 12
+    },
+    {
+      "id": "st_year2_animals_008",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img401",
+      "image": "koleksigambar/basic_year2_animals_goat.webp",
+      "sourceSentenceId": "s002",
+      "original": "It stands on the rocks.",
+      "kernel": "It stands.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It stands"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the rocks",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 4.9,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 13
+    },
+    {
+      "id": "st_year2_animals_015",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img404",
+      "image": "koleksigambar/basic_year2_animals_penguin.webp",
+      "sourceSentenceId": "s002",
+      "original": "It stands on the snow.",
+      "kernel": "It stands.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It stands"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the snow",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 4.9,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 14
+    },
+    {
+      "id": "st_year2_animals_018",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img405",
+      "image": "koleksigambar/basic_year2_animals_polar_bear.webp",
+      "sourceSentenceId": "s002",
+      "original": "It stands on the snow.",
+      "kernel": "It stands.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It stands"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the snow",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 4.9,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 15
+    },
+    {
+      "id": "st_year2_animals_012",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img403",
+      "image": "koleksigambar/basic_year2_animals_parrot.webp",
+      "sourceSentenceId": "s002",
+      "original": "It perches on a branch.",
+      "kernel": "It perches.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It perches"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on a branch",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 4.9,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 16
+    },
+    {
+      "id": "st_year2_animals_003",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img399",
+      "image": "koleksigambar/basic_year2_animals_camel.webp",
+      "sourceSentenceId": "s003",
+      "original": "Camels can walk across the desert.",
+      "kernel": "Camels can walk.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Camels can walk"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "across the desert",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "on the sand",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "camels",
+        "determiner": null,
+        "rest": "camels",
+        "headLemma": "camel",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 17
+    },
+    {
+      "id": "st_year2_animals_009",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img401",
+      "image": "koleksigambar/basic_year2_animals_goat.webp",
+      "sourceSentenceId": "s004",
+      "original": "This goat lives on a farm.",
+      "kernel": "This goat lives.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "This goat lives"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on a farm",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "on the rocks",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "this goat",
+        "determiner": "this",
+        "rest": "goat",
+        "headLemma": "goat",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 18
+    },
+    {
+      "id": "st_year2_animals_024",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img407",
+      "image": "koleksigambar/basic_year2_animals_shark.webp",
+      "sourceSentenceId": "s002",
+      "original": "It swims in the blue ocean.",
+      "kernel": "It swims.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It swims"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the blue ocean",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the water",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.2,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 19
+    },
+    {
+      "id": "st_year2_animals_004",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img400",
+      "image": "koleksigambar/basic_year2_animals_cow.webp",
+      "sourceSentenceId": "s002",
+      "original": "It stands in a green field.",
+      "kernel": "It stands.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It stands"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in a green field",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "on the farm",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            },
+            {
+              "text": "on the grass",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.2,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 20
+    },
+    {
+      "id": "st_year2_animals_010",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img402",
+      "image": "koleksigambar/basic_year2_animals_jellyfish.webp",
+      "sourceSentenceId": "s002",
+      "original": "It floats in the blue water.",
+      "kernel": "It floats.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It floats"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the blue water",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the sea",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.2,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 21
+    },
+    {
+      "id": "st_year2_animals_027",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img408",
+      "image": "koleksigambar/basic_year2_animals_sheep.webp",
+      "sourceSentenceId": "s002",
+      "original": "It stands on the green grass.",
+      "kernel": "It stands.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It stands"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the green grass",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "on the farm",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.2,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 22
+    },
+    {
+      "id": "st_year2_animals_023",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img406",
+      "image": "koleksigambar/basic_year2_animals_rabbit.webp",
+      "sourceSentenceId": "s003",
+      "original": "The rabbit sits in the forest clearing.",
+      "kernel": "The rabbit sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The rabbit sits"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the forest clearing",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the rabbit",
+        "determiner": "the",
+        "rest": "rabbit",
+        "headLemma": "rabbit",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.4,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 23
+    },
+    {
+      "id": "st_year2_animals_016",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img404",
+      "image": "koleksigambar/basic_year2_animals_penguin.webp",
+      "sourceSentenceId": "s004",
+      "original": "It lives in a very cold place.",
+      "kernel": "It lives.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It lives"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in a very cold place",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "on the snow",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 24
+    },
+    {
+      "id": "st_year2_animals_020",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img405",
+      "image": "koleksigambar/basic_year2_animals_polar_bear.webp",
+      "sourceSentenceId": "s004",
+      "original": "It lives in a very cold place.",
+      "kernel": "It lives.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It lives"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in a very cold place",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "on the snow",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 25
+    },
+    {
+      "id": "st_year2_animals_019",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img405",
+      "image": "koleksigambar/basic_year2_animals_polar_bear.webp",
+      "sourceSentenceId": "s003",
+      "original": "The polar bear has thick fur.",
+      "kernel": "The bear has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "bear has"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "polar",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "thick fur",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "fur"
+      },
+      "skills": [
+        "what",
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 4.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 1.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 26
+    },
+    {
+      "id": "st_year2_animals_005",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img400",
+      "image": "koleksigambar/basic_year2_animals_cow.webp",
+      "sourceSentenceId": "s003",
+      "original": "The cow eats grass all day.",
+      "kernel": "The cow eats.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The cow eats"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "grass",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "phrase",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "all day",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the cow",
+        "determiner": "the",
+        "rest": "cow",
+        "headLemma": "cow",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "grass"
+      },
+      "skills": [
+        "what",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 6.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 27
+    },
+    {
+      "id": "st_year2_animals_029",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img408",
+      "image": "koleksigambar/basic_year2_animals_sheep.webp",
+      "sourceSentenceId": "s004",
+      "original": "The sheep eats grass all day.",
+      "kernel": "The sheep eats.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The sheep eats"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "grass",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "phrase",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "all day",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the sheep",
+        "determiner": "the",
+        "rest": "sheep",
+        "headLemma": "sheep",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "grass"
+      },
+      "skills": [
+        "what",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 6.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 28
+    },
+    {
+      "id": "st_year2_animals_021",
+      "level": "year2",
+      "topic": "animals",
+      "imageId": "img405",
+      "image": "koleksigambar/basic_year2_animals_polar_bear.webp",
+      "sourceSentenceId": "s005",
+      "original": "On the white snow, the big furry polar bear stands quietly under a blue sky.",
+      "kernel": "The polar bear stands.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "polar bear stands"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the white snow",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "big",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "furry",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "quietly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "under a blue sky",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 15.3,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 9.2,
+        "shapes": 2.0,
+        "length": 3.3
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "5 slots - more than year2 would normally show at once (2)"
+      ],
+      "order": 29
+    }
+  ]
+}

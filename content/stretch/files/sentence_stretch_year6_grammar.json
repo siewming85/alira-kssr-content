@@ -1,0 +1,3037 @@
+{
+  "generatedBy": "scripts/extract_sentence_stretch.py",
+  "level": "year6",
+  "topic": "grammar",
+  "decoys": "none",
+  "note": "PROTOTYPE - not merged into database.json. Human review required.",
+  "orderedBy": "stage ascending, then fine difficulty (easiest first)",
+  "stageLegend": {
+    "1": "add the object (What? / Whom?)",
+    "2": "describe the subject (What kind? / How many? / Whose?)",
+    "3": "describe the action (How? / How often?)",
+    "4": "where it happens (Where?)",
+    "5": "when it happens (When?)",
+    "6": "extra details (With what? / With whom? / For whom? / Where to? / From where? / To whom?)",
+    "7": "two stretches at once",
+    "8": "give a reason (Why?)"
+  },
+  "bandLabels": {
+    "starter": {
+      "en": "Starter",
+      "ms": "Permulaan",
+      "zh": "入门",
+      "iba": "Pun"
+    },
+    "growing": {
+      "en": "Growing",
+      "ms": "Sederhana",
+      "zh": "进阶",
+      "iba": "Tumbuh"
+    },
+    "advanced": {
+      "en": "Advanced",
+      "ms": "Lanjutan",
+      "zh": "高级",
+      "iba": "Tinggi"
+    }
+  },
+  "skillLabels": {
+    "what": {
+      "en": "What?",
+      "ms": "Apa?",
+      "zh": "什么？",
+      "iba": "Nama?"
+    },
+    "whom": {
+      "en": "Whom?",
+      "ms": "Siapa?",
+      "zh": "谁？",
+      "iba": "Sapa?"
+    },
+    "whatkind": {
+      "en": "What kind?",
+      "ms": "Yang bagaimana?",
+      "zh": "什么样的？",
+      "iba": "Ni macham?"
+    },
+    "howmany": {
+      "en": "How many?",
+      "ms": "Berapa banyak?",
+      "zh": "多少？",
+      "iba": "Berapa iku?"
+    },
+    "whose": {
+      "en": "Whose?",
+      "ms": "Kepunyaan siapa?",
+      "zh": "谁的？",
+      "iba": "Enggi sapa?"
+    },
+    "how": {
+      "en": "How?",
+      "ms": "Bagaimana?",
+      "zh": "怎么样？",
+      "iba": "Baka ni?"
+    },
+    "howoften": {
+      "en": "How often?",
+      "ms": "Berapa kerap?",
+      "zh": "多久一次？",
+      "iba": "Berapa kali?"
+    },
+    "where": {
+      "en": "Where?",
+      "ms": "Di mana?",
+      "zh": "在哪里？",
+      "iba": "Dini?"
+    },
+    "when": {
+      "en": "When?",
+      "ms": "Bila?",
+      "zh": "什么时候？",
+      "iba": "Kemaya?"
+    },
+    "withwhat": {
+      "en": "With what?",
+      "ms": "Dengan apa?",
+      "zh": "用什么？",
+      "iba": "Ngena nama?"
+    },
+    "withwhom": {
+      "en": "With whom?",
+      "ms": "Dengan siapa?",
+      "zh": "和谁？",
+      "iba": "Enggau sapa?"
+    },
+    "forwhom": {
+      "en": "For whom?",
+      "ms": "Untuk siapa?",
+      "zh": "为了谁？",
+      "iba": "Ke sapa?"
+    },
+    "whereto": {
+      "en": "Where to?",
+      "ms": "Ke mana?",
+      "zh": "去哪里？",
+      "iba": "Ngagai dini?"
+    },
+    "fromwhere": {
+      "en": "From where?",
+      "ms": "Dari mana?",
+      "zh": "从哪里？",
+      "iba": "Ari dini?"
+    },
+    "towhom": {
+      "en": "To whom?",
+      "ms": "Kepada siapa?",
+      "zh": "给谁？",
+      "iba": "Ngagai sapa?"
+    },
+    "why": {
+      "en": "Why?",
+      "ms": "Mengapa?",
+      "zh": "为什么？",
+      "iba": "Nama kebuah?"
+    }
+  },
+  "authoredOptionsFile": "output\\sentence_stretch_options\\year6_grammar.json",
+  "tasks": [
+    {
+      "id": "st_year6_grammar_019",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img952",
+      "image": "koleksigambar/basic_year6_grammar_robbery.webp",
+      "sourceSentenceId": "s001",
+      "original": "The thief flees the bank carrying a sack full of money.",
+      "kernel": "The thief flees.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The thief flees"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "clause",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the bank carrying a sack full of money",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the thief",
+        "determiner": "the",
+        "rest": "thief",
+        "headLemma": "thief",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "bank"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 5.5,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 2.0,
+        "length": 2.4
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "very long what slot: 'the bank carrying a sack full of money'"
+      ],
+      "order": 1
+    },
+    {
+      "id": "st_year6_grammar_022",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img952",
+      "image": "koleksigambar/basic_year6_grammar_robbery.webp",
+      "sourceSentenceId": "s004",
+      "original": "The guilty man tries to escape before anyone catches him.",
+      "kernel": "The man tries to escape before anyone catches him.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "man tries to escape before anyone catches him."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "guilty",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 1.8,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 2
+    },
+    {
+      "id": "st_year6_grammar_027",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img954",
+      "image": "koleksigambar/basic_year6_grammar_valuable.webp",
+      "sourceSentenceId": "s002",
+      "original": "Golden coins and sparkling jewels fill the chest to the top.",
+      "kernel": "Coins and sparkling jewels fill the chest to the top.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "coins and sparkling jewels fill the chest to the top."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "golden",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "priceless",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            },
+            {
+              "text": "valuable",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "text": "the chest",
+        "determiner": "the",
+        "rest": "chest",
+        "headLemma": "chest",
+        "plural": false,
+        "pron": false,
+        "inKernel": true
+      },
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 3.3,
+      "difficultyParts": {
+        "kernel": 2.0,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 3
+    },
+    {
+      "id": "st_year6_grammar_014",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img949",
+      "image": "koleksigambar/basic_year6_grammar_forgive.webp",
+      "sourceSentenceId": "s004",
+      "original": "A true friendship grows stronger when people learn to forgive mistakes.",
+      "kernel": "A friendship grows stronger when people learn to forgive mistakes.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "friendship grows stronger when people learn to forgive mistakes."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "true",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 3.3,
+      "difficultyParts": {
+        "kernel": 2.0,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 4
+    },
+    {
+      "id": "st_year6_grammar_015",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img950",
+      "image": "koleksigambar/basic_year6_grammar_furious.webp",
+      "sourceSentenceId": "s004",
+      "original": "The whole castle grows silent when the king loses his temper.",
+      "kernel": "The castle grows silent when the king loses his temper.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "castle grows silent when the king loses his temper."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "whole",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany"
+      ],
+      "stage": 2,
+      "difficulty": 3.4,
+      "difficultyParts": {
+        "kernel": 2.0,
+        "chips": 1.1,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 5
+    },
+    {
+      "id": "st_year6_grammar_012",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img949",
+      "image": "koleksigambar/basic_year6_grammar_forgive.webp",
+      "sourceSentenceId": "s002",
+      "original": "He sincerely apologises for the misunderstanding between them.",
+      "kernel": "He apologises for the misunderstanding between them.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "He"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "apologises for the misunderstanding between them."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "sincerely",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "calmly",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "he",
+        "determiner": null,
+        "rest": "he",
+        "headLemma": "he",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "how"
+      ],
+      "stage": 3,
+      "difficulty": 3.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 6
+    },
+    {
+      "id": "st_year6_grammar_001",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img946",
+      "image": "koleksigambar/basic_year6_grammar_blame.webp",
+      "sourceSentenceId": "s001",
+      "original": "The girl angrily blames her classmate for the mistake.",
+      "kernel": "The girl blames her classmate for the mistake.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The girl"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "blames her classmate for the mistake."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "angrily",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the girl",
+        "determiner": "the",
+        "rest": "girl",
+        "headLemma": "girl",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "text": "her classmate",
+        "determiner": "her",
+        "rest": "classmate",
+        "headLemma": "classmate",
+        "plural": false,
+        "pron": false,
+        "inKernel": true
+      },
+      "skills": [
+        "how"
+      ],
+      "stage": 3,
+      "difficulty": 3.9,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 7
+    },
+    {
+      "id": "st_year6_grammar_017",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img951",
+      "image": "koleksigambar/basic_year6_grammar_opinion.webp",
+      "sourceSentenceId": "s003",
+      "original": "In his opinion, vegetables are healthier than fried food.",
+      "kernel": "Vegetables are healthier than fried food.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", vegetables are healthier than fried food."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in his opinion",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "vegetables",
+        "determiner": null,
+        "rest": "vegetables",
+        "headLemma": "vegetable",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.7,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [
+        "copula source: 'healthier' pinned as the complement"
+      ],
+      "order": 8
+    },
+    {
+      "id": "st_year6_grammar_004",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img947",
+      "image": "koleksigambar/basic_year6_grammar_debate.webp",
+      "sourceSentenceId": "s003",
+      "original": "They use careful research to build a strong argument.",
+      "kernel": "They use to build.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "They use"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "to build"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "careful research",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a strong argument",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "they",
+        "determiner": null,
+        "rest": "they",
+        "headLemma": "they",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "research"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 7,
+      "difficulty": 5.3,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 1.0,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 9
+    },
+    {
+      "id": "st_year6_grammar_026",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img954",
+      "image": "koleksigambar/basic_year6_grammar_valuable.webp",
+      "sourceSentenceId": "s001",
+      "original": "A hand turns the key to unlock this valuable treasure chest.",
+      "kernel": "A hand turns to unlock.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A hand turns"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "to unlock"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the key",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "this valuable treasure chest",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a hand",
+        "determiner": "a",
+        "rest": "hand",
+        "headLemma": "hand",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "key"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 7,
+      "difficulty": 5.8,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 1.0,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 10
+    },
+    {
+      "id": "st_year6_grammar_021",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img952",
+      "image": "koleksigambar/basic_year6_grammar_robbery.webp",
+      "sourceSentenceId": "s003",
+      "original": "A witness quickly reports the robbery to the police.",
+      "kernel": "A witness reports.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A witness"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "reports"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "quickly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "calmly",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the robbery to the police",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a witness",
+        "determiner": "a",
+        "rest": "witness",
+        "headLemma": "witness",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "robbery"
+      },
+      "skills": [
+        "what",
+        "how"
+      ],
+      "stage": 7,
+      "difficulty": 5.9,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.5,
+        "shapes": 1.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 11
+    },
+    {
+      "id": "st_year6_grammar_005",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img947",
+      "image": "koleksigambar/basic_year6_grammar_debate.webp",
+      "sourceSentenceId": "s004",
+      "original": "Both students try their best to persuade the audience with their ideas.",
+      "kernel": "Students try to persuade with their ideas.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "students try"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "to persuade"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "with their ideas."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "both",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "two",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "their best",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the audience",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "good"
+      },
+      "skills": [
+        "what",
+        "howmany"
+      ],
+      "stage": 7,
+      "difficulty": 7.0,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 2.1,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 12
+    },
+    {
+      "id": "st_year6_grammar_024",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img953",
+      "image": "koleksigambar/basic_year6_grammar_suspect.webp",
+      "sourceSentenceId": "s003",
+      "original": "The officer measures their height against the marked wall.",
+      "kernel": "The officer measures.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The officer measures"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "their height",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "against the marked wall",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the officer",
+        "determiner": "the",
+        "rest": "officer",
+        "headLemma": "officer",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "height"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.5,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 13
+    },
+    {
+      "id": "st_year6_grammar_010",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img948",
+      "image": "koleksigambar/basic_year6_grammar_emperor.webp",
+      "sourceSentenceId": "s004",
+      "original": "The emperor's robe and crown show his royal position in the palace.",
+      "kernel": "The emperor's robe and crown show.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The emperor's robe and crown show"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "his royal position",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the palace",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "on his grand throne",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "position"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 8.1,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "subject descriptor 'robe' is not the head of the kernel - dropped"
+      ],
+      "order": 14
+    },
+    {
+      "id": "st_year6_grammar_009",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img948",
+      "image": "koleksigambar/basic_year6_grammar_emperor.webp",
+      "sourceSentenceId": "s003",
+      "original": "He admires the bird's song with great delight.",
+      "kernel": "He admires.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "He admires"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the bird's song",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "withwhat",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "With what?",
+            "ms": "Dengan apa?",
+            "zh": "用什么？",
+            "iba": "Ngena nama?"
+          },
+          "options": [
+            {
+              "text": "with great delight",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "he",
+        "determiner": null,
+        "rest": "he",
+        "headLemma": "he",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "song"
+      },
+      "skills": [
+        "what",
+        "withwhat"
+      ],
+      "stage": 7,
+      "difficulty": 8.2,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.0,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 15
+    },
+    {
+      "id": "st_year6_grammar_003",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img947",
+      "image": "koleksigambar/basic_year6_grammar_debate.webp",
+      "sourceSentenceId": "s001",
+      "original": "Two confident students take part in a school debate.",
+      "kernel": "Students take.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "students take"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "two",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "confident",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "part",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in a school debate",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "near the microphone",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            },
+            {
+              "text": "on the podium",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 2,
+        "headLemma": "part"
+      },
+      "skills": [
+        "what",
+        "howmany",
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 8.7,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 5.2,
+        "shapes": 1.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "4 slots - more than year6 would normally show at once (3)"
+      ],
+      "order": 16
+    },
+    {
+      "id": "st_year6_grammar_028",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img954",
+      "image": "koleksigambar/basic_year6_grammar_valuable.webp",
+      "sourceSentenceId": "s003",
+      "original": "A shining crown rests among these priceless valuables.",
+      "kernel": "A crown rests.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "crown rests"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "clause",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "shining",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "golden",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "among these priceless valuables",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "inside the chest",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            },
+            {
+              "text": "beside the coins",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 8.7,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.6,
+        "shapes": 3.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "participial describer 'shining' - check it is not half of a compound noun (shining crown)"
+      ],
+      "order": 17
+    },
+    {
+      "id": "st_year6_grammar_013",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img949",
+      "image": "koleksigambar/basic_year6_grammar_forgive.webp",
+      "sourceSentenceId": "s003",
+      "original": "Both friends feel relieved once they reconcile after the argument.",
+      "kernel": "Friends feel relieved.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "friends feel relieved"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "both",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "clause",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "once they reconcile after the argument",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 8.8,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.1,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 18
+    },
+    {
+      "id": "st_year6_grammar_011",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img949",
+      "image": "koleksigambar/basic_year6_grammar_forgive.webp",
+      "sourceSentenceId": "s001",
+      "original": "A boy and a girl shake hands after deciding to forgive each other.",
+      "kernel": "A boy and a girl shake.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A boy and a girl shake"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "hands",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "clause",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "after deciding to forgive each other",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a boy",
+        "determiner": "a",
+        "rest": "boy",
+        "headLemma": "boy",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "hand"
+      },
+      "skills": [
+        "what",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 8.8,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 3.5,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 19
+    },
+    {
+      "id": "st_year6_grammar_008",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img948",
+      "image": "koleksigambar/basic_year6_grammar_emperor.webp",
+      "sourceSentenceId": "s002",
+      "original": "A small bird sings a sweet melody beside his royal chair.",
+      "kernel": "A bird sings.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "bird sings"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "small",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a sweet melody",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "beside his royal chair",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "in the palace",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "melody"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 9.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.1,
+        "shapes": 2.0,
+        "length": 2.4
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 20
+    },
+    {
+      "id": "st_year6_grammar_020",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img952",
+      "image": "koleksigambar/basic_year6_grammar_robbery.webp",
+      "sourceSentenceId": "s002",
+      "original": "He steals the money from the open vault behind him.",
+      "kernel": "He steals.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "He steals"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the money",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "fromwhere",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "From where?",
+            "ms": "Dari mana?",
+            "zh": "从哪里？",
+            "iba": "Ari dini?"
+          },
+          "options": [
+            {
+              "text": "from the open vault behind him",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "he",
+        "determiner": null,
+        "rest": "he",
+        "headLemma": "he",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "money"
+      },
+      "skills": [
+        "what",
+        "fromwhere"
+      ],
+      "stage": 7,
+      "difficulty": 9.3,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.5,
+        "shapes": 2.0,
+        "length": 2.4
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 21
+    },
+    {
+      "id": "st_year6_grammar_018",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img951",
+      "image": "koleksigambar/basic_year6_grammar_opinion.webp",
+      "sourceSentenceId": "s004",
+      "original": "He compares both choices carefully before finally deciding.",
+      "kernel": "He compares.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "He compares"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "both choices",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "carefully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "calmly",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "clause",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "before finally deciding",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "he",
+        "determiner": null,
+        "rest": "he",
+        "headLemma": "he",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "choice"
+      },
+      "skills": [
+        "what",
+        "how",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 10.7,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 5.5,
+        "shapes": 3.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 22
+    },
+    {
+      "id": "st_year6_grammar_002",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img946",
+      "image": "koleksigambar/basic_year6_grammar_blame.webp",
+      "sourceSentenceId": "s003",
+      "original": "She points at the notice board while explaining her argument.",
+      "kernel": "She points.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She points"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at the notice board",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "clause",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "while explaining her argument",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 11.4,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 5.6,
+        "shapes": 3.0,
+        "length": 2.4
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 23
+    },
+    {
+      "id": "st_year6_grammar_016",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img950",
+      "image": "koleksigambar/basic_year6_grammar_furious.webp",
+      "sourceSentenceId": "s005",
+      "original": "Inside the royal bedroom, the furious old king points angrily at a frightened girl.",
+      "kernel": "The king points.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "king points"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "inside the royal bedroom",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "furious",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "old",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "angrily",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at a frightened girl",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 15.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 9.2,
+        "shapes": 2.0,
+        "length": 3.3
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "verb re-parsed with stand-in 'follows' - spaCy tagged 'points' as a noun",
+        "5 slots - more than year6 would normally show at once (3)"
+      ],
+      "order": 24
+    },
+    {
+      "id": "st_year6_grammar_025",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img953",
+      "image": "koleksigambar/basic_year6_grammar_suspect.webp",
+      "sourceSentenceId": "s004",
+      "original": "Investigators must be careful, since not every suspect is guilty.",
+      "kernel": "Investigators must be careful.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Investigators must be careful,"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "since not every suspect is guilty",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "investigators",
+        "determiner": null,
+        "rest": "investigators",
+        "headLemma": "investigator",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 9.2,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 4.6,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "copula source: 'careful' pinned as the complement"
+      ],
+      "order": 25
+    },
+    {
+      "id": "st_year6_grammar_007",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img948",
+      "image": "koleksigambar/basic_year6_grammar_emperor.webp",
+      "sourceSentenceId": "s001",
+      "original": "The emperor smiles as he sits on his grand throne.",
+      "kernel": "The emperor smiles.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The emperor smiles"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "as he sits on his grand throne",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the emperor",
+        "determiner": "the",
+        "rest": "emperor",
+        "headLemma": "emperor",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 9.3,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.6,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 26
+    },
+    {
+      "id": "st_year6_grammar_023",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img953",
+      "image": "koleksigambar/basic_year6_grammar_suspect.webp",
+      "sourceSentenceId": "s001",
+      "original": "The police officer records details as five suspects stand in a lineup.",
+      "kernel": "The police officer records.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The police officer records"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "details",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "as five suspects stand in a lineup",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the police officer",
+        "determiner": "the",
+        "rest": "police officer",
+        "headLemma": "officer",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "detail"
+      },
+      "skills": [
+        "what",
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 10.3,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 5.1,
+        "shapes": 2.0,
+        "length": 2.4
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 27
+    },
+    {
+      "id": "st_year6_grammar_006",
+      "level": "year6",
+      "topic": "grammar",
+      "imageId": "img947",
+      "image": "koleksigambar/basic_year6_grammar_debate.webp",
+      "sourceSentenceId": "s005",
+      "original": "During the school debate, the confident young speaker calmly answers every difficult question because clear reasons persuade the audience.",
+      "kernel": "The speaker answers.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "speaker"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "text",
+          "text": "answers"
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "slot",
+          "slot": 5
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "when",
+          "shape": "phrase",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "during the school debate",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "confident",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "careful",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "young",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "calmly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "carefully",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "every difficult question",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "because clear reasons persuade the audience",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 4,
+        "headLemma": "question"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "how",
+        "when",
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 21.5,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 12.1,
+        "shapes": 4.0,
+        "length": 4.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "6 slots - more than year6 would normally show at once (3)"
+      ],
+      "order": 28
+    }
+  ]
+}

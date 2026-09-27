@@ -1,0 +1,2056 @@
+{
+  "generatedBy": "scripts/extract_sentence_stretch.py",
+  "level": "year5",
+  "topic": "hobbies",
+  "decoys": "none",
+  "note": "PROTOTYPE - not merged into database.json. Human review required.",
+  "orderedBy": "stage ascending, then fine difficulty (easiest first)",
+  "stageLegend": {
+    "1": "add the object (What? / Whom?)",
+    "2": "describe the subject (What kind? / How many? / Whose?)",
+    "3": "describe the action (How? / How often?)",
+    "4": "where it happens (Where?)",
+    "5": "when it happens (When?)",
+    "6": "extra details (With what? / With whom? / For whom? / Where to? / From where? / To whom?)",
+    "7": "two stretches at once",
+    "8": "give a reason (Why?)"
+  },
+  "bandLabels": {
+    "starter": {
+      "en": "Starter",
+      "ms": "Permulaan",
+      "zh": "入门",
+      "iba": "Pun"
+    },
+    "growing": {
+      "en": "Growing",
+      "ms": "Sederhana",
+      "zh": "进阶",
+      "iba": "Tumbuh"
+    },
+    "advanced": {
+      "en": "Advanced",
+      "ms": "Lanjutan",
+      "zh": "高级",
+      "iba": "Tinggi"
+    }
+  },
+  "skillLabels": {
+    "what": {
+      "en": "What?",
+      "ms": "Apa?",
+      "zh": "什么？",
+      "iba": "Nama?"
+    },
+    "whom": {
+      "en": "Whom?",
+      "ms": "Siapa?",
+      "zh": "谁？",
+      "iba": "Sapa?"
+    },
+    "whatkind": {
+      "en": "What kind?",
+      "ms": "Yang bagaimana?",
+      "zh": "什么样的？",
+      "iba": "Ni macham?"
+    },
+    "howmany": {
+      "en": "How many?",
+      "ms": "Berapa banyak?",
+      "zh": "多少？",
+      "iba": "Berapa iku?"
+    },
+    "whose": {
+      "en": "Whose?",
+      "ms": "Kepunyaan siapa?",
+      "zh": "谁的？",
+      "iba": "Enggi sapa?"
+    },
+    "how": {
+      "en": "How?",
+      "ms": "Bagaimana?",
+      "zh": "怎么样？",
+      "iba": "Baka ni?"
+    },
+    "howoften": {
+      "en": "How often?",
+      "ms": "Berapa kerap?",
+      "zh": "多久一次？",
+      "iba": "Berapa kali?"
+    },
+    "where": {
+      "en": "Where?",
+      "ms": "Di mana?",
+      "zh": "在哪里？",
+      "iba": "Dini?"
+    },
+    "when": {
+      "en": "When?",
+      "ms": "Bila?",
+      "zh": "什么时候？",
+      "iba": "Kemaya?"
+    },
+    "withwhat": {
+      "en": "With what?",
+      "ms": "Dengan apa?",
+      "zh": "用什么？",
+      "iba": "Ngena nama?"
+    },
+    "withwhom": {
+      "en": "With whom?",
+      "ms": "Dengan siapa?",
+      "zh": "和谁？",
+      "iba": "Enggau sapa?"
+    },
+    "forwhom": {
+      "en": "For whom?",
+      "ms": "Untuk siapa?",
+      "zh": "为了谁？",
+      "iba": "Ke sapa?"
+    },
+    "whereto": {
+      "en": "Where to?",
+      "ms": "Ke mana?",
+      "zh": "去哪里？",
+      "iba": "Ngagai dini?"
+    },
+    "fromwhere": {
+      "en": "From where?",
+      "ms": "Dari mana?",
+      "zh": "从哪里？",
+      "iba": "Ari dini?"
+    },
+    "towhom": {
+      "en": "To whom?",
+      "ms": "Kepada siapa?",
+      "zh": "给谁？",
+      "iba": "Ngagai sapa?"
+    },
+    "why": {
+      "en": "Why?",
+      "ms": "Mengapa?",
+      "zh": "为什么？",
+      "iba": "Nama kebuah?"
+    }
+  },
+  "authoredOptionsFile": "output\\sentence_stretch_options\\year5_hobbies.json",
+  "tasks": [
+    {
+      "id": "st_year5_hobbies_014",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img815",
+      "image": "koleksigambar/basic_year5_hobbies_photography.webp",
+      "sourceSentenceId": "s002",
+      "original": "She enjoys capturing beautiful moments with her camera.",
+      "kernel": "She enjoys capturing with her camera.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She enjoys capturing"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "with her camera."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "beautiful moments",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": null
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.3,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 1
+    },
+    {
+      "id": "st_year5_hobbies_012",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img814",
+      "image": "koleksigambar/basic_year5_hobbies_meet_friends.webp",
+      "sourceSentenceId": "s004",
+      "original": "Spending time with friends brings joy and connection.",
+      "kernel": "Spending time with friends brings.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Spending time with friends brings"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "joy and connection",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "joy"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.4,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 2
+    },
+    {
+      "id": "st_year5_hobbies_016",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img815",
+      "image": "koleksigambar/basic_year5_hobbies_photography.webp",
+      "sourceSentenceId": "s004",
+      "original": "A close-up photo shows the flower's tiny details.",
+      "kernel": "A close-up photo shows.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A close-up photo shows"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the flower's tiny details",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "detail"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.5,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "subject descriptor 'photo' is not the head of the kernel - dropped"
+      ],
+      "order": 3
+    },
+    {
+      "id": "st_year5_hobbies_015",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img815",
+      "image": "koleksigambar/basic_year5_hobbies_photography.webp",
+      "sourceSentenceId": "s003",
+      "original": "Photography is her favourite hobby.",
+      "kernel": "Photography is her hobby.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Photography is her"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "hobby."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "favourite",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.1,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'hobby' pinned as the complement"
+      ],
+      "order": 4
+    },
+    {
+      "id": "st_year5_hobbies_008",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img813",
+      "image": "koleksigambar/basic_year5_hobbies_cook.webp",
+      "sourceSentenceId": "s003",
+      "original": "Cooking is a rewarding hobby that also produces food.",
+      "kernel": "Cooking is a hobby that also produces food.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Cooking is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "hobby that also produces food."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "rewarding",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.9,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'hobby' pinned as the complement"
+      ],
+      "order": 5
+    },
+    {
+      "id": "st_year5_hobbies_010",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img814",
+      "image": "koleksigambar/basic_year5_hobbies_meet_friends.webp",
+      "sourceSentenceId": "s002",
+      "original": "They smile happily to see one another again.",
+      "kernel": "They smile to see one another again.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "They smile"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "to see one another again."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "happily",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "they",
+        "determiner": null,
+        "rest": "they",
+        "headLemma": "they",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "how"
+      ],
+      "stage": 3,
+      "difficulty": 3.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "infinitive object 'one' is NUM, not a noun - not offered as a chip"
+      ],
+      "order": 6
+    },
+    {
+      "id": "st_year5_hobbies_009",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img813",
+      "image": "koleksigambar/basic_year5_hobbies_cook.webp",
+      "sourceSentenceId": "s004",
+      "original": "Following a recipe helps beginners cook successfully.",
+      "kernel": "Helps beginners cook successfully.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "helps beginners cook successfully."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "clause",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "following a recipe",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 6.3,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 2.6,
+        "shapes": 2.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [
+        "kernel may have lost its main verb"
+      ],
+      "order": 7
+    },
+    {
+      "id": "st_year5_hobbies_001",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img812",
+      "image": "koleksigambar/basic_year5_hobbies_chatting_online.webp",
+      "sourceSentenceId": "s001",
+      "original": "The child smiles at a tablet with chat bubbles above it.",
+      "kernel": "The child smiles.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The child smiles"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at a tablet with chat bubbles above it",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the child",
+        "determiner": "the",
+        "rest": "child",
+        "headLemma": "child",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 6.6,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 2.4
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [
+        "very long where slot: 'at a tablet with chat bubbles above it'"
+      ],
+      "order": 8
+    },
+    {
+      "id": "st_year5_hobbies_011",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img814",
+      "image": "koleksigambar/basic_year5_hobbies_meet_friends.webp",
+      "sourceSentenceId": "s003",
+      "original": "Meeting friends is a favourite social hobby for many people.",
+      "kernel": "Meeting friends is a hobby for many people.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Meeting friends is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "hobby for many people."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "favourite",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "social",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 4.2,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.6
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "copula source: 'hobby' pinned as the complement"
+      ],
+      "order": 9
+    },
+    {
+      "id": "st_year5_hobbies_018",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img816",
+      "image": "koleksigambar/basic_year5_hobbies_skateboarding.webp",
+      "sourceSentenceId": "s002",
+      "original": "She balances carefully on the moving skateboard.",
+      "kernel": "She balances.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She balances"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "carefully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the moving skateboard",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the park",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.6,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 10
+    },
+    {
+      "id": "st_year5_hobbies_017",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img816",
+      "image": "koleksigambar/basic_year5_hobbies_skateboarding.webp",
+      "sourceSentenceId": "s001",
+      "original": "The child rides a skateboard, mid-trick, in the park.",
+      "kernel": "The child rides.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The child rides"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a skateboard, mid-trick,",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the park",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the child",
+        "determiner": "the",
+        "rest": "child",
+        "headLemma": "child",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "skateboard"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.5,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 11
+    },
+    {
+      "id": "st_year5_hobbies_004",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img812",
+      "image": "koleksigambar/basic_year5_hobbies_chatting_online.webp",
+      "sourceSentenceId": "s004",
+      "original": "Chatting online lets friends stay in touch easily.",
+      "kernel": "Chatting online lets friends stay.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Chatting online lets friends stay"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in touch",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "easily",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.5,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 4.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 12
+    },
+    {
+      "id": "st_year5_hobbies_019",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img816",
+      "image": "koleksigambar/basic_year5_hobbies_skateboarding.webp",
+      "sourceSentenceId": "s004",
+      "original": "Many children practise new tricks at the park.",
+      "kernel": "Children practise.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "children practise"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "many",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "new tricks",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at the park",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "trick"
+      },
+      "skills": [
+        "what",
+        "howmany",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 8.4,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.2,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 13
+    },
+    {
+      "id": "st_year5_hobbies_002",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img812",
+      "image": "koleksigambar/basic_year5_hobbies_chatting_online.webp",
+      "sourceSentenceId": "s002",
+      "original": "Small chat bubbles float above the screen.",
+      "kernel": "Chat bubbles.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "chat bubbles"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "small",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "clause",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "float",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "above the screen",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "float"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 9.0,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.1,
+        "shapes": 3.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 14
+    },
+    {
+      "id": "st_year5_hobbies_003",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img812",
+      "image": "koleksigambar/basic_year5_hobbies_chatting_online.webp",
+      "sourceSentenceId": "s003",
+      "original": "She chats online with her friends every evening.",
+      "kernel": "She chats online.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She chats online"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "withwhom",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "With whom?",
+            "ms": "Dengan siapa?",
+            "zh": "和谁？",
+            "iba": "Enggau sapa?"
+          },
+          "options": [
+            {
+              "text": "with her friends",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "howoften",
+          "shape": "phrase",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "every evening",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "howoften",
+        "withwhom"
+      ],
+      "stage": 7,
+      "difficulty": 9.9,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 5.8,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 15
+    },
+    {
+      "id": "st_year5_hobbies_007",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img813",
+      "image": "koleksigambar/basic_year5_hobbies_cook.webp",
+      "sourceSentenceId": "s002",
+      "original": "She reads each step carefully before cooking.",
+      "kernel": "She reads.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She reads"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "each step",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "carefully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "clause",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "before cooking",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "step"
+      },
+      "skills": [
+        "what",
+        "how",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 10.4,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 5.5,
+        "shapes": 3.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 16
+    },
+    {
+      "id": "st_year5_hobbies_006",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img813",
+      "image": "koleksigambar/basic_year5_hobbies_cook.webp",
+      "sourceSentenceId": "s001",
+      "original": "A teenager cooks a meal on a stove, following a recipe card.",
+      "kernel": "A teenager cooks.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A teenager cooks"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": ","
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a meal",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on a stove",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "clause",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "following a recipe card",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a teenager",
+        "determiner": "a",
+        "rest": "teenager",
+        "headLemma": "teenager",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "meal"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 13.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 5.7,
+        "shapes": 4.0,
+        "length": 2.7
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 17
+    },
+    {
+      "id": "st_year5_hobbies_005",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img812",
+      "image": "koleksigambar/basic_year5_hobbies_chatting_online.webp",
+      "sourceSentenceId": "s005",
+      "original": "At the yellow table, the cheerful young girl smiles happily at a grey tablet.",
+      "kernel": "The girl smiles.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "girl smiles"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at the yellow table",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "cheerful",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "young",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "happily",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at a grey tablet",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 15.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 9.2,
+        "shapes": 2.0,
+        "length": 3.3
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "5 slots - more than year5 would normally show at once (3)"
+      ],
+      "order": 18
+    },
+    {
+      "id": "st_year5_hobbies_013",
+      "level": "year5",
+      "topic": "hobbies",
+      "imageId": "img814",
+      "image": "koleksigambar/basic_year5_hobbies_meet_friends.webp",
+      "sourceSentenceId": "s005",
+      "original": "In the afternoon, the excited young friends clap their hands loudly because meeting together feels wonderful.",
+      "kernel": "The friends clap.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "friends clap"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "slot",
+          "slot": 5
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "when",
+          "shape": "phrase",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "in the afternoon",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "excited",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "happy",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "young",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "their hands",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "loudly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "because meeting together feels wonderful",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 3,
+        "headLemma": "hand"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "how",
+        "when",
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 20.6,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 12.1,
+        "shapes": 4.0,
+        "length": 3.9
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "6 slots - more than year5 would normally show at once (3)"
+      ],
+      "order": 19
+    }
+  ]
+}

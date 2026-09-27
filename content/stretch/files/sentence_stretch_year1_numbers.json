@@ -1,0 +1,1784 @@
+{
+  "generatedBy": "scripts/extract_sentence_stretch.py",
+  "level": "year1",
+  "topic": "numbers",
+  "decoys": "none",
+  "note": "PROTOTYPE - not merged into database.json. Human review required.",
+  "orderedBy": "stage ascending, then fine difficulty (easiest first)",
+  "stageLegend": {
+    "1": "add the object (What? / Whom?)",
+    "2": "describe the subject (What kind? / How many? / Whose?)",
+    "3": "describe the action (How? / How often?)",
+    "4": "where it happens (Where?)",
+    "5": "when it happens (When?)",
+    "6": "extra details (With what? / With whom? / For whom? / Where to? / From where? / To whom?)",
+    "7": "two stretches at once",
+    "8": "give a reason (Why?)"
+  },
+  "bandLabels": {
+    "starter": {
+      "en": "Starter",
+      "ms": "Permulaan",
+      "zh": "入门",
+      "iba": "Pun"
+    },
+    "growing": {
+      "en": "Growing",
+      "ms": "Sederhana",
+      "zh": "进阶",
+      "iba": "Tumbuh"
+    },
+    "advanced": {
+      "en": "Advanced",
+      "ms": "Lanjutan",
+      "zh": "高级",
+      "iba": "Tinggi"
+    }
+  },
+  "skillLabels": {
+    "what": {
+      "en": "What?",
+      "ms": "Apa?",
+      "zh": "什么？",
+      "iba": "Nama?"
+    },
+    "whom": {
+      "en": "Whom?",
+      "ms": "Siapa?",
+      "zh": "谁？",
+      "iba": "Sapa?"
+    },
+    "whatkind": {
+      "en": "What kind?",
+      "ms": "Yang bagaimana?",
+      "zh": "什么样的？",
+      "iba": "Ni macham?"
+    },
+    "howmany": {
+      "en": "How many?",
+      "ms": "Berapa banyak?",
+      "zh": "多少？",
+      "iba": "Berapa iku?"
+    },
+    "whose": {
+      "en": "Whose?",
+      "ms": "Kepunyaan siapa?",
+      "zh": "谁的？",
+      "iba": "Enggi sapa?"
+    },
+    "how": {
+      "en": "How?",
+      "ms": "Bagaimana?",
+      "zh": "怎么样？",
+      "iba": "Baka ni?"
+    },
+    "howoften": {
+      "en": "How often?",
+      "ms": "Berapa kerap?",
+      "zh": "多久一次？",
+      "iba": "Berapa kali?"
+    },
+    "where": {
+      "en": "Where?",
+      "ms": "Di mana?",
+      "zh": "在哪里？",
+      "iba": "Dini?"
+    },
+    "when": {
+      "en": "When?",
+      "ms": "Bila?",
+      "zh": "什么时候？",
+      "iba": "Kemaya?"
+    },
+    "withwhat": {
+      "en": "With what?",
+      "ms": "Dengan apa?",
+      "zh": "用什么？",
+      "iba": "Ngena nama?"
+    },
+    "withwhom": {
+      "en": "With whom?",
+      "ms": "Dengan siapa?",
+      "zh": "和谁？",
+      "iba": "Enggau sapa?"
+    },
+    "forwhom": {
+      "en": "For whom?",
+      "ms": "Untuk siapa?",
+      "zh": "为了谁？",
+      "iba": "Ke sapa?"
+    },
+    "whereto": {
+      "en": "Where to?",
+      "ms": "Ke mana?",
+      "zh": "去哪里？",
+      "iba": "Ngagai dini?"
+    },
+    "fromwhere": {
+      "en": "From where?",
+      "ms": "Dari mana?",
+      "zh": "从哪里？",
+      "iba": "Ari dini?"
+    },
+    "towhom": {
+      "en": "To whom?",
+      "ms": "Kepada siapa?",
+      "zh": "给谁？",
+      "iba": "Ngagai sapa?"
+    },
+    "why": {
+      "en": "Why?",
+      "ms": "Mengapa?",
+      "zh": "为什么？",
+      "iba": "Nama kebuah?"
+    }
+  },
+  "authoredOptionsFile": "output\\sentence_stretch_options\\year1_numbers.json",
+  "tasks": [
+    {
+      "id": "st_year1_numbers_003",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img352",
+      "image": "koleksigambar/basic_year1_numbers_eleven.webp",
+      "sourceSentenceId": "s004",
+      "original": "Counting to eleven helps pupils learn numbers.",
+      "kernel": "Counting to eleven helps pupils learn.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Counting to eleven helps pupils learn"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "numbers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "counting",
+        "determiner": null,
+        "rest": "counting",
+        "headLemma": "count",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": null
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.0,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.5,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 1
+    },
+    {
+      "id": "st_year1_numbers_019",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img363",
+      "image": "koleksigambar/basic_year1_numbers_twelve.webp",
+      "sourceSentenceId": "s004",
+      "original": "Counting to twelve helps pupils learn numbers.",
+      "kernel": "Counting to twelve helps pupils learn.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Counting to twelve helps pupils learn"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "numbers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "counting",
+        "determiner": null,
+        "rest": "counting",
+        "headLemma": "count",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": null
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.0,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.5,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 2
+    },
+    {
+      "id": "st_year1_numbers_020",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img364",
+      "image": "koleksigambar/basic_year1_numbers_twenty.webp",
+      "sourceSentenceId": "s004",
+      "original": "Counting to twenty helps pupils learn numbers.",
+      "kernel": "Counting to twenty helps pupils learn.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Counting to twenty helps pupils learn"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "numbers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "counting",
+        "determiner": null,
+        "rest": "counting",
+        "headLemma": "count",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": null
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.0,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.5,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 3
+    },
+    {
+      "id": "st_year1_numbers_004",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img353",
+      "image": "koleksigambar/basic_year1_numbers_fifteen.webp",
+      "sourceSentenceId": "s004",
+      "original": "Counting to fifteen helps pupils learn numbers.",
+      "kernel": "Counting to fifteen helps pupils learn.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Counting to fifteen helps pupils learn"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "numbers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "counting",
+        "determiner": null,
+        "rest": "counting",
+        "headLemma": "count",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": null
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.0,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.5,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 4
+    },
+    {
+      "id": "st_year1_numbers_013",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img359",
+      "image": "koleksigambar/basic_year1_numbers_sixteen.webp",
+      "sourceSentenceId": "s004",
+      "original": "Counting to sixteen helps pupils learn numbers.",
+      "kernel": "Counting to sixteen helps pupils learn.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Counting to sixteen helps pupils learn"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "numbers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "counting",
+        "determiner": null,
+        "rest": "counting",
+        "headLemma": "count",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": null
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.0,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.5,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 5
+    },
+    {
+      "id": "st_year1_numbers_002",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img351",
+      "image": "koleksigambar/basic_year1_numbers_eighteen.webp",
+      "sourceSentenceId": "s004",
+      "original": "Counting to eighteen helps pupils learn numbers.",
+      "kernel": "Counting to eighteen helps pupils learn.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Counting to eighteen helps pupils learn"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "numbers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "counting",
+        "determiner": null,
+        "rest": "counting",
+        "headLemma": "count",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": null
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.0,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.5,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 6
+    },
+    {
+      "id": "st_year1_numbers_011",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img358",
+      "image": "koleksigambar/basic_year1_numbers_seventeen.webp",
+      "sourceSentenceId": "s004",
+      "original": "Counting to seventeen helps pupils learn numbers.",
+      "kernel": "Counting to seventeen helps pupils learn.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Counting to seventeen helps pupils learn"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "numbers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "counting",
+        "determiner": null,
+        "rest": "counting",
+        "headLemma": "count",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": null
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.0,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.5,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 7
+    },
+    {
+      "id": "st_year1_numbers_005",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img354",
+      "image": "koleksigambar/basic_year1_numbers_five.webp",
+      "sourceSentenceId": "s001",
+      "original": "I see five ducklings.",
+      "kernel": "I see.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "I see"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "five ducklings",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "i",
+        "determiner": null,
+        "rest": "i",
+        "headLemma": "i",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "duckling"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 8
+    },
+    {
+      "id": "st_year1_numbers_009",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img357",
+      "image": "koleksigambar/basic_year1_numbers_seven.webp",
+      "sourceSentenceId": "s001",
+      "original": "I see seven marbles.",
+      "kernel": "I see.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "I see"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "seven marbles",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "i",
+        "determiner": null,
+        "rest": "i",
+        "headLemma": "i",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "marble"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 9
+    },
+    {
+      "id": "st_year1_numbers_014",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img360",
+      "image": "koleksigambar/basic_year1_numbers_ten.webp",
+      "sourceSentenceId": "s001",
+      "original": "I see ten crayons.",
+      "kernel": "I see.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "I see"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "ten crayons",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "i",
+        "determiner": null,
+        "rest": "i",
+        "headLemma": "i",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "crayon"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 10
+    },
+    {
+      "id": "st_year1_numbers_017",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img362",
+      "image": "koleksigambar/basic_year1_numbers_three.webp",
+      "sourceSentenceId": "s001",
+      "original": "I see three balloons.",
+      "kernel": "I see.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "I see"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "three balloons",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "i",
+        "determiner": null,
+        "rest": "i",
+        "headLemma": "i",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "balloon"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 11
+    },
+    {
+      "id": "st_year1_numbers_015",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img360",
+      "image": "koleksigambar/basic_year1_numbers_ten.webp",
+      "sourceSentenceId": "s003",
+      "original": "They have many colours.",
+      "kernel": "They have.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "They have"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "many colours",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "they",
+        "determiner": null,
+        "rest": "they",
+        "headLemma": "they",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "colour"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 12
+    },
+    {
+      "id": "st_year1_numbers_018",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img362",
+      "image": "koleksigambar/basic_year1_numbers_three.webp",
+      "sourceSentenceId": "s003",
+      "original": "They fly in the sky.",
+      "kernel": "They fly.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "They fly"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the sky",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "they",
+        "determiner": null,
+        "rest": "they",
+        "headLemma": "they",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 4.9,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 13
+    },
+    {
+      "id": "st_year1_numbers_006",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img354",
+      "image": "koleksigambar/basic_year1_numbers_five.webp",
+      "sourceSentenceId": "s003",
+      "original": "They walk in a row.",
+      "kernel": "They walk.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "They walk"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in a row",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "on the grass",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "they",
+        "determiner": null,
+        "rest": "they",
+        "headLemma": "they",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 4.9,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 14
+    },
+    {
+      "id": "st_year1_numbers_001",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img351",
+      "image": "koleksigambar/basic_year1_numbers_eighteen.webp",
+      "sourceSentenceId": "s002",
+      "original": "The crayons are standing upright in a row.",
+      "kernel": "The crayons are standing upright.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The crayons are standing upright"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in a row",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the crayons",
+        "determiner": "the",
+        "rest": "crayons",
+        "headLemma": "crayon",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.5,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 15
+    },
+    {
+      "id": "st_year1_numbers_016",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img361",
+      "image": "koleksigambar/basic_year1_numbers_thirteen.webp",
+      "sourceSentenceId": "s002",
+      "original": "The balloons are floating together against the sky.",
+      "kernel": "The balloons are floating together.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The balloons are floating together"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "against the sky",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the balloons",
+        "determiner": "the",
+        "rest": "balloons",
+        "headLemma": "balloon",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.5,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 16
+    },
+    {
+      "id": "st_year1_numbers_012",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img359",
+      "image": "koleksigambar/basic_year1_numbers_sixteen.webp",
+      "sourceSentenceId": "s002",
+      "original": "The fish are swimming in a simple pond.",
+      "kernel": "The fish are swimming.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The fish are swimming"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in a simple pond",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the fish",
+        "determiner": "the",
+        "rest": "fish",
+        "headLemma": "fish",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.6,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 17
+    },
+    {
+      "id": "st_year1_numbers_010",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img358",
+      "image": "koleksigambar/basic_year1_numbers_seventeen.webp",
+      "sourceSentenceId": "s002",
+      "original": "The marbles are rolling on a plain surface.",
+      "kernel": "The marbles are rolling.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The marbles are rolling"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on a plain surface",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in a row",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the marbles",
+        "determiner": "the",
+        "rest": "marbles",
+        "headLemma": "marble",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.6,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 18
+    },
+    {
+      "id": "st_year1_numbers_007",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img356",
+      "image": "koleksigambar/basic_year1_numbers_nineteen.webp",
+      "sourceSentenceId": "s002",
+      "original": "The ladybirds are resting on a large green leaf.",
+      "kernel": "The ladybirds are resting.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The ladybirds are resting"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on a large green leaf",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the ladybirds",
+        "determiner": "the",
+        "rest": "ladybirds",
+        "headLemma": "ladybird",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.9,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 19
+    },
+    {
+      "id": "st_year1_numbers_008",
+      "level": "year1",
+      "topic": "numbers",
+      "imageId": "img356",
+      "image": "koleksigambar/basic_year1_numbers_nineteen.webp",
+      "sourceSentenceId": "s005",
+      "original": "On the big green leaf, the nineteen small red ladybirds rest quietly near the white flowers.",
+      "kernel": "The ladybirds rest.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "text",
+          "text": "ladybirds rest"
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "slot",
+          "slot": 5
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the big green leaf",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "nineteen",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "small",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "red",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "quietly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "near the white flowers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany",
+        "whatkind",
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 16.8,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 10.3,
+        "shapes": 2.0,
+        "length": 3.9
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "6 slots - more than year1 would normally show at once (1)"
+      ],
+      "order": 20
+    }
+  ]
+}

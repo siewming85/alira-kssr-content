@@ -1,0 +1,2844 @@
+{
+  "generatedBy": "scripts/extract_sentence_stretch.py",
+  "level": "year5",
+  "topic": "events",
+  "decoys": "none",
+  "note": "PROTOTYPE - not merged into database.json. Human review required.",
+  "orderedBy": "stage ascending, then fine difficulty (easiest first)",
+  "stageLegend": {
+    "1": "add the object (What? / Whom?)",
+    "2": "describe the subject (What kind? / How many? / Whose?)",
+    "3": "describe the action (How? / How often?)",
+    "4": "where it happens (Where?)",
+    "5": "when it happens (When?)",
+    "6": "extra details (With what? / With whom? / For whom? / Where to? / From where? / To whom?)",
+    "7": "two stretches at once",
+    "8": "give a reason (Why?)"
+  },
+  "bandLabels": {
+    "starter": {
+      "en": "Starter",
+      "ms": "Permulaan",
+      "zh": "入门",
+      "iba": "Pun"
+    },
+    "growing": {
+      "en": "Growing",
+      "ms": "Sederhana",
+      "zh": "进阶",
+      "iba": "Tumbuh"
+    },
+    "advanced": {
+      "en": "Advanced",
+      "ms": "Lanjutan",
+      "zh": "高级",
+      "iba": "Tinggi"
+    }
+  },
+  "skillLabels": {
+    "what": {
+      "en": "What?",
+      "ms": "Apa?",
+      "zh": "什么？",
+      "iba": "Nama?"
+    },
+    "whom": {
+      "en": "Whom?",
+      "ms": "Siapa?",
+      "zh": "谁？",
+      "iba": "Sapa?"
+    },
+    "whatkind": {
+      "en": "What kind?",
+      "ms": "Yang bagaimana?",
+      "zh": "什么样的？",
+      "iba": "Ni macham?"
+    },
+    "howmany": {
+      "en": "How many?",
+      "ms": "Berapa banyak?",
+      "zh": "多少？",
+      "iba": "Berapa iku?"
+    },
+    "whose": {
+      "en": "Whose?",
+      "ms": "Kepunyaan siapa?",
+      "zh": "谁的？",
+      "iba": "Enggi sapa?"
+    },
+    "how": {
+      "en": "How?",
+      "ms": "Bagaimana?",
+      "zh": "怎么样？",
+      "iba": "Baka ni?"
+    },
+    "howoften": {
+      "en": "How often?",
+      "ms": "Berapa kerap?",
+      "zh": "多久一次？",
+      "iba": "Berapa kali?"
+    },
+    "where": {
+      "en": "Where?",
+      "ms": "Di mana?",
+      "zh": "在哪里？",
+      "iba": "Dini?"
+    },
+    "when": {
+      "en": "When?",
+      "ms": "Bila?",
+      "zh": "什么时候？",
+      "iba": "Kemaya?"
+    },
+    "withwhat": {
+      "en": "With what?",
+      "ms": "Dengan apa?",
+      "zh": "用什么？",
+      "iba": "Ngena nama?"
+    },
+    "withwhom": {
+      "en": "With whom?",
+      "ms": "Dengan siapa?",
+      "zh": "和谁？",
+      "iba": "Enggau sapa?"
+    },
+    "forwhom": {
+      "en": "For whom?",
+      "ms": "Untuk siapa?",
+      "zh": "为了谁？",
+      "iba": "Ke sapa?"
+    },
+    "whereto": {
+      "en": "Where to?",
+      "ms": "Ke mana?",
+      "zh": "去哪里？",
+      "iba": "Ngagai dini?"
+    },
+    "fromwhere": {
+      "en": "From where?",
+      "ms": "Dari mana?",
+      "zh": "从哪里？",
+      "iba": "Ari dini?"
+    },
+    "towhom": {
+      "en": "To whom?",
+      "ms": "Kepada siapa?",
+      "zh": "给谁？",
+      "iba": "Ngagai sapa?"
+    },
+    "why": {
+      "en": "Why?",
+      "ms": "Mengapa?",
+      "zh": "为什么？",
+      "iba": "Nama kebuah?"
+    }
+  },
+  "authoredOptionsFile": "output\\sentence_stretch_options\\year5_events.json",
+  "tasks": [
+    {
+      "id": "st_year5_events_004",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img789",
+      "image": "koleksigambar/basic_year5_events_fireworks.webp",
+      "sourceSentenceId": "s002",
+      "original": "Everyone watches the spectacular firework display.",
+      "kernel": "Everyone watches.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Everyone watches"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the spectacular firework display",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "everyone",
+        "determiner": null,
+        "rest": "everyone",
+        "headLemma": "everyone",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "display"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 1
+    },
+    {
+      "id": "st_year5_events_023",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img794",
+      "image": "koleksigambar/basic_year5_events_wash_the_dishes.webp",
+      "sourceSentenceId": "s004",
+      "original": "Helping with chores teaches young people responsibility.",
+      "kernel": "Helping with chores teaches.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Helping with chores teaches"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "young people responsibility",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "responsibility"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.2,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 2
+    },
+    {
+      "id": "st_year5_events_001",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img788",
+      "image": "koleksigambar/basic_year5_events_celebrate.webp",
+      "sourceSentenceId": "s001",
+      "original": "The friends gather to celebrate his birthday together.",
+      "kernel": "The friends gather to celebrate together.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The friends gather to celebrate"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "together."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "his birthday",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the friends",
+        "determiner": "the",
+        "rest": "friends",
+        "headLemma": "friend",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": null
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.3,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 3
+    },
+    {
+      "id": "st_year5_events_003",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img789",
+      "image": "koleksigambar/basic_year5_events_fireworks.webp",
+      "sourceSentenceId": "s001",
+      "original": "Bursts of colourful fireworks light up the night sky.",
+      "kernel": "Bursts of colourful fireworks light up.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Bursts of colourful fireworks light up"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the night sky",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "bursts",
+        "determiner": null,
+        "rest": "bursts",
+        "headLemma": "burst",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "sky"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.6,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "verb re-parsed with stand-in 'follows' - spaCy tagged 'light' as a noun"
+      ],
+      "order": 4
+    },
+    {
+      "id": "st_year5_events_008",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img791",
+      "image": "koleksigambar/basic_year5_events_give_presents.webp",
+      "sourceSentenceId": "s002",
+      "original": "Everyone feels happy giving and receiving gifts.",
+      "kernel": "Everyone feels.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Everyone feels"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "clause",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "happy giving and receiving gifts",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "everyone",
+        "determiner": null,
+        "rest": "everyone",
+        "headLemma": "everyone",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "giving"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 4.4,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 5
+    },
+    {
+      "id": "st_year5_events_009",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img791",
+      "image": "koleksigambar/basic_year5_events_give_presents.webp",
+      "sourceSentenceId": "s003",
+      "original": "Giving presents is a joyful tradition during celebrations.",
+      "kernel": "Giving presents is a tradition during celebrations.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Giving presents is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "tradition during celebrations."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "joyful",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "happy",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'tradition' pinned as the complement"
+      ],
+      "order": 6
+    },
+    {
+      "id": "st_year5_events_022",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img794",
+      "image": "koleksigambar/basic_year5_events_wash_the_dishes.webp",
+      "sourceSentenceId": "s003",
+      "original": "Washing dishes is a common household chore for teenagers.",
+      "kernel": "Washing dishes is a household chore for teenagers.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Washing dishes is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "household chore for teenagers."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "common",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.9,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'chore' pinned as the complement"
+      ],
+      "order": 7
+    },
+    {
+      "id": "st_year5_events_026",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img795",
+      "image": "koleksigambar/basic_year5_events_wear_crazy_costumes.webp",
+      "sourceSentenceId": "s003",
+      "original": "Wearing crazy costumes is a fun part of many festivals.",
+      "kernel": "Wearing crazy costumes is a part of many festivals.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Wearing crazy costumes is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "part of many festivals."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "fun",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "colourful",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 1.8,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'part' pinned as the complement"
+      ],
+      "order": 8
+    },
+    {
+      "id": "st_year5_events_010",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img791",
+      "image": "koleksigambar/basic_year5_events_give_presents.webp",
+      "sourceSentenceId": "s004",
+      "original": "Wrapped presents add excitement to any celebration.",
+      "kernel": "Presents add excitement to any celebration.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "presents add excitement to any celebration."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "clause",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "wrapped",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "text": "excitement",
+        "determiner": null,
+        "rest": "excitement",
+        "headLemma": "excitement",
+        "plural": false,
+        "pron": false,
+        "inKernel": true
+      },
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 4.5,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 1.0,
+        "shapes": 2.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "participial describer 'Wrapped' - check it is not half of a compound noun (Wrapped presents)"
+      ],
+      "order": 9
+    },
+    {
+      "id": "st_year5_events_005",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img789",
+      "image": "koleksigambar/basic_year5_events_fireworks.webp",
+      "sourceSentenceId": "s003",
+      "original": "Fireworks are often part of a big celebration.",
+      "kernel": "Fireworks are part of a big celebration.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Fireworks are"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "part of a big celebration."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howoften",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "often",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "fireworks",
+        "determiner": null,
+        "rest": "fireworks",
+        "headLemma": "firework",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "howoften"
+      ],
+      "stage": 3,
+      "difficulty": 3.9,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 2.2,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'part' pinned as the complement"
+      ],
+      "order": 10
+    },
+    {
+      "id": "st_year5_events_018",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img793",
+      "image": "koleksigambar/basic_year5_events_parade.webp",
+      "sourceSentenceId": "s003",
+      "original": "A large crowd gathers to watch the parade.",
+      "kernel": "A crowd gathers to watch.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "crowd gathers to watch"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "large",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "colourful",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the parade",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": null
+      },
+      "skills": [
+        "what",
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 4.4,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 1.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 11
+    },
+    {
+      "id": "st_year5_events_002",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img788",
+      "image": "koleksigambar/basic_year5_events_celebrate.webp",
+      "sourceSentenceId": "s002",
+      "original": "Colourful balloons and candles decorate the small table.",
+      "kernel": "Balloons and candles decorate.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "balloons and candles decorate"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "colourful",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the small table",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "table"
+      },
+      "skills": [
+        "what",
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 4.5,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 1.5,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 12
+    },
+    {
+      "id": "st_year5_events_006",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img790",
+      "image": "koleksigambar/basic_year5_events_get_up.webp",
+      "sourceSentenceId": "s004",
+      "original": "Teenagers often need more sleep than younger children.",
+      "kernel": "Teenagers need.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Teenagers"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "need"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howoften",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "often",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "more sleep than younger children",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "teenagers",
+        "determiner": null,
+        "rest": "teenagers",
+        "headLemma": "teenager",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "sleep"
+      },
+      "skills": [
+        "what",
+        "howoften"
+      ],
+      "stage": 7,
+      "difficulty": 5.9,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.7,
+        "shapes": 1.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 13
+    },
+    {
+      "id": "st_year5_events_007",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img791",
+      "image": "koleksigambar/basic_year5_events_give_presents.webp",
+      "sourceSentenceId": "s001",
+      "original": "A family exchanges wrapped presents at a celebration.",
+      "kernel": "A family exchanges wrapped.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A family exchanges wrapped"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "presents",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at a celebration",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a family exchanges",
+        "determiner": "a",
+        "rest": "family exchanges",
+        "headLemma": "exchange",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "present"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.1,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 3.1,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 14
+    },
+    {
+      "id": "st_year5_events_011",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img792",
+      "image": "koleksigambar/basic_year5_events_make_breakfast.webp",
+      "sourceSentenceId": "s001",
+      "original": "A parent makes breakfast at a kitchen stove.",
+      "kernel": "A parent makes.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A parent makes"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "breakfast",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at a kitchen stove",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the kitchen",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a parent",
+        "determiner": "a",
+        "rest": "parent",
+        "headLemma": "parent",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "breakfast"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.2,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.1,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 15
+    },
+    {
+      "id": "st_year5_events_020",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img794",
+      "image": "koleksigambar/basic_year5_events_wash_the_dishes.webp",
+      "sourceSentenceId": "s001",
+      "original": "A teenager washes dishes at a kitchen sink.",
+      "kernel": "A teenager washes.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A teenager washes"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "dishes",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at a kitchen sink",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the kitchen",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a teenager",
+        "determiner": "a",
+        "rest": "teenager",
+        "headLemma": "teenager",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "dish"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.2,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.1,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 16
+    },
+    {
+      "id": "st_year5_events_016",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img793",
+      "image": "koleksigambar/basic_year5_events_parade.webp",
+      "sourceSentenceId": "s001",
+      "original": "A street parade features people in colourful costumes.",
+      "kernel": "A street parade features.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A street parade features"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whom",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "Whom?",
+            "ms": "Siapa?",
+            "zh": "谁？",
+            "iba": "Sapa?"
+          },
+          "options": [
+            {
+              "text": "people",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in colourful costumes",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a street parade",
+        "determiner": "a",
+        "rest": "street parade",
+        "headLemma": "parade",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "people"
+      },
+      "skills": [
+        "whom",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.2,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 3.2,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 17
+    },
+    {
+      "id": "st_year5_events_021",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img794",
+      "image": "koleksigambar/basic_year5_events_wash_the_dishes.webp",
+      "sourceSentenceId": "s002",
+      "original": "She cleans every plate carefully after dinner.",
+      "kernel": "She cleans carefully.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She cleans"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "carefully"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "every plate",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "phrase",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "after dinner",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "plate"
+      },
+      "skills": [
+        "what",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 7.3,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.5,
+        "shapes": 2.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 18
+    },
+    {
+      "id": "st_year5_events_024",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img795",
+      "image": "koleksigambar/basic_year5_events_wear_crazy_costumes.webp",
+      "sourceSentenceId": "s001",
+      "original": "Children wear colourful, silly festival costumes at a celebration.",
+      "kernel": "Children wear.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Children wear"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "colourful, silly festival costumes",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at a celebration",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "under the colourful bunting",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "children",
+        "determiner": null,
+        "rest": "children",
+        "headLemma": "child",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "costume"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.6,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 19
+    },
+    {
+      "id": "st_year5_events_014",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img792",
+      "image": "koleksigambar/basic_year5_events_make_breakfast.webp",
+      "sourceSentenceId": "s004",
+      "original": "A good breakfast gives energy for the whole day.",
+      "kernel": "A breakfast gives.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "breakfast gives"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "good",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "energy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "towhom",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "To whom?",
+            "ms": "Kepada siapa?",
+            "zh": "给谁？",
+            "iba": "Ngagai sapa?"
+          },
+          "options": [
+            {
+              "text": "for the whole day",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "energy"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "towhom"
+      ],
+      "stage": 7,
+      "difficulty": 8.6,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 5.2,
+        "shapes": 1.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 20
+    },
+    {
+      "id": "st_year5_events_012",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img792",
+      "image": "koleksigambar/basic_year5_events_make_breakfast.webp",
+      "sourceSentenceId": "s002",
+      "original": "They prepare a warm meal for the whole family.",
+      "kernel": "They prepare.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "They prepare"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a warm meal",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "forwhom",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "For whom?",
+            "ms": "Untuk siapa?",
+            "zh": "为了谁？",
+            "iba": "Ke sapa?"
+          },
+          "options": [
+            {
+              "text": "for the whole family",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "they",
+        "determiner": null,
+        "rest": "they",
+        "headLemma": "they",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "meal"
+      },
+      "skills": [
+        "what",
+        "forwhom"
+      ],
+      "stage": 7,
+      "difficulty": 8.8,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.3,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 21
+    },
+    {
+      "id": "st_year5_events_017",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img793",
+      "image": "koleksigambar/basic_year5_events_parade.webp",
+      "sourceSentenceId": "s002",
+      "original": "A marching band plays music along the street.",
+      "kernel": "A band plays.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "band plays"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "clause",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "marching",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "colourful",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            },
+            {
+              "text": "large",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "music",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "along the street",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "music"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 9.2,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.1,
+        "shapes": 3.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "participial describer 'marching' - check it is not half of a compound noun (marching band)"
+      ],
+      "order": 22
+    },
+    {
+      "id": "st_year5_events_019",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img793",
+      "image": "koleksigambar/basic_year5_events_parade.webp",
+      "sourceSentenceId": "s004",
+      "original": "Towns often celebrate special events with a parade.",
+      "kernel": "Towns celebrate.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Towns"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "celebrate"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howoften",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "often",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "special events",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "withwhat",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "With what?",
+            "ms": "Dengan apa?",
+            "zh": "用什么？",
+            "iba": "Ngena nama?"
+          },
+          "options": [
+            {
+              "text": "with a parade",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "towns",
+        "determiner": null,
+        "rest": "towns",
+        "headLemma": "town",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "event"
+      },
+      "skills": [
+        "what",
+        "howoften",
+        "withwhat"
+      ],
+      "stage": 7,
+      "difficulty": 10.4,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 6.2,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 23
+    },
+    {
+      "id": "st_year5_events_013",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img792",
+      "image": "koleksigambar/basic_year5_events_make_breakfast.webp",
+      "sourceSentenceId": "s003",
+      "original": "Making breakfast shows care for the family every morning.",
+      "kernel": "Making breakfast shows.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Making breakfast shows"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "care",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "forwhom",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "For whom?",
+            "ms": "Untuk siapa?",
+            "zh": "为了谁？",
+            "iba": "Ke sapa?"
+          },
+          "options": [
+            {
+              "text": "for the family",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "howoften",
+          "shape": "phrase",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "every morning",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "care"
+      },
+      "skills": [
+        "what",
+        "howoften",
+        "forwhom"
+      ],
+      "stage": 7,
+      "difficulty": 10.9,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 6.5,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 24
+    },
+    {
+      "id": "st_year5_events_027",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img795",
+      "image": "koleksigambar/basic_year5_events_wear_crazy_costumes.webp",
+      "sourceSentenceId": "s005",
+      "original": "Under the colourful bunting, the three happy children wave cheerfully in bright costumes.",
+      "kernel": "The children wave.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "children wave"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "under the colourful bunting",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "three",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "happy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "cheerfully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in bright costumes",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany",
+        "whatkind",
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 14.9,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 9.3,
+        "shapes": 2.0,
+        "length": 3.0
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "5 slots - more than year5 would normally show at once (3)"
+      ],
+      "order": 25
+    },
+    {
+      "id": "st_year5_events_025",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img795",
+      "image": "koleksigambar/basic_year5_events_wear_crazy_costumes.webp",
+      "sourceSentenceId": "s002",
+      "original": "They laugh together as they show off their outfits.",
+      "kernel": "They laugh together.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "They laugh together"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "as they show off their outfits",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "they",
+        "determiner": null,
+        "rest": "they",
+        "headLemma": "they",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 9.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.6,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 26
+    },
+    {
+      "id": "st_year5_events_015",
+      "level": "year5",
+      "topic": "events",
+      "imageId": "img792",
+      "image": "koleksigambar/basic_year5_events_make_breakfast.webp",
+      "sourceSentenceId": "s005",
+      "original": "Before school, the cheerful mother fries two fresh eggs slowly because a warm breakfast gives everyone energy.",
+      "kernel": "The mother fries.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "mother fries"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "when",
+          "shape": "phrase",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "before school",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "cheerful",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "two fresh eggs",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "slowly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "carefully",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "because a warm breakfast gives everyone energy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 2,
+        "headLemma": "egg"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "how",
+        "when",
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 19.9,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 11.1,
+        "shapes": 4.0,
+        "length": 4.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "5 slots - more than year5 would normally show at once (3)"
+      ],
+      "order": 27
+    }
+  ]
+}

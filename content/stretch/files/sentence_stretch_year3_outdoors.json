@@ -1,0 +1,3948 @@
+{
+  "generatedBy": "scripts/extract_sentence_stretch.py",
+  "level": "year3",
+  "topic": "outdoors",
+  "decoys": "none",
+  "note": "PROTOTYPE - not merged into database.json. Human review required.",
+  "orderedBy": "stage ascending, then fine difficulty (easiest first)",
+  "stageLegend": {
+    "1": "add the object (What? / Whom?)",
+    "2": "describe the subject (What kind? / How many? / Whose?)",
+    "3": "describe the action (How? / How often?)",
+    "4": "where it happens (Where?)",
+    "5": "when it happens (When?)",
+    "6": "extra details (With what? / With whom? / For whom? / Where to? / From where? / To whom?)",
+    "7": "two stretches at once",
+    "8": "give a reason (Why?)"
+  },
+  "bandLabels": {
+    "starter": {
+      "en": "Starter",
+      "ms": "Permulaan",
+      "zh": "入门",
+      "iba": "Pun"
+    },
+    "growing": {
+      "en": "Growing",
+      "ms": "Sederhana",
+      "zh": "进阶",
+      "iba": "Tumbuh"
+    },
+    "advanced": {
+      "en": "Advanced",
+      "ms": "Lanjutan",
+      "zh": "高级",
+      "iba": "Tinggi"
+    }
+  },
+  "skillLabels": {
+    "what": {
+      "en": "What?",
+      "ms": "Apa?",
+      "zh": "什么？",
+      "iba": "Nama?"
+    },
+    "whom": {
+      "en": "Whom?",
+      "ms": "Siapa?",
+      "zh": "谁？",
+      "iba": "Sapa?"
+    },
+    "whatkind": {
+      "en": "What kind?",
+      "ms": "Yang bagaimana?",
+      "zh": "什么样的？",
+      "iba": "Ni macham?"
+    },
+    "howmany": {
+      "en": "How many?",
+      "ms": "Berapa banyak?",
+      "zh": "多少？",
+      "iba": "Berapa iku?"
+    },
+    "whose": {
+      "en": "Whose?",
+      "ms": "Kepunyaan siapa?",
+      "zh": "谁的？",
+      "iba": "Enggi sapa?"
+    },
+    "how": {
+      "en": "How?",
+      "ms": "Bagaimana?",
+      "zh": "怎么样？",
+      "iba": "Baka ni?"
+    },
+    "howoften": {
+      "en": "How often?",
+      "ms": "Berapa kerap?",
+      "zh": "多久一次？",
+      "iba": "Berapa kali?"
+    },
+    "where": {
+      "en": "Where?",
+      "ms": "Di mana?",
+      "zh": "在哪里？",
+      "iba": "Dini?"
+    },
+    "when": {
+      "en": "When?",
+      "ms": "Bila?",
+      "zh": "什么时候？",
+      "iba": "Kemaya?"
+    },
+    "withwhat": {
+      "en": "With what?",
+      "ms": "Dengan apa?",
+      "zh": "用什么？",
+      "iba": "Ngena nama?"
+    },
+    "withwhom": {
+      "en": "With whom?",
+      "ms": "Dengan siapa?",
+      "zh": "和谁？",
+      "iba": "Enggau sapa?"
+    },
+    "forwhom": {
+      "en": "For whom?",
+      "ms": "Untuk siapa?",
+      "zh": "为了谁？",
+      "iba": "Ke sapa?"
+    },
+    "whereto": {
+      "en": "Where to?",
+      "ms": "Ke mana?",
+      "zh": "去哪里？",
+      "iba": "Ngagai dini?"
+    },
+    "fromwhere": {
+      "en": "From where?",
+      "ms": "Dari mana?",
+      "zh": "从哪里？",
+      "iba": "Ari dini?"
+    },
+    "towhom": {
+      "en": "To whom?",
+      "ms": "Kepada siapa?",
+      "zh": "给谁？",
+      "iba": "Ngagai sapa?"
+    },
+    "why": {
+      "en": "Why?",
+      "ms": "Mengapa?",
+      "zh": "为什么？",
+      "iba": "Nama kebuah?"
+    }
+  },
+  "authoredOptionsFile": "output\\sentence_stretch_options\\year3_outdoors.json",
+  "tasks": [
+    {
+      "id": "st_year3_outdoors_010",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img572",
+      "image": "koleksigambar/basic_year3_outdoors_cross_the_street.webp",
+      "sourceSentenceId": "s003",
+      "original": "The zebra crossing keeps people safe.",
+      "kernel": "The zebra crossing keeps safe.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The zebra crossing keeps"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "safe."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whom",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "Whom?",
+            "ms": "Siapa?",
+            "zh": "谁？",
+            "iba": "Sapa?"
+          },
+          "options": [
+            {
+              "text": "people",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the zebra crossing",
+        "determiner": "the",
+        "rest": "zebra crossing",
+        "headLemma": "crossing",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "people"
+      },
+      "skills": [
+        "whom"
+      ],
+      "stage": 1,
+      "difficulty": 1.9,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 0.6,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 1
+    },
+    {
+      "id": "st_year3_outdoors_019",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img575",
+      "image": "koleksigambar/basic_year3_outdoors_island.webp",
+      "sourceSentenceId": "s003",
+      "original": "The sea surrounds the island.",
+      "kernel": "The sea surrounds.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The sea surrounds"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the island",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the sea",
+        "determiner": "the",
+        "rest": "sea",
+        "headLemma": "sea",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "island"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 2
+    },
+    {
+      "id": "st_year3_outdoors_004",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img570",
+      "image": "koleksigambar/basic_year3_outdoors_catch.webp",
+      "sourceSentenceId": "s003",
+      "original": "The hook helps catch the fish.",
+      "kernel": "The hook helps catch.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The hook helps catch"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the fish",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the hook",
+        "determiner": "the",
+        "rest": "hook",
+        "headLemma": "hook",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": null
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.9,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 3
+    },
+    {
+      "id": "st_year3_outdoors_039",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img581",
+      "image": "koleksigambar/basic_year3_outdoors_swim_in_the_river.webp",
+      "sourceSentenceId": "s004",
+      "original": "Trees around the river provide cool shade.",
+      "kernel": "Trees around the river provide.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Trees around the river provide"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "cool shade",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "trees",
+        "determiner": null,
+        "rest": "trees",
+        "headLemma": "tree",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "shade"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 4
+    },
+    {
+      "id": "st_year3_outdoors_029",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img578",
+      "image": "koleksigambar/basic_year3_outdoors_pick_flowers.webp",
+      "sourceSentenceId": "s002",
+      "original": "She holds a bunch of colourful flowers.",
+      "kernel": "She holds.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She holds"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a bunch of colourful flowers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "bunch"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.4,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 5
+    },
+    {
+      "id": "st_year3_outdoors_023",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img576",
+      "image": "koleksigambar/basic_year3_outdoors_look_at_the_stars.webp",
+      "sourceSentenceId": "s004",
+      "original": "A clear night sky shows thousands of stars.",
+      "kernel": "A clear night sky shows.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A clear night sky shows"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "thousands of stars",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "thousand"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.4,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "subject descriptor 'night sky' is not the head of the kernel - dropped"
+      ],
+      "order": 6
+    },
+    {
+      "id": "st_year3_outdoors_021",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img576",
+      "image": "koleksigambar/basic_year3_outdoors_look_at_the_stars.webp",
+      "sourceSentenceId": "s002",
+      "original": "She counts the bright stars scattered across the sky.",
+      "kernel": "She counts.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She counts"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "clause",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the bright stars scattered across the sky",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "star"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 5.0,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 7
+    },
+    {
+      "id": "st_year3_outdoors_027",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img577",
+      "image": "koleksigambar/basic_year3_outdoors_make_a_fire.webp",
+      "sourceSentenceId": "s004",
+      "original": "The warm fire makes everyone happy.",
+      "kernel": "The fire makes everyone happy.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "fire makes everyone happy."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "warm",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.3,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 8
+    },
+    {
+      "id": "st_year3_outdoors_022",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img576",
+      "image": "koleksigambar/basic_year3_outdoors_look_at_the_stars.webp",
+      "sourceSentenceId": "s003",
+      "original": "Looking at the stars is a peaceful night activity.",
+      "kernel": "Looking at the stars is a night activity.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Looking at the stars is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "night activity."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "peaceful",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.9,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'activity' pinned as the complement"
+      ],
+      "order": 9
+    },
+    {
+      "id": "st_year3_outdoors_037",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img581",
+      "image": "koleksigambar/basic_year3_outdoors_swim_in_the_river.webp",
+      "sourceSentenceId": "s002",
+      "original": "The cool water feels refreshing on a warm day.",
+      "kernel": "The water feels refreshing on a warm day.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "water feels refreshing on a warm day."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "cool",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.9,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 10
+    },
+    {
+      "id": "st_year3_outdoors_038",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img581",
+      "image": "koleksigambar/basic_year3_outdoors_swim_in_the_river.webp",
+      "sourceSentenceId": "s003",
+      "original": "Swimming in a river is a popular summer activity.",
+      "kernel": "Swimming in a river is a summer activity.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Swimming in a river is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "summer activity."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "popular",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.9,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'activity' pinned as the complement"
+      ],
+      "order": 11
+    },
+    {
+      "id": "st_year3_outdoors_042",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img582",
+      "image": "koleksigambar/basic_year3_outdoors_take_pictures.webp",
+      "sourceSentenceId": "s004",
+      "original": "A weekend trip is a great time for family photos.",
+      "kernel": "A weekend trip is a time for family photos.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A weekend trip is a"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "time for family photos."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "great",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "happy",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 1.8,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'time' pinned as the complement"
+      ],
+      "order": 12
+    },
+    {
+      "id": "st_year3_outdoors_041",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img582",
+      "image": "koleksigambar/basic_year3_outdoors_take_pictures.webp",
+      "sourceSentenceId": "s002",
+      "original": "Everyone smiles brightly for the picture.",
+      "kernel": "Everyone smiles for the picture.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Everyone smiles"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "for the picture."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "brightly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "everyone",
+        "determiner": null,
+        "rest": "everyone",
+        "headLemma": "everyone",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "how"
+      ],
+      "stage": 3,
+      "difficulty": 3.3,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 13
+    },
+    {
+      "id": "st_year3_outdoors_006",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img571",
+      "image": "koleksigambar/basic_year3_outdoors_cook_the_fish.webp",
+      "sourceSentenceId": "s002",
+      "original": "Smoke rises gently from the crackling flames.",
+      "kernel": "Smoke rises from the crackling flames.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Smoke rises"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "from the crackling flames."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "gently",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "smoke",
+        "determiner": null,
+        "rest": "smoke",
+        "headLemma": "smoke",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "how"
+      ],
+      "stage": 3,
+      "difficulty": 3.5,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 14
+    },
+    {
+      "id": "st_year3_outdoors_020",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img575",
+      "image": "koleksigambar/basic_year3_outdoors_island.webp",
+      "sourceSentenceId": "s004",
+      "original": "We travel to the island by boat.",
+      "kernel": "We travel to the island.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "We travel to the island"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "phrase",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "by boat",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "we",
+        "determiner": null,
+        "rest": "we",
+        "headLemma": "we",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "how"
+      ],
+      "stage": 3,
+      "difficulty": 4.6,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 2.0,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 15
+    },
+    {
+      "id": "st_year3_outdoors_030",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img578",
+      "image": "koleksigambar/basic_year3_outdoors_pick_flowers.webp",
+      "sourceSentenceId": "s003",
+      "original": "A butterfly flies near her.",
+      "kernel": "A butterfly flies.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A butterfly flies"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "near her",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "near the flower",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a butterfly",
+        "determiner": "a",
+        "rest": "butterfly",
+        "headLemma": "butterfly",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 4.8,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 16
+    },
+    {
+      "id": "st_year3_outdoors_001",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img569",
+      "image": "koleksigambar/basic_year3_outdoors_beach.webp",
+      "sourceSentenceId": "s002",
+      "original": "The ball sits near the shoreline.",
+      "kernel": "The ball sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The ball sits"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "near the shoreline",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the ball",
+        "determiner": "the",
+        "rest": "ball",
+        "headLemma": "ball",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 17
+    },
+    {
+      "id": "st_year3_outdoors_012",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img573",
+      "image": "koleksigambar/basic_year3_outdoors_forest.webp",
+      "sourceSentenceId": "s003",
+      "original": "A squirrel sits in a tree.",
+      "kernel": "A squirrel sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A squirrel sits"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in a tree",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the forest",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a squirrel",
+        "determiner": "a",
+        "rest": "squirrel",
+        "headLemma": "squirrel",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 18
+    },
+    {
+      "id": "st_year3_outdoors_018",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img575",
+      "image": "koleksigambar/basic_year3_outdoors_island.webp",
+      "sourceSentenceId": "s002",
+      "original": "Palm trees grow on the island.",
+      "kernel": "Palm trees grow.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Palm trees grow"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the island",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "palm trees",
+        "determiner": null,
+        "rest": "palm trees",
+        "headLemma": "tree",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 19
+    },
+    {
+      "id": "st_year3_outdoors_043",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img583",
+      "image": "koleksigambar/basic_year3_outdoors_windy.webp",
+      "sourceSentenceId": "s003",
+      "original": "Leaves fly around in the wind.",
+      "kernel": "Leaves fly around.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Leaves fly around"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the wind",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "leaves",
+        "determiner": null,
+        "rest": "leaves",
+        "headLemma": "leaf",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 20
+    },
+    {
+      "id": "st_year3_outdoors_013",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img573",
+      "image": "koleksigambar/basic_year3_outdoors_forest.webp",
+      "sourceSentenceId": "s004",
+      "original": "Sunlight shines through the green leaves.",
+      "kernel": "Sunlight shines.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Sunlight shines"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "through the green leaves",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "in the forest",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "sunlight",
+        "determiner": null,
+        "rest": "sunlight",
+        "headLemma": "sunlight",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.2,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 21
+    },
+    {
+      "id": "st_year3_outdoors_005",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img571",
+      "image": "koleksigambar/basic_year3_outdoors_cook_the_fish.webp",
+      "sourceSentenceId": "s001",
+      "original": "A family cooks fish over an outdoor campfire.",
+      "kernel": "A family cooks fish.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A family cooks fish"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "over an outdoor campfire",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a family cooks",
+        "determiner": "a",
+        "rest": "family cooks",
+        "headLemma": "cook",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.6,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 22
+    },
+    {
+      "id": "st_year3_outdoors_026",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img577",
+      "image": "koleksigambar/basic_year3_outdoors_make_a_fire.webp",
+      "sourceSentenceId": "s002",
+      "original": "The children sit on a log near the tent.",
+      "kernel": "The children sit.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The children sit"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on a log near the tent",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the children",
+        "determiner": "the",
+        "rest": "children",
+        "headLemma": "child",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 6.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.8
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 23
+    },
+    {
+      "id": "st_year3_outdoors_014",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img574",
+      "image": "koleksigambar/basic_year3_outdoors_go_to_the_forest.webp",
+      "sourceSentenceId": "s001",
+      "original": "A family walks along a forest trail carrying backpacks.",
+      "kernel": "A family walks.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A family walks"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "clause",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "along a forest trail carrying backpacks",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the forest",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a family",
+        "determiner": "a",
+        "rest": "family",
+        "headLemma": "family",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 7.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 24
+    },
+    {
+      "id": "st_year3_outdoors_002",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img569",
+      "image": "koleksigambar/basic_year3_outdoors_beach.webp",
+      "sourceSentenceId": "s004",
+      "original": "The sea looks calm and blue today.",
+      "kernel": "The sea looks calm and blue.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The sea looks calm and blue"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "when",
+          "shape": "word",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "today",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the sea",
+        "determiner": "the",
+        "rest": "sea",
+        "headLemma": "sea",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "when"
+      ],
+      "stage": 5,
+      "difficulty": 4.5,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 3.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 25
+    },
+    {
+      "id": "st_year3_outdoors_016",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img574",
+      "image": "koleksigambar/basic_year3_outdoors_go_to_the_forest.webp",
+      "sourceSentenceId": "s003",
+      "original": "Walking in the forest is a healthy outdoor adventure.",
+      "kernel": "Walking in the forest is an adventure.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Walking in the forest is an"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "adventure."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "healthy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "outdoor",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 4.0,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.6
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "copula source: 'adventure' pinned as the complement"
+      ],
+      "order": 26
+    },
+    {
+      "id": "st_year3_outdoors_007",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img571",
+      "image": "koleksigambar/basic_year3_outdoors_cook_the_fish.webp",
+      "sourceSentenceId": "s003",
+      "original": "Cooking fish over a campfire is a fun outdoor activity.",
+      "kernel": "Cooking fish over a campfire is an activity.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Cooking fish over a campfire is an"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "activity."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "fun",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "outdoor",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 4.2,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.6
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "gerund subject parsed as an adjective: 'Cooking' - not offered as a chip",
+        "copula source: 'activity' pinned as the complement"
+      ],
+      "order": 27
+    },
+    {
+      "id": "st_year3_outdoors_009",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img572",
+      "image": "koleksigambar/basic_year3_outdoors_cross_the_street.webp",
+      "sourceSentenceId": "s002",
+      "original": "She crosses the street carefully.",
+      "kernel": "She crosses.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "She crosses"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the street",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "carefully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "she",
+        "determiner": null,
+        "rest": "she",
+        "headLemma": "she",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "street"
+      },
+      "skills": [
+        "what",
+        "how"
+      ],
+      "stage": 7,
+      "difficulty": 4.8,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 28
+    },
+    {
+      "id": "st_year3_outdoors_033",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img579",
+      "image": "koleksigambar/basic_year3_outdoors_river.webp",
+      "sourceSentenceId": "s003",
+      "original": "A deer eats grass near the path.",
+      "kernel": "A deer eats.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A deer eats"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "grass",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "near the path",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a deer",
+        "determiner": "a",
+        "rest": "deer",
+        "headLemma": "deer",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "grass"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 5.9,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.1,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 29
+    },
+    {
+      "id": "st_year3_outdoors_028",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img578",
+      "image": "koleksigambar/basic_year3_outdoors_pick_flowers.webp",
+      "sourceSentenceId": "s001",
+      "original": "The girl picks flowers in the meadow.",
+      "kernel": "The girl picks.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The girl picks"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "flowers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the meadow",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the girl",
+        "determiner": "the",
+        "rest": "girl",
+        "headLemma": "girl",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "flower"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 5.9,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.1,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 30
+    },
+    {
+      "id": "st_year3_outdoors_035",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img580",
+      "image": "koleksigambar/basic_year3_outdoors_sea.webp",
+      "sourceSentenceId": "s002",
+      "original": "Gentle waves move across the water.",
+      "kernel": "Waves move.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "waves move"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "gentle",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "blue",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "across the water",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.2,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 3.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 31
+    },
+    {
+      "id": "st_year3_outdoors_032",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img579",
+      "image": "koleksigambar/basic_year3_outdoors_river.webp",
+      "sourceSentenceId": "s002",
+      "original": "Many rocks sit beside the water.",
+      "kernel": "Rocks sit.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "rocks sit"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "many",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "some",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "beside the water",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "howmany",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.3,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 3.7,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 32
+    },
+    {
+      "id": "st_year3_outdoors_011",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img573",
+      "image": "koleksigambar/basic_year3_outdoors_forest.webp",
+      "sourceSentenceId": "s002",
+      "original": "A small path goes through the forest.",
+      "kernel": "A path goes.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "path goes"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "small",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "through the forest",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.4,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 33
+    },
+    {
+      "id": "st_year3_outdoors_031",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img579",
+      "image": "koleksigambar/basic_year3_outdoors_river.webp",
+      "sourceSentenceId": "s001",
+      "original": "The blue river flows between green hills.",
+      "kernel": "The river flows.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "river flows"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "blue",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "small",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "between green hills",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.4,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 34
+    },
+    {
+      "id": "st_year3_outdoors_034",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img579",
+      "image": "koleksigambar/basic_year3_outdoors_river.webp",
+      "sourceSentenceId": "s004",
+      "original": "Small fish swim in the sunny river.",
+      "kernel": "Fish swim.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "fish swim"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "small",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the sunny river",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 3.6,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 35
+    },
+    {
+      "id": "st_year3_outdoors_025",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img577",
+      "image": "koleksigambar/basic_year3_outdoors_make_a_fire.webp",
+      "sourceSentenceId": "s001",
+      "original": "The woman makes a fire in the forest.",
+      "kernel": "The woman makes.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The woman makes"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a fire",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the forest",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the woman",
+        "determiner": "the",
+        "rest": "woman",
+        "headLemma": "woman",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "fire"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.2,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 36
+    },
+    {
+      "id": "st_year3_outdoors_015",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img574",
+      "image": "koleksigambar/basic_year3_outdoors_go_to_the_forest.webp",
+      "sourceSentenceId": "s002",
+      "original": "They enjoy the fresh air and green nature around them.",
+      "kernel": "They enjoy.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "They enjoy"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the fresh air and green nature",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "around them",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the forest",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "they",
+        "determiner": null,
+        "rest": "they",
+        "headLemma": "they",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "air"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.9,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 2.4
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 37
+    },
+    {
+      "id": "st_year3_outdoors_003",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img570",
+      "image": "koleksigambar/basic_year3_outdoors_catch.webp",
+      "sourceSentenceId": "s001",
+      "original": "The child catches a fish with a rod.",
+      "kernel": "The child catches.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The child catches"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a fish",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "withwhat",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "With what?",
+            "ms": "Dengan apa?",
+            "zh": "用什么？",
+            "iba": "Ngena nama?"
+          },
+          "options": [
+            {
+              "text": "with a rod",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the child",
+        "determiner": "the",
+        "rest": "child",
+        "headLemma": "child",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "fish"
+      },
+      "skills": [
+        "what",
+        "withwhat"
+      ],
+      "stage": 7,
+      "difficulty": 8.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.0,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 38
+    },
+    {
+      "id": "st_year3_outdoors_036",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img581",
+      "image": "koleksigambar/basic_year3_outdoors_swim_in_the_river.webp",
+      "sourceSentenceId": "s001",
+      "original": "Children swim happily in a river surrounded by trees.",
+      "kernel": "Children swim.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Children swim"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "happily",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "clause",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in a river surrounded by trees",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the river",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "children",
+        "determiner": null,
+        "rest": "children",
+        "headLemma": "child",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 9.1,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.6,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 39
+    },
+    {
+      "id": "st_year3_outdoors_017",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img574",
+      "image": "koleksigambar/basic_year3_outdoors_go_to_the_forest.webp",
+      "sourceSentenceId": "s004",
+      "original": "Families often explore forest trails during the holidays.",
+      "kernel": "Families explore.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Families"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "explore"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howoften",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "often",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "forest trails",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "phrase",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "during the holidays",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "families",
+        "determiner": null,
+        "rest": "families",
+        "headLemma": "family",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "trail"
+      },
+      "skills": [
+        "what",
+        "howoften",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 9.9,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 5.7,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "3 slots - more than year3 would normally show at once (2)"
+      ],
+      "order": 40
+    },
+    {
+      "id": "st_year3_outdoors_008",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img571",
+      "image": "koleksigambar/basic_year3_outdoors_cook_the_fish.webp",
+      "sourceSentenceId": "s004",
+      "original": "Families often enjoy campfire meals while camping.",
+      "kernel": "Families enjoy.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Families"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "enjoy"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howoften",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "often",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "campfire meals",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "clause",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "while camping",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "families",
+        "determiner": null,
+        "rest": "families",
+        "headLemma": "family",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "meal"
+      },
+      "skills": [
+        "what",
+        "howoften",
+        "when"
+      ],
+      "stage": 7,
+      "difficulty": 10.6,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 5.7,
+        "shapes": 3.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "3 slots - more than year3 would normally show at once (2)"
+      ],
+      "order": 41
+    },
+    {
+      "id": "st_year3_outdoors_040",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img582",
+      "image": "koleksigambar/basic_year3_outdoors_take_pictures.webp",
+      "sourceSentenceId": "s001",
+      "original": "A family takes a photo together with a camera during a weekend trip.",
+      "kernel": "A family takes together.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A family takes"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "together"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a photo",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "withwhat",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "With what?",
+            "ms": "Dengan apa?",
+            "zh": "用什么？",
+            "iba": "Ngena nama?"
+          },
+          "options": [
+            {
+              "text": "with a camera",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "when",
+          "shape": "phrase",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "during a weekend trip",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a family",
+        "determiner": "a",
+        "rest": "family",
+        "headLemma": "family",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "photo"
+      },
+      "skills": [
+        "what",
+        "when",
+        "withwhat"
+      ],
+      "stage": 7,
+      "difficulty": 13.5,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 7.0,
+        "shapes": 3.0,
+        "length": 2.7
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "3 slots - more than year3 would normally show at once (2)"
+      ],
+      "order": 42
+    },
+    {
+      "id": "st_year3_outdoors_024",
+      "level": "year3",
+      "topic": "outdoors",
+      "imageId": "img576",
+      "image": "koleksigambar/basic_year3_outdoors_look_at_the_stars.webp",
+      "sourceSentenceId": "s005",
+      "original": "On the soft blanket, the happy young child lies quietly under a starry sky.",
+      "kernel": "The child lies.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "child lies"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the soft blanket",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "happy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "young",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "quietly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "under a starry sky",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 15.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 9.2,
+        "shapes": 2.0,
+        "length": 3.3
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "5 slots - more than year3 would normally show at once (2)"
+      ],
+      "order": 43
+    }
+  ]
+}

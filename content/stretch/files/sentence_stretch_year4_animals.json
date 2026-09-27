@@ -1,0 +1,4416 @@
+{
+  "generatedBy": "scripts/extract_sentence_stretch.py",
+  "level": "year4",
+  "topic": "animals",
+  "decoys": "none",
+  "note": "PROTOTYPE - not merged into database.json. Human review required.",
+  "orderedBy": "stage ascending, then fine difficulty (easiest first)",
+  "stageLegend": {
+    "1": "add the object (What? / Whom?)",
+    "2": "describe the subject (What kind? / How many? / Whose?)",
+    "3": "describe the action (How? / How often?)",
+    "4": "where it happens (Where?)",
+    "5": "when it happens (When?)",
+    "6": "extra details (With what? / With whom? / For whom? / Where to? / From where? / To whom?)",
+    "7": "two stretches at once",
+    "8": "give a reason (Why?)"
+  },
+  "bandLabels": {
+    "starter": {
+      "en": "Starter",
+      "ms": "Permulaan",
+      "zh": "入门",
+      "iba": "Pun"
+    },
+    "growing": {
+      "en": "Growing",
+      "ms": "Sederhana",
+      "zh": "进阶",
+      "iba": "Tumbuh"
+    },
+    "advanced": {
+      "en": "Advanced",
+      "ms": "Lanjutan",
+      "zh": "高级",
+      "iba": "Tinggi"
+    }
+  },
+  "skillLabels": {
+    "what": {
+      "en": "What?",
+      "ms": "Apa?",
+      "zh": "什么？",
+      "iba": "Nama?"
+    },
+    "whom": {
+      "en": "Whom?",
+      "ms": "Siapa?",
+      "zh": "谁？",
+      "iba": "Sapa?"
+    },
+    "whatkind": {
+      "en": "What kind?",
+      "ms": "Yang bagaimana?",
+      "zh": "什么样的？",
+      "iba": "Ni macham?"
+    },
+    "howmany": {
+      "en": "How many?",
+      "ms": "Berapa banyak?",
+      "zh": "多少？",
+      "iba": "Berapa iku?"
+    },
+    "whose": {
+      "en": "Whose?",
+      "ms": "Kepunyaan siapa?",
+      "zh": "谁的？",
+      "iba": "Enggi sapa?"
+    },
+    "how": {
+      "en": "How?",
+      "ms": "Bagaimana?",
+      "zh": "怎么样？",
+      "iba": "Baka ni?"
+    },
+    "howoften": {
+      "en": "How often?",
+      "ms": "Berapa kerap?",
+      "zh": "多久一次？",
+      "iba": "Berapa kali?"
+    },
+    "where": {
+      "en": "Where?",
+      "ms": "Di mana?",
+      "zh": "在哪里？",
+      "iba": "Dini?"
+    },
+    "when": {
+      "en": "When?",
+      "ms": "Bila?",
+      "zh": "什么时候？",
+      "iba": "Kemaya?"
+    },
+    "withwhat": {
+      "en": "With what?",
+      "ms": "Dengan apa?",
+      "zh": "用什么？",
+      "iba": "Ngena nama?"
+    },
+    "withwhom": {
+      "en": "With whom?",
+      "ms": "Dengan siapa?",
+      "zh": "和谁？",
+      "iba": "Enggau sapa?"
+    },
+    "forwhom": {
+      "en": "For whom?",
+      "ms": "Untuk siapa?",
+      "zh": "为了谁？",
+      "iba": "Ke sapa?"
+    },
+    "whereto": {
+      "en": "Where to?",
+      "ms": "Ke mana?",
+      "zh": "去哪里？",
+      "iba": "Ngagai dini?"
+    },
+    "fromwhere": {
+      "en": "From where?",
+      "ms": "Dari mana?",
+      "zh": "从哪里？",
+      "iba": "Ari dini?"
+    },
+    "towhom": {
+      "en": "To whom?",
+      "ms": "Kepada siapa?",
+      "zh": "给谁？",
+      "iba": "Ngagai sapa?"
+    },
+    "why": {
+      "en": "Why?",
+      "ms": "Mengapa?",
+      "zh": "为什么？",
+      "iba": "Nama kebuah?"
+    }
+  },
+  "authoredOptionsFile": "output\\sentence_stretch_options\\year4_animals.json",
+  "tasks": [
+    {
+      "id": "st_year4_animals_002",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img635",
+      "image": "koleksigambar/basic_year4_animals_bunny.webp",
+      "sourceSentenceId": "s002",
+      "original": "It has long, soft ears.",
+      "kernel": "It has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "long, soft ears",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "ear"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.8,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 1
+    },
+    {
+      "id": "st_year4_animals_023",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img642",
+      "image": "koleksigambar/basic_year4_animals_herbivore.webp",
+      "sourceSentenceId": "s003",
+      "original": "Herbivores only eat plants, not meat.",
+      "kernel": "Herbivores only eat.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Herbivores only eat"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "plants, not meat",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "herbivores",
+        "determiner": null,
+        "rest": "herbivores",
+        "headLemma": "herbivore",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "plant"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 2
+    },
+    {
+      "id": "st_year4_animals_003",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img636",
+      "image": "koleksigambar/basic_year4_animals_carnivore.webp",
+      "sourceSentenceId": "s003",
+      "original": "Carnivores hunt other animals for food.",
+      "kernel": "Carnivores hunt.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Carnivores hunt"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "other animals for food",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "carnivores",
+        "determiner": null,
+        "rest": "carnivores",
+        "headLemma": "carnivore",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "animal"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 3
+    },
+    {
+      "id": "st_year4_animals_034",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img646",
+      "image": "koleksigambar/basic_year4_animals_ostrich.webp",
+      "sourceSentenceId": "s002",
+      "original": "It has long legs and a long neck.",
+      "kernel": "It has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "long legs and a long neck",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "leg"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.7,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.8
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 4
+    },
+    {
+      "id": "st_year4_animals_021",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img642",
+      "image": "koleksigambar/basic_year4_animals_herbivore.webp",
+      "sourceSentenceId": "s001",
+      "original": "A long-necked dinosaur eats leaves peacefully.",
+      "kernel": "A long-necked dinosaur eats.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A long-necked dinosaur eats"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "clause",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "leaves peacefully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a long-necked dinosaur",
+        "determiner": "a",
+        "rest": "long-necked dinosaur",
+        "headLemma": "dinosaur",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "leave"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.9,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 0.5,
+        "shapes": 2.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 5
+    },
+    {
+      "id": "st_year4_animals_019",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img641",
+      "image": "koleksigambar/basic_year4_animals_heavy.webp",
+      "sourceSentenceId": "s004",
+      "original": "We compare the weight of the two animals using a scale.",
+      "kernel": "We compare.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "We compare"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "clause",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the weight of the two animals using a scale",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "we",
+        "determiner": null,
+        "rest": "we",
+        "headLemma": "we",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "weight"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 5.6,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 0.5,
+        "shapes": 2.0,
+        "length": 2.7
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "very long what slot: 'the weight of the two animals using a scale'"
+      ],
+      "order": 6
+    },
+    {
+      "id": "st_year4_animals_004",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img636",
+      "image": "koleksigambar/basic_year4_animals_carnivore.webp",
+      "sourceSentenceId": "s004",
+      "original": "This fierce dinosaur looks very powerful.",
+      "kernel": "This dinosaur looks very powerful.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "This"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "dinosaur looks very powerful."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "fierce",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.3,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 7
+    },
+    {
+      "id": "st_year4_animals_032",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img645",
+      "image": "koleksigambar/basic_year4_animals_mosquito.webp",
+      "sourceSentenceId": "s004",
+      "original": "Mosquitoes are small insects with thin wings.",
+      "kernel": "Mosquitoes are insects with thin wings.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Mosquitoes are"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "insects with thin wings."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "small",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.5,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'insects' pinned as the complement"
+      ],
+      "order": 8
+    },
+    {
+      "id": "st_year4_animals_035",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img646",
+      "image": "koleksigambar/basic_year4_animals_ostrich.webp",
+      "sourceSentenceId": "s004",
+      "original": "Its feathers are soft and light.",
+      "kernel": "Feathers are soft and light.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "feathers are soft and light."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whose",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "Whose?",
+            "ms": "Kepunyaan siapa?",
+            "zh": "谁的？",
+            "iba": "Enggi sapa?"
+          },
+          "options": [
+            {
+              "text": "its",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whose"
+      ],
+      "stage": 2,
+      "difficulty": 2.6,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 1.3,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'soft' pinned as the complement"
+      ],
+      "order": 9
+    },
+    {
+      "id": "st_year4_animals_038",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img647",
+      "image": "koleksigambar/basic_year4_animals_panda.webp",
+      "sourceSentenceId": "s004",
+      "original": "Bamboo is the main food that pandas eat.",
+      "kernel": "Bamboo is the food that pandas eat.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Bamboo is the"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "food that pandas eat."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "main",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'food' pinned as the complement"
+      ],
+      "order": 10
+    },
+    {
+      "id": "st_year4_animals_009",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img638",
+      "image": "koleksigambar/basic_year4_animals_eat_bamboo.webp",
+      "sourceSentenceId": "s004",
+      "original": "Pandas are gentle animals despite their large size.",
+      "kernel": "Pandas are animals despite their large size.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Pandas are"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "animals despite their large size."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "gentle",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'animals' pinned as the complement"
+      ],
+      "order": 11
+    },
+    {
+      "id": "st_year4_animals_014",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img640",
+      "image": "koleksigambar/basic_year4_animals_gorilla.webp",
+      "sourceSentenceId": "s002",
+      "original": "Gorillas are intelligent animals that live in family troops.",
+      "kernel": "Gorillas are animals that live in family troops.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Gorillas are"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "animals that live in family troops."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "intelligent",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "big",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.9,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'animals' pinned as the complement"
+      ],
+      "order": 12
+    },
+    {
+      "id": "st_year4_animals_008",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img638",
+      "image": "koleksigambar/basic_year4_animals_eat_bamboo.webp",
+      "sourceSentenceId": "s003",
+      "original": "Bamboo is the main food that pandas eat every day.",
+      "kernel": "Bamboo is the food that pandas eat every day.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Bamboo is the"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "food that pandas eat every day."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "main",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 1.8,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'food' pinned as the complement"
+      ],
+      "order": 13
+    },
+    {
+      "id": "st_year4_animals_018",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img641",
+      "image": "koleksigambar/basic_year4_animals_heavy.webp",
+      "sourceSentenceId": "s003",
+      "original": "The tiny tapir is much lighter than the heavy rhinoceros.",
+      "kernel": "The tapir is much lighter than the heavy rhinoceros.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "tapir is much lighter than the heavy rhinoceros."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "tiny",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 1.8,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'lighter' pinned as the complement"
+      ],
+      "order": 14
+    },
+    {
+      "id": "st_year4_animals_013",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img640",
+      "image": "koleksigambar/basic_year4_animals_gorilla.webp",
+      "sourceSentenceId": "s001",
+      "original": "The muscular gorilla stands much taller than the small monkey.",
+      "kernel": "The gorilla stands much taller than the small monkey.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "gorilla stands much taller than the small monkey."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "muscular",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "big",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 3.1,
+      "difficultyParts": {
+        "kernel": 1.8,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 15
+    },
+    {
+      "id": "st_year4_animals_011",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img639",
+      "image": "koleksigambar/basic_year4_animals_free.webp",
+      "sourceSentenceId": "s002",
+      "original": "It flies joyfully out of the open cage.",
+      "kernel": "It flies out of the open cage.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It flies"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "out of the open cage."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "joyfully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "how"
+      ],
+      "stage": 3,
+      "difficulty": 3.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "possible phrasal-verb particle: 'out'"
+      ],
+      "order": 16
+    },
+    {
+      "id": "st_year4_animals_043",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img649",
+      "image": "koleksigambar/basic_year4_animals_python.webp",
+      "sourceSentenceId": "s004",
+      "original": "Snakes slither quietly across the jungle floor.",
+      "kernel": "Snakes slither quietly.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Snakes slither quietly"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "across the jungle floor",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the jungle",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "snakes",
+        "determiner": null,
+        "rest": "snakes",
+        "headLemma": "snake",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.4,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 17
+    },
+    {
+      "id": "st_year4_animals_042",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img649",
+      "image": "koleksigambar/basic_year4_animals_python.webp",
+      "sourceSentenceId": "s001",
+      "original": "A large friendly python coils on the jungle floor.",
+      "kernel": "A large friendly python coils.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A large friendly python coils"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the jungle floor",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the jungle",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.8,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [
+        "subject descriptor 'friendly python' is not the head of the kernel - dropped",
+        "verb re-parsed with stand-in 'follows' - spaCy tagged 'coils' as a noun"
+      ],
+      "order": 18
+    },
+    {
+      "id": "st_year4_animals_030",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img645",
+      "image": "koleksigambar/basic_year4_animals_mosquito.webp",
+      "sourceSentenceId": "s001",
+      "original": "A large friendly mosquito hovers near a child's arm.",
+      "kernel": "A large friendly mosquito hovers.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A large friendly mosquito hovers"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "near a child's arm",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 5.8,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [
+        "subject descriptor 'friendly mosquito' is not the head of the kernel - dropped",
+        "verb re-parsed with stand-in 'follows' - spaCy tagged 'hovers' as a noun"
+      ],
+      "order": 19
+    },
+    {
+      "id": "st_year4_animals_045",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img651",
+      "image": "koleksigambar/basic_year4_animals_scared.webp",
+      "sourceSentenceId": "s003",
+      "original": "The puppy peeks out with wide, nervous eyes.",
+      "kernel": "The puppy peeks out.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The puppy peeks out"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "withwhat",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "With what?",
+            "ms": "Dengan apa?",
+            "zh": "用什么？",
+            "iba": "Ngena nama?"
+          },
+          "options": [
+            {
+              "text": "with wide, nervous eyes",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the puppy",
+        "determiner": "the",
+        "rest": "puppy",
+        "headLemma": "puppy",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "withwhat"
+      ],
+      "stage": 6,
+      "difficulty": 6.5,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 3.5,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 20
+    },
+    {
+      "id": "st_year4_animals_037",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img647",
+      "image": "koleksigambar/basic_year4_animals_panda.webp",
+      "sourceSentenceId": "s003",
+      "original": "Pandas are large, gentle animals.",
+      "kernel": "Pandas are, animals.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Pandas are"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ","
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "animals."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "large",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "gentle",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 3.2,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.6
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "copula source: 'animals' pinned as the complement"
+      ],
+      "order": 21
+    },
+    {
+      "id": "st_year4_animals_006",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img637",
+      "image": "koleksigambar/basic_year4_animals_dinosaur.webp",
+      "sourceSentenceId": "s003",
+      "original": "This dinosaur uses its sharp claws to catch prey.",
+      "kernel": "This dinosaur uses to catch.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "This dinosaur uses"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "to catch"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "its sharp claws",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "prey",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "this dinosaur",
+        "determiner": "this",
+        "rest": "dinosaur",
+        "headLemma": "dinosaur",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "claw"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 7,
+      "difficulty": 4.2,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 1.0,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 22
+    },
+    {
+      "id": "st_year4_animals_010",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img639",
+      "image": "koleksigambar/basic_year4_animals_free.webp",
+      "sourceSentenceId": "s001",
+      "original": "The little bird is finally free.",
+      "kernel": "The bird is free.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "bird is"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "free."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "little",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "blue",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "finally",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "how"
+      ],
+      "stage": 7,
+      "difficulty": 4.4,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 3.0,
+        "shapes": 0.0,
+        "length": 0.6
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "copula source: 'free' pinned as the complement"
+      ],
+      "order": 23
+    },
+    {
+      "id": "st_year4_animals_017",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img641",
+      "image": "koleksigambar/basic_year4_animals_heavy.webp",
+      "sourceSentenceId": "s002",
+      "original": "This enormous animal weighs one thousand four hundred and fifty kilograms.",
+      "kernel": "This animal weighs.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "This"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "animal weighs"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "enormous",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "great",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "one thousand four hundred and fifty kilograms",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "kilogram"
+      },
+      "skills": [
+        "what",
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 5.5,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 1.5,
+        "shapes": 1.0,
+        "length": 2.4
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 24
+    },
+    {
+      "id": "st_year4_animals_036",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img647",
+      "image": "koleksigambar/basic_year4_animals_panda.webp",
+      "sourceSentenceId": "s002",
+      "original": "It chews the bamboo slowly and gently.",
+      "kernel": "It chews.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It chews"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the bamboo",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "phrase",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "slowly and gently",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "bamboo"
+      },
+      "skills": [
+        "what",
+        "how"
+      ],
+      "stage": 7,
+      "difficulty": 6.4,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 2.5,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 25
+    },
+    {
+      "id": "st_year4_animals_041",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img648",
+      "image": "koleksigambar/basic_year4_animals_panther.webp",
+      "sourceSentenceId": "s004",
+      "original": "Its black fur shines under the sunlight.",
+      "kernel": "Its fur shines.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Its"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "fur shines"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "black",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "powerful",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "under the sunlight",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.4,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 26
+    },
+    {
+      "id": "st_year4_animals_033",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img646",
+      "image": "koleksigambar/basic_year4_animals_ostrich.webp",
+      "sourceSentenceId": "s001",
+      "original": "A tall ostrich stands on the grassland.",
+      "kernel": "An ostrich stands.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "An"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "ostrich stands"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "tall",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the grassland",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 6.4,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 27
+    },
+    {
+      "id": "st_year4_animals_028",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img644",
+      "image": "koleksigambar/basic_year4_animals_kitten.webp",
+      "sourceSentenceId": "s002",
+      "original": "It chases the wool across the floor.",
+      "kernel": "It chases.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It chases"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the wool",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "across the floor",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "wool"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.0,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 28
+    },
+    {
+      "id": "st_year4_animals_026",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img643",
+      "image": "koleksigambar/basic_year4_animals_jellyfish.webp",
+      "sourceSentenceId": "s003",
+      "original": "Jellyfish have long tentacles under their bodies.",
+      "kernel": "Jellyfish have.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Jellyfish have"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "long tentacles",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "under their bodies",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "jellyfish",
+        "determiner": null,
+        "rest": "jellyfish",
+        "headLemma": "jellyfish",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "tentacle"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.0,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 29
+    },
+    {
+      "id": "st_year4_animals_012",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img639",
+      "image": "koleksigambar/basic_year4_animals_free.webp",
+      "sourceSentenceId": "s003",
+      "original": "Its wings spread wide against the blue sky.",
+      "kernel": "Wings spread wide.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "wings spread wide"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whose",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "Whose?",
+            "ms": "Kepunyaan siapa?",
+            "zh": "谁的？",
+            "iba": "Enggi sapa?"
+          },
+          "options": [
+            {
+              "text": "its",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "against the blue sky",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whose",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.9,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 30
+    },
+    {
+      "id": "st_year4_animals_022",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img642",
+      "image": "koleksigambar/basic_year4_animals_herbivore.webp",
+      "sourceSentenceId": "s002",
+      "original": "It reaches leaves from a tall tree.",
+      "kernel": "It reaches.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It reaches"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "leaves",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "fromwhere",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "From where?",
+            "ms": "Dari mana?",
+            "zh": "从哪里？",
+            "iba": "Ari dini?"
+          },
+          "options": [
+            {
+              "text": "from a tall tree",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "leaf"
+      },
+      "skills": [
+        "what",
+        "fromwhere"
+      ],
+      "stage": 7,
+      "difficulty": 7.4,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.5,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 31
+    },
+    {
+      "id": "st_year4_animals_025",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img643",
+      "image": "koleksigambar/basic_year4_animals_jellyfish.webp",
+      "sourceSentenceId": "s002",
+      "original": "It moves gently through the blue water.",
+      "kernel": "It moves.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It moves"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "gently",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "calmly",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "through the blue water",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.6,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 32
+    },
+    {
+      "id": "st_year4_animals_001",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img635",
+      "image": "koleksigambar/basic_year4_animals_bunny.webp",
+      "sourceSentenceId": "s001",
+      "original": "A small white bunny sits on green grass.",
+      "kernel": "A bunny sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "bunny sits"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "small",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "white",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on green grass",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the garden",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.7,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.6,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 33
+    },
+    {
+      "id": "st_year4_animals_024",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img643",
+      "image": "koleksigambar/basic_year4_animals_jellyfish.webp",
+      "sourceSentenceId": "s001",
+      "original": "A translucent pink jellyfish floats in the ocean.",
+      "kernel": "A jellyfish floats.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "jellyfish floats"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "phrase",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "translucent pink",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the ocean",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 7.7,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 3.6,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "verb re-parsed with stand-in 'follows' - spaCy tagged 'floats' as a noun"
+      ],
+      "order": 34
+    },
+    {
+      "id": "st_year4_animals_029",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img644",
+      "image": "koleksigambar/basic_year4_animals_kitten.webp",
+      "sourceSentenceId": "s003",
+      "original": "The kitten pats the ball with its paw.",
+      "kernel": "The kitten pats.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The kitten pats"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the ball",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "withwhat",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "With what?",
+            "ms": "Dengan apa?",
+            "zh": "用什么？",
+            "iba": "Ngena nama?"
+          },
+          "options": [
+            {
+              "text": "with its paw",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "the kitten",
+        "determiner": "the",
+        "rest": "kitten",
+        "headLemma": "kitten",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "ball"
+      },
+      "skills": [
+        "what",
+        "withwhat"
+      ],
+      "stage": 7,
+      "difficulty": 8.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.0,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 35
+    },
+    {
+      "id": "st_year4_animals_039",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img648",
+      "image": "koleksigambar/basic_year4_animals_panther.webp",
+      "sourceSentenceId": "s001",
+      "original": "A sleek black panther sits on a jungle tree branch.",
+      "kernel": "A panther sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "panther sits"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "sleek",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "powerful",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "black",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on a jungle tree branch",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "in the jungle",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 8.3,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.6,
+        "shapes": 1.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 36
+    },
+    {
+      "id": "st_year4_animals_040",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img648",
+      "image": "koleksigambar/basic_year4_animals_panther.webp",
+      "sourceSentenceId": "s002",
+      "original": "It watches the jungle quietly from above.",
+      "kernel": "It watches quietly.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It watches"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "quietly"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the jungle",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "fromwhere",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "From where?",
+            "ms": "Dari mana?",
+            "zh": "从哪里？",
+            "iba": "Ari dini?"
+          },
+          "options": [
+            {
+              "text": "from above",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "from the branch",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            },
+            {
+              "text": "from the tree",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "jungle"
+      },
+      "skills": [
+        "what",
+        "fromwhere"
+      ],
+      "stage": 7,
+      "difficulty": 8.3,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.5,
+        "shapes": 2.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 37
+    },
+    {
+      "id": "st_year4_animals_015",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img640",
+      "image": "koleksigambar/basic_year4_animals_gorilla.webp",
+      "sourceSentenceId": "s004",
+      "original": "The big gorilla protects the smaller animals in its group.",
+      "kernel": "The gorilla protects.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "gorilla protects"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "big",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "brown",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the smaller animals",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in its group",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "animal"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 8.8,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 4.1,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 38
+    },
+    {
+      "id": "st_year4_animals_044",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img650",
+      "image": "koleksigambar/basic_year4_animals_roar.webp",
+      "sourceSentenceId": "s001",
+      "original": "A lion roars loudly with its mouth wide open.",
+      "kernel": "A lion roars.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A lion roars"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "loudly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "withwhat",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "With what?",
+            "ms": "Dengan apa?",
+            "zh": "用什么？",
+            "iba": "Ngena nama?"
+          },
+          "options": [
+            {
+              "text": "with its mouth wide open",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a lion",
+        "determiner": "a",
+        "rest": "lion",
+        "headLemma": "lion",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "how",
+        "withwhat"
+      ],
+      "stage": 7,
+      "difficulty": 8.9,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 5.5,
+        "shapes": 1.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 39
+    },
+    {
+      "id": "st_year4_animals_027",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img644",
+      "image": "koleksigambar/basic_year4_animals_kitten.webp",
+      "sourceSentenceId": "s001",
+      "original": "A small fluffy kitten plays with a ball of wool.",
+      "kernel": "A kitten plays.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "kitten plays"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "small",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "cute",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "fluffy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "cute",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "withwhat",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "With what?",
+            "ms": "Dengan apa?",
+            "zh": "用什么？",
+            "iba": "Ngena nama?"
+          },
+          "options": [
+            {
+              "text": "with a ball of wool",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "withwhat"
+      ],
+      "stage": 7,
+      "difficulty": 9.2,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 5.5,
+        "shapes": 1.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 40
+    },
+    {
+      "id": "st_year4_animals_007",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img638",
+      "image": "koleksigambar/basic_year4_animals_eat_bamboo.webp",
+      "sourceSentenceId": "s002",
+      "original": "It chews the bamboo slowly with its strong teeth.",
+      "kernel": "It chews.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It chews"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the bamboo",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "slowly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "calmly",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "withwhat",
+          "shape": "phrase",
+          "stage": 6,
+          "question": {
+            "en": "With what?",
+            "ms": "Dengan apa?",
+            "zh": "用什么？",
+            "iba": "Ngena nama?"
+          },
+          "options": [
+            {
+              "text": "with its strong teeth",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "bamboo"
+      },
+      "skills": [
+        "what",
+        "how",
+        "withwhat"
+      ],
+      "stage": 7,
+      "difficulty": 10.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 6.0,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 41
+    },
+    {
+      "id": "st_year4_animals_016",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img640",
+      "image": "koleksigambar/basic_year4_animals_gorilla.webp",
+      "sourceSentenceId": "s005",
+      "original": "In the green jungle, the big brown gorilla stands proudly on a sandy path.",
+      "kernel": "The gorilla stands.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "gorilla stands"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "in the green jungle",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "big",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "brown",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "proudly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "calmly",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on a sandy path",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 15.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 9.2,
+        "shapes": 2.0,
+        "length": 3.3
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "5 slots - more than year4 would normally show at once (3)"
+      ],
+      "order": 42
+    },
+    {
+      "id": "st_year4_animals_005",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img637",
+      "image": "koleksigambar/basic_year4_animals_dinosaur.webp",
+      "sourceSentenceId": "s001",
+      "original": "The fierce dinosaur roars as it hunts.",
+      "kernel": "The dinosaur roars.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "dinosaur roars"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "fierce",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "prehistoric",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "as it hunts",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 9.4,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 5.6,
+        "shapes": 2.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 43
+    },
+    {
+      "id": "st_year4_animals_031",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img645",
+      "image": "koleksigambar/basic_year4_animals_mosquito.webp",
+      "sourceSentenceId": "s002",
+      "original": "It buzzes softly as it flies around.",
+      "kernel": "It buzzes.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "It buzzes"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "softly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "as it flies around",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "it",
+        "determiner": null,
+        "rest": "it",
+        "headLemma": "it",
+        "plural": false,
+        "pron": true
+      },
+      "objectNp": null,
+      "skills": [
+        "how",
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 10.5,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 6.6,
+        "shapes": 2.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 44
+    },
+    {
+      "id": "st_year4_animals_020",
+      "level": "year4",
+      "topic": "animals",
+      "imageId": "img641",
+      "image": "koleksigambar/basic_year4_animals_heavy.webp",
+      "sourceSentenceId": "s005",
+      "original": "The huge rhinoceros always carries its great weight calmly because its thick body is very heavy.",
+      "kernel": "The rhinoceros carries.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "rhinoceros"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "carries"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "huge",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "enormous",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "howoften",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "always",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "its great weight",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "calmly",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "because its thick body is very heavy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 2,
+        "headLemma": "weight"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "how",
+        "howoften",
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 17.8,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 10.3,
+        "shapes": 3.0,
+        "length": 3.9
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "5 slots - more than year4 would normally show at once (3)"
+      ],
+      "order": 45
+    }
+  ]
+}

@@ -1,0 +1,2603 @@
+{
+  "generatedBy": "scripts/extract_sentence_stretch.py",
+  "level": "year6",
+  "topic": "lifestyle",
+  "decoys": "none",
+  "note": "PROTOTYPE - not merged into database.json. Human review required.",
+  "orderedBy": "stage ascending, then fine difficulty (easiest first)",
+  "stageLegend": {
+    "1": "add the object (What? / Whom?)",
+    "2": "describe the subject (What kind? / How many? / Whose?)",
+    "3": "describe the action (How? / How often?)",
+    "4": "where it happens (Where?)",
+    "5": "when it happens (When?)",
+    "6": "extra details (With what? / With whom? / For whom? / Where to? / From where? / To whom?)",
+    "7": "two stretches at once",
+    "8": "give a reason (Why?)"
+  },
+  "bandLabels": {
+    "starter": {
+      "en": "Starter",
+      "ms": "Permulaan",
+      "zh": "入门",
+      "iba": "Pun"
+    },
+    "growing": {
+      "en": "Growing",
+      "ms": "Sederhana",
+      "zh": "进阶",
+      "iba": "Tumbuh"
+    },
+    "advanced": {
+      "en": "Advanced",
+      "ms": "Lanjutan",
+      "zh": "高级",
+      "iba": "Tinggi"
+    }
+  },
+  "skillLabels": {
+    "what": {
+      "en": "What?",
+      "ms": "Apa?",
+      "zh": "什么？",
+      "iba": "Nama?"
+    },
+    "whom": {
+      "en": "Whom?",
+      "ms": "Siapa?",
+      "zh": "谁？",
+      "iba": "Sapa?"
+    },
+    "whatkind": {
+      "en": "What kind?",
+      "ms": "Yang bagaimana?",
+      "zh": "什么样的？",
+      "iba": "Ni macham?"
+    },
+    "howmany": {
+      "en": "How many?",
+      "ms": "Berapa banyak?",
+      "zh": "多少？",
+      "iba": "Berapa iku?"
+    },
+    "whose": {
+      "en": "Whose?",
+      "ms": "Kepunyaan siapa?",
+      "zh": "谁的？",
+      "iba": "Enggi sapa?"
+    },
+    "how": {
+      "en": "How?",
+      "ms": "Bagaimana?",
+      "zh": "怎么样？",
+      "iba": "Baka ni?"
+    },
+    "howoften": {
+      "en": "How often?",
+      "ms": "Berapa kerap?",
+      "zh": "多久一次？",
+      "iba": "Berapa kali?"
+    },
+    "where": {
+      "en": "Where?",
+      "ms": "Di mana?",
+      "zh": "在哪里？",
+      "iba": "Dini?"
+    },
+    "when": {
+      "en": "When?",
+      "ms": "Bila?",
+      "zh": "什么时候？",
+      "iba": "Kemaya?"
+    },
+    "withwhat": {
+      "en": "With what?",
+      "ms": "Dengan apa?",
+      "zh": "用什么？",
+      "iba": "Ngena nama?"
+    },
+    "withwhom": {
+      "en": "With whom?",
+      "ms": "Dengan siapa?",
+      "zh": "和谁？",
+      "iba": "Enggau sapa?"
+    },
+    "forwhom": {
+      "en": "For whom?",
+      "ms": "Untuk siapa?",
+      "zh": "为了谁？",
+      "iba": "Ke sapa?"
+    },
+    "whereto": {
+      "en": "Where to?",
+      "ms": "Ke mana?",
+      "zh": "去哪里？",
+      "iba": "Ngagai dini?"
+    },
+    "fromwhere": {
+      "en": "From where?",
+      "ms": "Dari mana?",
+      "zh": "从哪里？",
+      "iba": "Ari dini?"
+    },
+    "towhom": {
+      "en": "To whom?",
+      "ms": "Kepada siapa?",
+      "zh": "给谁？",
+      "iba": "Ngagai sapa?"
+    },
+    "why": {
+      "en": "Why?",
+      "ms": "Mengapa?",
+      "zh": "为什么？",
+      "iba": "Nama kebuah?"
+    }
+  },
+  "authoredOptionsFile": "output\\sentence_stretch_options\\year6_lifestyle.json",
+  "tasks": [
+    {
+      "id": "st_year6_lifestyle_005",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img966",
+      "image": "koleksigambar/basic_year6_lifestyle_barcode.webp",
+      "sourceSentenceId": "s003",
+      "original": "Barcodes make shopping faster and more organised.",
+      "kernel": "Barcodes make faster and more organised.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Barcodes make"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "faster and more organised."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "shopping",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "barcodes",
+        "determiner": null,
+        "rest": "barcodes",
+        "headLemma": "barcode",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "shopping"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 2.0,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.5,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 1
+    },
+    {
+      "id": "st_year6_lifestyle_019",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img970",
+      "image": "koleksigambar/basic_year6_lifestyle_old_fashioned.webp",
+      "sourceSentenceId": "s004",
+      "original": "Old-fashioned items remind us of the past.",
+      "kernel": "Old-fashioned items remind of the past.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Old-fashioned items remind"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "of the past."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whom",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "Whom?",
+            "ms": "Siapa?",
+            "zh": "谁？",
+            "iba": "Sapa?"
+          },
+          "options": [
+            {
+              "text": "us",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "old-fashioned items",
+        "determiner": null,
+        "rest": "old-fashioned items",
+        "headLemma": "item",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "we"
+      },
+      "skills": [
+        "whom"
+      ],
+      "stage": 1,
+      "difficulty": 2.1,
+      "difficultyParts": {
+        "kernel": 1.2,
+        "chips": 0.6,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "object is a bare pronoun: 'us'"
+      ],
+      "order": 2
+    },
+    {
+      "id": "st_year6_lifestyle_010",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img967",
+      "image": "koleksigambar/basic_year6_lifestyle_diet.webp",
+      "sourceSentenceId": "s004",
+      "original": "Doctors recommend eating vegetables and fruit every day.",
+      "kernel": "Doctors recommend eating every day.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Doctors recommend eating"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "every day."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "vegetables and fruit",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "doctors",
+        "determiner": null,
+        "rest": "doctors",
+        "headLemma": "doctor",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": null
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.4,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.9
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 3
+    },
+    {
+      "id": "st_year6_lifestyle_008",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img967",
+      "image": "koleksigambar/basic_year6_lifestyle_diet.webp",
+      "sourceSentenceId": "s002",
+      "original": "Eating a variety of foods keeps the body strong.",
+      "kernel": "Eating a variety of foods keeps strong.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Eating a variety of foods keeps"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "strong."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the body",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "body"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 3.5,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 0.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 4
+    },
+    {
+      "id": "st_year6_lifestyle_007",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img967",
+      "image": "koleksigambar/basic_year6_lifestyle_diet.webp",
+      "sourceSentenceId": "s001",
+      "original": "A plate of balanced healthy food has vegetables, fruit, and rice.",
+      "kernel": "A plate of balanced healthy food has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A plate of balanced healthy food has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "vegetables, fruit, and rice",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a plate",
+        "determiner": "a",
+        "rest": "plate",
+        "headLemma": "plate",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "vegetable"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 4.1,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 5
+    },
+    {
+      "id": "st_year6_lifestyle_023",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img972",
+      "image": "koleksigambar/basic_year6_lifestyle_snack.webp",
+      "sourceSentenceId": "s002",
+      "original": "These snacks give a quick source of energy between meals.",
+      "kernel": "These snacks give.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "These snacks give"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a quick source of energy between meals",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "these snacks",
+        "determiner": "these",
+        "rest": "snacks",
+        "headLemma": "snack",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "source"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 4.2,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 2.1
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 6
+    },
+    {
+      "id": "st_year6_lifestyle_014",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img969",
+      "image": "koleksigambar/basic_year6_lifestyle_multi_task.webp",
+      "sourceSentenceId": "s001",
+      "original": "A person juggles a phone, a book, and a cup of coffee all at once.",
+      "kernel": "A person juggles.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A person juggles"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a phone, a book, and a cup of coffee all at once",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a person",
+        "determiner": "a",
+        "rest": "person",
+        "headLemma": "person",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "phone"
+      },
+      "skills": [
+        "what"
+      ],
+      "stage": 1,
+      "difficulty": 5.7,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 0.5,
+        "shapes": 1.0,
+        "length": 3.6
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "very long what slot: 'a phone, a book, and a cup of coffee all at once'"
+      ],
+      "order": 7
+    },
+    {
+      "id": "st_year6_lifestyle_018",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img970",
+      "image": "koleksigambar/basic_year6_lifestyle_old_fashioned.webp",
+      "sourceSentenceId": "s003",
+      "original": "Modern gadgets look very different from old ones.",
+      "kernel": "Gadgets look very different from old ones.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "gadgets look very different from old ones."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "modern",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 8
+    },
+    {
+      "id": "st_year6_lifestyle_024",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img973",
+      "image": "koleksigambar/basic_year6_lifestyle_sweet.webp",
+      "sourceSentenceId": "s002",
+      "original": "The bright colours make the sweets look tempting.",
+      "kernel": "The colours make the sweets look tempting.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "colours make the sweets look tempting."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "bright",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.7,
+      "difficultyParts": {
+        "kernel": 1.4,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 9
+    },
+    {
+      "id": "st_year6_lifestyle_025",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img973",
+      "image": "koleksigambar/basic_year6_lifestyle_sweet.webp",
+      "sourceSentenceId": "s004",
+      "original": "Too many sugary treats are not good for health.",
+      "kernel": "Too many treats are not good for health.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Too many"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "treats are not good for health."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "sugary",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 2,
+      "difficulty": 2.9,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 1.0,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [
+        "copula source: 'good' pinned as the complement"
+      ],
+      "order": 10
+    },
+    {
+      "id": "st_year6_lifestyle_003",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img965",
+      "image": "koleksigambar/basic_year6_lifestyle_app.webp",
+      "sourceSentenceId": "s004",
+      "original": "People use apps daily for communication, learning, and entertainment.",
+      "kernel": "People use apps for communication, learning, and entertainment.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "People use apps"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "for communication, learning, and entertainment."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howoften",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "daily",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "people",
+        "determiner": null,
+        "rest": "people",
+        "headLemma": "people",
+        "plural": true,
+        "pron": false
+      },
+      "objectNp": {
+        "text": "apps",
+        "determiner": null,
+        "rest": "apps",
+        "headLemma": "app",
+        "plural": true,
+        "pron": false,
+        "inKernel": true
+      },
+      "skills": [
+        "howoften"
+      ],
+      "stage": 3,
+      "difficulty": 4.1,
+      "difficultyParts": {
+        "kernel": 1.6,
+        "chips": 2.2,
+        "shapes": 0.0,
+        "length": 0.3
+      },
+      "band": "starter",
+      "bandLabel": {
+        "en": "Starter",
+        "ms": "Permulaan",
+        "zh": "入门",
+        "iba": "Pun"
+      },
+      "warnings": [],
+      "order": 11
+    },
+    {
+      "id": "st_year6_lifestyle_011",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img968",
+      "image": "koleksigambar/basic_year6_lifestyle_exam.webp",
+      "sourceSentenceId": "s001",
+      "original": "A pupil sits at a desk writing on test paper, a clock on the wall behind.",
+      "kernel": "A pupil sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A pupil sits"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "at a desk writing on test paper, a clock on the wall behind",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a pupil",
+        "determiner": "a",
+        "rest": "pupil",
+        "headLemma": "pupil",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": null,
+      "skills": [
+        "where"
+      ],
+      "stage": 4,
+      "difficulty": 8.1,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 2.6,
+        "shapes": 1.0,
+        "length": 3.9
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [
+        "very long where slot: 'at a desk writing on test paper, a clock on the wall behind'"
+      ],
+      "order": 12
+    },
+    {
+      "id": "st_year6_lifestyle_012",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img968",
+      "image": "koleksigambar/basic_year6_lifestyle_exam.webp",
+      "sourceSentenceId": "s004",
+      "original": "Feeling a little nervous before an exam is very common.",
+      "kernel": "Feeling a little nervous.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Feeling a little nervous"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "when",
+          "shape": "clause",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "before an exam is very common",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "when"
+      ],
+      "stage": 5,
+      "difficulty": 7.6,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 3.0,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "growing",
+      "bandLabel": {
+        "en": "Growing",
+        "ms": "Sederhana",
+        "zh": "进阶",
+        "iba": "Tumbuh"
+      },
+      "warnings": [],
+      "order": 13
+    },
+    {
+      "id": "st_year6_lifestyle_009",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img967",
+      "image": "koleksigambar/basic_year6_lifestyle_diet.webp",
+      "sourceSentenceId": "s003",
+      "original": "A balanced diet is an important part of a healthy lifestyle.",
+      "kernel": "A diet is a part of a healthy lifestyle.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "diet is a"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "part of a healthy lifestyle."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "balanced",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "important",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind"
+      ],
+      "stage": 7,
+      "difficulty": 4.4,
+      "difficultyParts": {
+        "kernel": 1.8,
+        "chips": 2.0,
+        "shapes": 0.0,
+        "length": 0.6
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "copula source: 'part' pinned as the complement"
+      ],
+      "order": 14
+    },
+    {
+      "id": "st_year6_lifestyle_020",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img971",
+      "image": "koleksigambar/basic_year6_lifestyle_possession.webp",
+      "sourceSentenceId": "s002",
+      "original": "These few possessions show a modest and minimal lifestyle.",
+      "kernel": "These possessions show.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "These"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "possessions show"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "few",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a modest and minimal lifestyle",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "lifestyle"
+      },
+      "skills": [
+        "what",
+        "howmany"
+      ],
+      "stage": 7,
+      "difficulty": 5.0,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 1.6,
+        "shapes": 1.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 15
+    },
+    {
+      "id": "st_year6_lifestyle_006",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img966",
+      "image": "koleksigambar/basic_year6_lifestyle_barcode.webp",
+      "sourceSentenceId": "s004",
+      "original": "Almost every product sold today has a barcode.",
+      "kernel": "Product sold today has.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "product sold today has"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "phrase",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "almost every",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a barcode",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "barcode"
+      },
+      "skills": [
+        "what",
+        "howmany"
+      ],
+      "stage": 7,
+      "difficulty": 5.6,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 1.6,
+        "shapes": 2.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 16
+    },
+    {
+      "id": "st_year6_lifestyle_021",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img971",
+      "image": "koleksigambar/basic_year6_lifestyle_possession.webp",
+      "sourceSentenceId": "s004",
+      "original": "A simple lifestyle does not always need many belongings.",
+      "kernel": "A lifestyle does not need.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "lifestyle does not"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "need"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "simple",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "modest",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "howoften",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "always",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "many belongings",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 2,
+        "headLemma": "belonging"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "howoften"
+      ],
+      "stage": 7,
+      "difficulty": 6.9,
+      "difficultyParts": {
+        "kernel": 1.0,
+        "chips": 3.7,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 17
+    },
+    {
+      "id": "st_year6_lifestyle_004",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img966",
+      "image": "koleksigambar/basic_year6_lifestyle_barcode.webp",
+      "sourceSentenceId": "s001",
+      "original": "A product box has a black-and-white barcode label on its side.",
+      "kernel": "A product box has.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A product box has"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a black-and-white barcode label",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on its side",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a product box",
+        "determiner": "a",
+        "rest": "product box",
+        "headLemma": "box",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "label"
+      },
+      "skills": [
+        "what",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 8.0,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 3.1,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 18
+    },
+    {
+      "id": "st_year6_lifestyle_022",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img972",
+      "image": "koleksigambar/basic_year6_lifestyle_snack.webp",
+      "sourceSentenceId": "s001",
+      "original": "A small bowl of snacks such as crackers and fruit slices sits on the table.",
+      "kernel": "A bowl of snacks such as crackers and fruit slices sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "bowl of snacks such as crackers and fruit slices sits"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "small",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "healthy",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the table",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 8.0,
+      "difficultyParts": {
+        "kernel": 2.2,
+        "chips": 3.6,
+        "shapes": 1.0,
+        "length": 1.2
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 19
+    },
+    {
+      "id": "st_year6_lifestyle_002",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img965",
+      "image": "koleksigambar/basic_year6_lifestyle_app.webp",
+      "sourceSentenceId": "s002",
+      "original": "Each icon represents a different app on the phone.",
+      "kernel": "Icon represents.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "icon represents"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "howmany",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "How many?",
+            "ms": "Berapa banyak?",
+            "zh": "多少？",
+            "iba": "Berapa iku?"
+          },
+          "options": [
+            {
+              "text": "each",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            },
+            {
+              "text": "every",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a different app",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the phone",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 1,
+        "headLemma": "app"
+      },
+      "skills": [
+        "what",
+        "howmany",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 8.7,
+      "difficultyParts": {
+        "kernel": 0.4,
+        "chips": 4.2,
+        "shapes": 2.0,
+        "length": 2.1
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 20
+    },
+    {
+      "id": "st_year6_lifestyle_015",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img969",
+      "image": "koleksigambar/basic_year6_lifestyle_multi_task.webp",
+      "sourceSentenceId": "s003",
+      "original": "Modern life often asks people to multi-task every day.",
+      "kernel": "Life asks to multi-task.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "life"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "asks"
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "to multi-task"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "modern",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "busy",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "howoften",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "often",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "whom",
+          "shape": "word",
+          "stage": 1,
+          "question": {
+            "en": "Whom?",
+            "ms": "Siapa?",
+            "zh": "谁？",
+            "iba": "Sapa?"
+          },
+          "options": [
+            {
+              "text": "people",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "howoften",
+          "shape": "phrase",
+          "stage": 3,
+          "question": {
+            "en": "How often?",
+            "ms": "Berapa kerap?",
+            "zh": "多久一次？",
+            "iba": "Berapa kali?"
+          },
+          "options": [
+            {
+              "text": "every day",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 2,
+        "headLemma": "people"
+      },
+      "skills": [
+        "whom",
+        "whatkind",
+        "howoften"
+      ],
+      "stage": 7,
+      "difficulty": 9.3,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 6.0,
+        "shapes": 1.0,
+        "length": 1.5
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "slot dropped - answer has no word in it: '-'",
+        "slot dropped - would split the word at 'le to multi-task every day.'",
+        "4 slots - more than year6 would normally show at once (3)"
+      ],
+      "order": 21
+    },
+    {
+      "id": "st_year6_lifestyle_001",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img965",
+      "image": "koleksigambar/basic_year6_lifestyle_app.webp",
+      "sourceSentenceId": "s001",
+      "original": "A smartphone screen shows colourful app icons, with a finger tapping one.",
+      "kernel": "A smartphone screen shows.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A smartphone screen shows"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ","
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "colourful app icons",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "withwhat",
+          "shape": "clause",
+          "stage": 6,
+          "question": {
+            "en": "With what?",
+            "ms": "Dengan apa?",
+            "zh": "用什么？",
+            "iba": "Ngena nama?"
+          },
+          "options": [
+            {
+              "text": "with a finger tapping one",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": {
+        "text": "a smartphone screen",
+        "determiner": "a",
+        "rest": "smartphone screen",
+        "headLemma": "screen",
+        "plural": false,
+        "pron": false
+      },
+      "objectNp": {
+        "slotIndex": 0,
+        "headLemma": "icon"
+      },
+      "skills": [
+        "what",
+        "withwhat"
+      ],
+      "stage": 7,
+      "difficulty": 10.2,
+      "difficultyParts": {
+        "kernel": 0.8,
+        "chips": 4.0,
+        "shapes": 3.0,
+        "length": 2.4
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 22
+    },
+    {
+      "id": "st_year6_lifestyle_017",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img970",
+      "image": "koleksigambar/basic_year6_lifestyle_old_fashioned.webp",
+      "sourceSentenceId": "s002",
+      "original": "The antique radio sits beside it on the shelf.",
+      "kernel": "The radio sits.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The"
+        },
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": "radio sits"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "antique",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "beside it",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "on the shelf",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": null,
+      "skills": [
+        "whatkind",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 10.6,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 6.2,
+        "shapes": 2.0,
+        "length": 1.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [],
+      "order": 23
+    },
+    {
+      "id": "st_year6_lifestyle_016",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img969",
+      "image": "koleksigambar/basic_year6_lifestyle_multi_task.webp",
+      "sourceSentenceId": "s005",
+      "original": "Above the yellow table, the busy young person holds a black phone carefully.",
+      "kernel": "The person holds.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "person holds"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "where",
+          "shape": "phrase",
+          "stage": 4,
+          "question": {
+            "en": "Where?",
+            "ms": "Di mana?",
+            "zh": "在哪里？",
+            "iba": "Dini?"
+          },
+          "options": [
+            {
+              "text": "above the yellow table",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "busy",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "young",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "phrase",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "a black phone",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "an"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "carefully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 3,
+        "headLemma": "phone"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "how",
+        "where"
+      ],
+      "stage": 7,
+      "difficulty": 12.7,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 7.1,
+        "shapes": 2.0,
+        "length": 3.0
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "5 slots - more than year6 would normally show at once (3)"
+      ],
+      "order": 24
+    },
+    {
+      "id": "st_year6_lifestyle_013",
+      "level": "year6",
+      "topic": "lifestyle",
+      "imageId": "img968",
+      "image": "koleksigambar/basic_year6_lifestyle_exam.webp",
+      "sourceSentenceId": "s005",
+      "original": "During the final exam, the calm young student carefully checks the written answers because a small mistake loses marks.",
+      "kernel": "The student checks.",
+      "parts": [
+        {
+          "type": "slot",
+          "slot": 0
+        },
+        {
+          "type": "text",
+          "text": ", the"
+        },
+        {
+          "type": "slot",
+          "slot": 1
+        },
+        {
+          "type": "slot",
+          "slot": 2
+        },
+        {
+          "type": "text",
+          "text": "student"
+        },
+        {
+          "type": "slot",
+          "slot": 3
+        },
+        {
+          "type": "text",
+          "text": "checks"
+        },
+        {
+          "type": "slot",
+          "slot": 4
+        },
+        {
+          "type": "slot",
+          "slot": 5
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "slots": [
+        {
+          "kind": "when",
+          "shape": "phrase",
+          "stage": 5,
+          "question": {
+            "en": "When?",
+            "ms": "Bila?",
+            "zh": "什么时候？",
+            "iba": "Kemaya?"
+          },
+          "options": [
+            {
+              "text": "during the final exam",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "calm",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "whatkind",
+          "shape": "word",
+          "stage": 2,
+          "question": {
+            "en": "What kind?",
+            "ms": "Yang bagaimana?",
+            "zh": "什么样的？",
+            "iba": "Ni macham?"
+          },
+          "options": [
+            {
+              "text": "young",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "how",
+          "shape": "word",
+          "stage": 3,
+          "question": {
+            "en": "How?",
+            "ms": "Bagaimana?",
+            "zh": "怎么样？",
+            "iba": "Baka ni?"
+          },
+          "options": [
+            {
+              "text": "carefully",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            },
+            {
+              "text": "quietly",
+              "fromOriginal": false,
+              "source": "authored",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "what",
+          "shape": "clause",
+          "stage": 1,
+          "question": {
+            "en": "What?",
+            "ms": "Apa?",
+            "zh": "什么？",
+            "iba": "Nama?"
+          },
+          "options": [
+            {
+              "text": "the written answers",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        },
+        {
+          "kind": "why",
+          "shape": "clause",
+          "stage": 8,
+          "question": {
+            "en": "Why?",
+            "ms": "Mengapa?",
+            "zh": "为什么？",
+            "iba": "Nama kebuah?"
+          },
+          "options": [
+            {
+              "text": "because a small mistake loses marks",
+              "fromOriginal": true,
+              "source": "original",
+              "article": "a"
+            }
+          ]
+        }
+      ],
+      "subjectNp": null,
+      "objectNp": {
+        "slotIndex": 4,
+        "headLemma": "answer"
+      },
+      "skills": [
+        "what",
+        "whatkind",
+        "how",
+        "when",
+        "why"
+      ],
+      "stage": 8,
+      "difficulty": 22.5,
+      "difficultyParts": {
+        "kernel": 0.6,
+        "chips": 12.1,
+        "shapes": 5.0,
+        "length": 4.8
+      },
+      "band": "advanced",
+      "bandLabel": {
+        "en": "Advanced",
+        "ms": "Lanjutan",
+        "zh": "高级",
+        "iba": "Tinggi"
+      },
+      "warnings": [
+        "6 slots - more than year6 would normally show at once (3)"
+      ],
+      "order": 25
+    }
+  ]
+}

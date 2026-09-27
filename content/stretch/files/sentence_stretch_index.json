@@ -1,0 +1,2329 @@
+{
+  "generatedBy": "scripts/extract_sentence_stretch.py --all",
+  "note": "PROTOTYPE - not merged into database.json.",
+  "sets": [
+    {
+      "key": "remedial_vocabulary_adjektif",
+      "level": "remedial",
+      "topic": "vocabulary",
+      "wordClass": "adjektif",
+      "wordClassLabel": {
+        "en": "Adjectives",
+        "ms": "Kata adjektif",
+        "zh": "形容词",
+        "iba": "Leka penerang"
+      },
+      "file": "output/sentence_stretch_remedial_vocabulary_adjektif.json",
+      "tasks": 181,
+      "slots": 236,
+      "slotsWithChoice": 60,
+      "bands": {
+        "starter": 104,
+        "growing": 29,
+        "advanced": 48
+      },
+      "skills": {
+        "what": 95,
+        "whom": 3,
+        "whatkind": 44,
+        "whose": 6,
+        "how": 15,
+        "howoften": 5,
+        "where": 63
+      }
+    },
+    {
+      "key": "remedial_vocabulary_kerja",
+      "level": "remedial",
+      "topic": "vocabulary",
+      "wordClass": "kerja",
+      "wordClassLabel": {
+        "en": "Verbs",
+        "ms": "Kata kerja",
+        "zh": "动词",
+        "iba": "Leka kereja"
+      },
+      "file": "output/sentence_stretch_remedial_vocabulary_kerja.json",
+      "tasks": 290,
+      "slots": 400,
+      "slotsWithChoice": 40,
+      "bands": {
+        "starter": 154,
+        "growing": 34,
+        "advanced": 102
+      },
+      "skills": {
+        "what": 199,
+        "whom": 11,
+        "whatkind": 3,
+        "how": 72,
+        "howoften": 21,
+        "where": 90
+      }
+    },
+    {
+      "key": "remedial_vocabulary_nama",
+      "level": "remedial",
+      "topic": "vocabulary",
+      "wordClass": "nama",
+      "wordClassLabel": {
+        "en": "Nouns",
+        "ms": "Kata nama",
+        "zh": "名词",
+        "iba": "Leka nama"
+      },
+      "file": "output/sentence_stretch_remedial_vocabulary_nama.json",
+      "tasks": 324,
+      "slots": 454,
+      "slotsWithChoice": 92,
+      "bands": {
+        "starter": 125,
+        "growing": 75,
+        "advanced": 124
+      },
+      "skills": {
+        "what": 168,
+        "whom": 6,
+        "whatkind": 77,
+        "howmany": 4,
+        "how": 23,
+        "where": 158,
+        "whose": 2,
+        "howoften": 12
+      }
+    },
+    {
+      "key": "year1_animals",
+      "level": "year1",
+      "topic": "animals",
+      "file": "output/sentence_stretch_year1_animals.json",
+      "tasks": 31,
+      "slots": 40,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 17,
+        "growing": 8,
+        "advanced": 6
+      },
+      "skills": {
+        "what": 15,
+        "whatkind": 4,
+        "howmany": 2,
+        "how": 5,
+        "where": 11
+      }
+    },
+    {
+      "key": "year1_colours",
+      "level": "year1",
+      "topic": "colours",
+      "file": "output/sentence_stretch_year1_colours.json",
+      "tasks": 10,
+      "slots": 14,
+      "slotsWithChoice": 3,
+      "bands": {
+        "starter": 8,
+        "growing": 1,
+        "advanced": 1
+      },
+      "skills": {
+        "what": 9,
+        "where": 1,
+        "whatkind": 1,
+        "how": 1,
+        "howoften": 1
+      }
+    },
+    {
+      "key": "year1_food",
+      "level": "year1",
+      "topic": "food",
+      "file": "output/sentence_stretch_year1_food.json",
+      "tasks": 46,
+      "slots": 57,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 35,
+        "growing": 3,
+        "advanced": 8
+      },
+      "skills": {
+        "what": 39,
+        "whom": 2,
+        "whatkind": 3,
+        "howmany": 1,
+        "where": 5,
+        "howoften": 3,
+        "how": 3
+      }
+    },
+    {
+      "key": "year1_greetings",
+      "level": "year1",
+      "topic": "greetings",
+      "file": "output/sentence_stretch_year1_greetings.json",
+      "tasks": 15,
+      "slots": 27,
+      "slotsWithChoice": 9,
+      "bands": {
+        "starter": 7,
+        "growing": 2,
+        "advanced": 6
+      },
+      "skills": {
+        "what": 5,
+        "whose": 2,
+        "whatkind": 3,
+        "howoften": 4,
+        "where": 6,
+        "how": 4,
+        "howmany": 1
+      }
+    },
+    {
+      "key": "year1_nature",
+      "level": "year1",
+      "topic": "nature",
+      "file": "output/sentence_stretch_year1_nature.json",
+      "tasks": 2,
+      "slots": 6,
+      "slotsWithChoice": 1,
+      "bands": {
+        "growing": 1,
+        "advanced": 1
+      },
+      "skills": {
+        "where": 2,
+        "howmany": 1,
+        "whatkind": 1,
+        "how": 1
+      }
+    },
+    {
+      "key": "year1_numbers",
+      "level": "year1",
+      "topic": "numbers",
+      "file": "output/sentence_stretch_year1_numbers.json",
+      "tasks": 20,
+      "slots": 25,
+      "slotsWithChoice": 2,
+      "bands": {
+        "starter": 12,
+        "growing": 7,
+        "advanced": 1
+      },
+      "skills": {
+        "what": 12,
+        "where": 8,
+        "howmany": 1,
+        "whatkind": 1,
+        "how": 1
+      }
+    },
+    {
+      "key": "year1_school",
+      "level": "year1",
+      "topic": "school",
+      "file": "output/sentence_stretch_year1_school.json",
+      "tasks": 33,
+      "slots": 50,
+      "slotsWithChoice": 9,
+      "bands": {
+        "starter": 15,
+        "growing": 4,
+        "advanced": 14
+      },
+      "skills": {
+        "what": 24,
+        "whatkind": 5,
+        "where": 15,
+        "howoften": 1,
+        "how": 3
+      }
+    },
+    {
+      "key": "year1_shapes",
+      "level": "year1",
+      "topic": "shapes",
+      "file": "output/sentence_stretch_year1_shapes.json",
+      "tasks": 9,
+      "slots": 14,
+      "slotsWithChoice": 0,
+      "bands": {
+        "starter": 7,
+        "growing": 1,
+        "advanced": 1
+      },
+      "skills": {
+        "what": 5,
+        "whatkind": 2,
+        "howmany": 1,
+        "where": 2,
+        "how": 1,
+        "howoften": 1
+      }
+    },
+    {
+      "key": "year1_toys",
+      "level": "year1",
+      "topic": "toys",
+      "file": "output/sentence_stretch_year1_toys.json",
+      "tasks": 20,
+      "slots": 28,
+      "slotsWithChoice": 8,
+      "bands": {
+        "starter": 13,
+        "growing": 2,
+        "advanced": 5
+      },
+      "skills": {
+        "what": 12,
+        "whatkind": 4,
+        "howmany": 1,
+        "where": 5,
+        "how": 3
+      }
+    },
+    {
+      "key": "year2_animals",
+      "level": "year2",
+      "topic": "animals",
+      "file": "output/sentence_stretch_year2_animals.json",
+      "tasks": 29,
+      "slots": 36,
+      "slotsWithChoice": 8,
+      "bands": {
+        "starter": 11,
+        "growing": 14,
+        "advanced": 4
+      },
+      "skills": {
+        "what": 12,
+        "whatkind": 3,
+        "howmany": 1,
+        "where": 15,
+        "when": 2,
+        "how": 1
+      }
+    },
+    {
+      "key": "year2_beach",
+      "level": "year2",
+      "topic": "beach",
+      "file": "output/sentence_stretch_year2_beach.json",
+      "tasks": 45,
+      "slots": 56,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 28,
+        "growing": 10,
+        "advanced": 7
+      },
+      "skills": {
+        "what": 27,
+        "whatkind": 4,
+        "howmany": 4,
+        "how": 2,
+        "where": 17
+      }
+    },
+    {
+      "key": "year2_body",
+      "level": "year2",
+      "topic": "body",
+      "file": "output/sentence_stretch_year2_body.json",
+      "tasks": 32,
+      "slots": 44,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 18,
+        "growing": 6,
+        "advanced": 8
+      },
+      "skills": {
+        "what": 18,
+        "whose": 3,
+        "whatkind": 6,
+        "how": 2,
+        "where": 10,
+        "howmany": 1,
+        "howoften": 1
+      }
+    },
+    {
+      "key": "year2_clothes",
+      "level": "year2",
+      "topic": "clothes",
+      "file": "output/sentence_stretch_year2_clothes.json",
+      "tasks": 46,
+      "slots": 69,
+      "slotsWithChoice": 20,
+      "bands": {
+        "starter": 24,
+        "growing": 4,
+        "advanced": 18
+      },
+      "skills": {
+        "what": 25,
+        "whatkind": 15,
+        "whose": 9,
+        "where": 9,
+        "when": 4,
+        "howoften": 3,
+        "how": 3
+      }
+    },
+    {
+      "key": "year2_free_time",
+      "level": "year2",
+      "topic": "free_time",
+      "file": "output/sentence_stretch_year2_free_time.json",
+      "tasks": 29,
+      "slots": 41,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 16,
+        "growing": 5,
+        "advanced": 8
+      },
+      "skills": {
+        "what": 18,
+        "whom": 1,
+        "whatkind": 3,
+        "where": 10,
+        "when": 2,
+        "howoften": 1,
+        "how": 3,
+        "howmany": 1
+      }
+    },
+    {
+      "key": "year2_home",
+      "level": "year2",
+      "topic": "home",
+      "file": "output/sentence_stretch_year2_home.json",
+      "tasks": 42,
+      "slots": 64,
+      "slotsWithChoice": 8,
+      "bands": {
+        "starter": 16,
+        "growing": 8,
+        "advanced": 18
+      },
+      "skills": {
+        "what": 19,
+        "whatkind": 11,
+        "how": 6,
+        "howoften": 2,
+        "where": 20,
+        "howmany": 1,
+        "when": 3
+      }
+    },
+    {
+      "key": "year2_materials",
+      "level": "year2",
+      "topic": "materials",
+      "file": "output/sentence_stretch_year2_materials.json",
+      "tasks": 4,
+      "slots": 8,
+      "slotsWithChoice": 2,
+      "bands": {
+        "starter": 1,
+        "growing": 2,
+        "advanced": 1
+      },
+      "skills": {
+        "what": 1,
+        "where": 3,
+        "whatkind": 1,
+        "how": 1,
+        "howoften": 1
+      }
+    },
+    {
+      "key": "year2_weather",
+      "level": "year2",
+      "topic": "weather",
+      "file": "output/sentence_stretch_year2_weather.json",
+      "tasks": 4,
+      "slots": 8,
+      "slotsWithChoice": 1,
+      "bands": {
+        "starter": 1,
+        "growing": 2,
+        "advanced": 1
+      },
+      "skills": {
+        "whatkind": 2,
+        "when": 2,
+        "how": 1,
+        "where": 1
+      }
+    },
+    {
+      "key": "year2_week",
+      "level": "year2",
+      "topic": "week",
+      "file": "output/sentence_stretch_year2_week.json",
+      "tasks": 20,
+      "slots": 30,
+      "slotsWithChoice": 1,
+      "bands": {
+        "starter": 9,
+        "growing": 4,
+        "advanced": 7
+      },
+      "skills": {
+        "what": 14,
+        "where": 6,
+        "when": 6,
+        "whatkind": 1,
+        "how": 1
+      }
+    },
+    {
+      "key": "year3_animals",
+      "level": "year3",
+      "topic": "animals",
+      "file": "output/sentence_stretch_year3_animals.json",
+      "tasks": 14,
+      "slots": 21,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 4,
+        "growing": 6,
+        "advanced": 4
+      },
+      "skills": {
+        "what": 4,
+        "whatkind": 2,
+        "how": 3,
+        "where": 9,
+        "withwhat": 1
+      }
+    },
+    {
+      "key": "year3_appearance",
+      "level": "year3",
+      "topic": "appearance",
+      "file": "output/sentence_stretch_year3_appearance.json",
+      "tasks": 18,
+      "slots": 29,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 6,
+        "growing": 4,
+        "advanced": 8
+      },
+      "skills": {
+        "what": 10,
+        "where": 8,
+        "when": 1,
+        "withwhat": 2,
+        "whose": 1,
+        "whatkind": 2,
+        "how": 3
+      }
+    },
+    {
+      "key": "year3_celebrations",
+      "level": "year3",
+      "topic": "celebrations",
+      "file": "output/sentence_stretch_year3_celebrations.json",
+      "tasks": 4,
+      "slots": 8,
+      "slotsWithChoice": 1,
+      "bands": {
+        "starter": 3,
+        "advanced": 1
+      },
+      "skills": {
+        "what": 3,
+        "howmany": 1,
+        "whatkind": 1,
+        "how": 1,
+        "where": 1
+      }
+    },
+    {
+      "key": "year3_chores",
+      "level": "year3",
+      "topic": "chores",
+      "file": "output/sentence_stretch_year3_chores.json",
+      "tasks": 25,
+      "slots": 37,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 12,
+        "growing": 4,
+        "advanced": 9
+      },
+      "skills": {
+        "what": 16,
+        "whatkind": 4,
+        "where": 7,
+        "when": 2,
+        "withwhat": 3,
+        "howoften": 1,
+        "how": 2
+      }
+    },
+    {
+      "key": "year3_farm",
+      "level": "year3",
+      "topic": "farm",
+      "file": "output/sentence_stretch_year3_farm.json",
+      "tasks": 30,
+      "slots": 49,
+      "slotsWithChoice": 7,
+      "bands": {
+        "starter": 12,
+        "growing": 4,
+        "advanced": 14
+      },
+      "skills": {
+        "what": 13,
+        "whatkind": 9,
+        "how": 5,
+        "howoften": 2,
+        "where": 14,
+        "howmany": 1,
+        "towhom": 1,
+        "when": 1,
+        "withwhat": 1
+      }
+    },
+    {
+      "key": "year3_feelings",
+      "level": "year3",
+      "topic": "feelings",
+      "file": "output/sentence_stretch_year3_feelings.json",
+      "tasks": 16,
+      "slots": 24,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 6,
+        "growing": 5,
+        "advanced": 5
+      },
+      "skills": {
+        "what": 9,
+        "whatkind": 3,
+        "whose": 1,
+        "where": 7,
+        "how": 3
+      }
+    },
+    {
+      "key": "year3_food",
+      "level": "year3",
+      "topic": "food",
+      "file": "output/sentence_stretch_year3_food.json",
+      "tasks": 34,
+      "slots": 50,
+      "slotsWithChoice": 7,
+      "bands": {
+        "starter": 13,
+        "growing": 8,
+        "advanced": 13
+      },
+      "skills": {
+        "what": 18,
+        "whatkind": 7,
+        "where": 12,
+        "howmany": 1,
+        "how": 2,
+        "howoften": 1,
+        "withwhat": 5
+      }
+    },
+    {
+      "key": "year3_hobbies",
+      "level": "year3",
+      "topic": "hobbies",
+      "file": "output/sentence_stretch_year3_hobbies.json",
+      "tasks": 14,
+      "slots": 21,
+      "slotsWithChoice": 0,
+      "bands": {
+        "starter": 9,
+        "growing": 1,
+        "advanced": 4
+      },
+      "skills": {
+        "what": 8,
+        "whatkind": 5,
+        "where": 3,
+        "withwhat": 1,
+        "howmany": 1,
+        "how": 1
+      }
+    },
+    {
+      "key": "year3_home",
+      "level": "year3",
+      "topic": "home",
+      "file": "output/sentence_stretch_year3_home.json",
+      "tasks": 35,
+      "slots": 53,
+      "slotsWithChoice": 12,
+      "bands": {
+        "starter": 17,
+        "growing": 3,
+        "advanced": 15
+      },
+      "skills": {
+        "what": 21,
+        "whatkind": 10,
+        "where": 12,
+        "howoften": 1,
+        "howmany": 2,
+        "how": 1
+      }
+    },
+    {
+      "key": "year3_jobs",
+      "level": "year3",
+      "topic": "jobs",
+      "file": "output/sentence_stretch_year3_jobs.json",
+      "tasks": 31,
+      "slots": 45,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 15,
+        "growing": 5,
+        "advanced": 11
+      },
+      "skills": {
+        "what": 19,
+        "whom": 2,
+        "whatkind": 5,
+        "where": 11,
+        "withwhat": 3,
+        "howoften": 1,
+        "how": 1
+      }
+    },
+    {
+      "key": "year3_numbers",
+      "level": "year3",
+      "topic": "numbers",
+      "file": "output/sentence_stretch_year3_numbers.json",
+      "tasks": 3,
+      "slots": 7,
+      "slotsWithChoice": 0,
+      "bands": {
+        "starter": 1,
+        "growing": 1,
+        "advanced": 1
+      },
+      "skills": {
+        "what": 2,
+        "where": 2,
+        "whatkind": 1,
+        "how": 1
+      }
+    },
+    {
+      "key": "year3_outdoors",
+      "level": "year3",
+      "topic": "outdoors",
+      "file": "output/sentence_stretch_year3_outdoors.json",
+      "tasks": 43,
+      "slots": 67,
+      "slotsWithChoice": 10,
+      "bands": {
+        "starter": 15,
+        "growing": 10,
+        "advanced": 18
+      },
+      "skills": {
+        "whom": 1,
+        "what": 15,
+        "whatkind": 12,
+        "how": 6,
+        "where": 20,
+        "when": 4,
+        "howmany": 1,
+        "withwhat": 2,
+        "howoften": 2
+      }
+    },
+    {
+      "key": "year3_places",
+      "level": "year3",
+      "topic": "places",
+      "file": "output/sentence_stretch_year3_places.json",
+      "tasks": 27,
+      "slots": 37,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 13,
+        "growing": 7,
+        "advanced": 7
+      },
+      "skills": {
+        "what": 14,
+        "whom": 1,
+        "whatkind": 5,
+        "where": 10,
+        "withwhat": 1,
+        "when": 1,
+        "how": 2,
+        "howmany": 1
+      }
+    },
+    {
+      "key": "year3_routine",
+      "level": "year3",
+      "topic": "routine",
+      "file": "output/sentence_stretch_year3_routine.json",
+      "tasks": 24,
+      "slots": 46,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 8,
+        "growing": 1,
+        "advanced": 15
+      },
+      "skills": {
+        "what": 16,
+        "whatkind": 7,
+        "when": 4,
+        "howoften": 4,
+        "where": 7,
+        "withwhat": 2,
+        "towhom": 2,
+        "withwhom": 1,
+        "how": 1
+      }
+    },
+    {
+      "key": "year3_school",
+      "level": "year3",
+      "topic": "school",
+      "file": "output/sentence_stretch_year3_school.json",
+      "tasks": 13,
+      "slots": 19,
+      "slotsWithChoice": 6,
+      "bands": {
+        "starter": 9,
+        "growing": 1,
+        "advanced": 3
+      },
+      "skills": {
+        "whom": 1,
+        "what": 6,
+        "whatkind": 3,
+        "how": 2,
+        "howoften": 2,
+        "where": 3,
+        "when": 1
+      }
+    },
+    {
+      "key": "year3_sports",
+      "level": "year3",
+      "topic": "sports",
+      "file": "output/sentence_stretch_year3_sports.json",
+      "tasks": 42,
+      "slots": 59,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 24,
+        "growing": 5,
+        "advanced": 13
+      },
+      "skills": {
+        "what": 29,
+        "whatkind": 6,
+        "howmany": 3,
+        "where": 10,
+        "howoften": 1,
+        "how": 4,
+        "when": 3,
+        "withwhat": 1
+      }
+    },
+    {
+      "key": "year3_transport",
+      "level": "year3",
+      "topic": "transport",
+      "file": "output/sentence_stretch_year3_transport.json",
+      "tasks": 22,
+      "slots": 33,
+      "slotsWithChoice": 3,
+      "bands": {
+        "starter": 10,
+        "growing": 4,
+        "advanced": 8
+      },
+      "skills": {
+        "what": 11,
+        "whatkind": 3,
+        "how": 4,
+        "where": 10,
+        "when": 1,
+        "withwhom": 1,
+        "towhom": 2
+      }
+    },
+    {
+      "key": "year4_ancient_egypt",
+      "level": "year4",
+      "topic": "ancient_egypt",
+      "file": "output/sentence_stretch_year4_ancient_egypt.json",
+      "tasks": 25,
+      "slots": 48,
+      "slotsWithChoice": 11,
+      "bands": {
+        "starter": 8,
+        "growing": 2,
+        "advanced": 15
+      },
+      "skills": {
+        "what": 14,
+        "whatkind": 9,
+        "where": 10,
+        "withwhat": 2,
+        "howoften": 2,
+        "how": 4,
+        "forwhom": 1,
+        "whom": 1,
+        "howmany": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_animals",
+      "level": "year4",
+      "topic": "animals",
+      "file": "output/sentence_stretch_year4_animals.json",
+      "tasks": 45,
+      "slots": 81,
+      "slotsWithChoice": 19,
+      "bands": {
+        "starter": 16,
+        "growing": 4,
+        "advanced": 25
+      },
+      "skills": {
+        "what": 17,
+        "whatkind": 21,
+        "whose": 2,
+        "how": 9,
+        "where": 14,
+        "withwhat": 5,
+        "fromwhere": 2,
+        "why": 3,
+        "howoften": 1
+      }
+    },
+    {
+      "key": "year4_camping",
+      "level": "year4",
+      "topic": "camping",
+      "file": "output/sentence_stretch_year4_camping.json",
+      "tasks": 18,
+      "slots": 40,
+      "slotsWithChoice": 3,
+      "bands": {
+        "starter": 6,
+        "advanced": 12
+      },
+      "skills": {
+        "what": 11,
+        "whatkind": 6,
+        "how": 5,
+        "where": 7,
+        "whom": 1,
+        "when": 3,
+        "howoften": 3,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_celebrations",
+      "level": "year4",
+      "topic": "celebrations",
+      "file": "output/sentence_stretch_year4_celebrations.json",
+      "tasks": 39,
+      "slots": 67,
+      "slotsWithChoice": 13,
+      "bands": {
+        "starter": 15,
+        "growing": 6,
+        "advanced": 18
+      },
+      "skills": {
+        "what": 18,
+        "whatkind": 11,
+        "howmany": 3,
+        "howoften": 1,
+        "where": 9,
+        "when": 5,
+        "withwhat": 2,
+        "fromwhere": 2,
+        "how": 10,
+        "towhom": 1,
+        "why": 3
+      }
+    },
+    {
+      "key": "year4_chores",
+      "level": "year4",
+      "topic": "chores",
+      "file": "output/sentence_stretch_year4_chores.json",
+      "tasks": 9,
+      "slots": 26,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 2,
+        "advanced": 7
+      },
+      "skills": {
+        "what": 8,
+        "when": 3,
+        "whatkind": 4,
+        "howoften": 3,
+        "where": 2,
+        "how": 2,
+        "whereto": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_environment",
+      "level": "year4",
+      "topic": "environment",
+      "file": "output/sentence_stretch_year4_environment.json",
+      "tasks": 8,
+      "slots": 19,
+      "slotsWithChoice": 2,
+      "bands": {
+        "starter": 4,
+        "advanced": 4
+      },
+      "skills": {
+        "what": 6,
+        "whatkind": 3,
+        "towhom": 1,
+        "how": 2,
+        "where": 1,
+        "why": 2,
+        "howoften": 1
+      }
+    },
+    {
+      "key": "year4_food",
+      "level": "year4",
+      "topic": "food",
+      "file": "output/sentence_stretch_year4_food.json",
+      "tasks": 52,
+      "slots": 90,
+      "slotsWithChoice": 16,
+      "bands": {
+        "starter": 22,
+        "growing": 4,
+        "advanced": 26
+      },
+      "skills": {
+        "what": 26,
+        "whatkind": 19,
+        "howmany": 7,
+        "howoften": 3,
+        "where": 17,
+        "how": 8,
+        "towhom": 1,
+        "fromwhere": 1,
+        "when": 2,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_grammar",
+      "level": "year4",
+      "topic": "grammar",
+      "file": "output/sentence_stretch_year4_grammar.json",
+      "tasks": 12,
+      "slots": 29,
+      "slotsWithChoice": 3,
+      "bands": {
+        "starter": 1,
+        "growing": 2,
+        "advanced": 9
+      },
+      "skills": {
+        "howoften": 2,
+        "where": 8,
+        "what": 6,
+        "whatkind": 4,
+        "how": 4,
+        "withwhat": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_health",
+      "level": "year4",
+      "topic": "health",
+      "file": "output/sentence_stretch_year4_health.json",
+      "tasks": 42,
+      "slots": 76,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 17,
+        "growing": 1,
+        "advanced": 24
+      },
+      "skills": {
+        "what": 33,
+        "whatkind": 9,
+        "how": 6,
+        "where": 12,
+        "whom": 1,
+        "howoften": 1,
+        "when": 5,
+        "fromwhere": 1,
+        "withwhat": 2,
+        "why": 2
+      }
+    },
+    {
+      "key": "year4_history",
+      "level": "year4",
+      "topic": "history",
+      "file": "output/sentence_stretch_year4_history.json",
+      "tasks": 21,
+      "slots": 45,
+      "slotsWithChoice": 6,
+      "bands": {
+        "starter": 6,
+        "growing": 1,
+        "advanced": 14
+      },
+      "skills": {
+        "what": 12,
+        "whatkind": 12,
+        "where": 9,
+        "howoften": 1,
+        "how": 5,
+        "withwhat": 1,
+        "when": 2,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_hobbies",
+      "level": "year4",
+      "topic": "hobbies",
+      "file": "output/sentence_stretch_year4_hobbies.json",
+      "tasks": 27,
+      "slots": 51,
+      "slotsWithChoice": 8,
+      "bands": {
+        "starter": 8,
+        "growing": 3,
+        "advanced": 16
+      },
+      "skills": {
+        "what": 11,
+        "whatkind": 7,
+        "how": 9,
+        "where": 10,
+        "howmany": 4,
+        "howoften": 1,
+        "when": 3,
+        "withwhat": 1,
+        "whereto": 1,
+        "why": 2
+      }
+    },
+    {
+      "key": "year4_housework",
+      "level": "year4",
+      "topic": "housework",
+      "file": "output/sentence_stretch_year4_housework.json",
+      "tasks": 34,
+      "slots": 59,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 15,
+        "growing": 4,
+        "advanced": 15
+      },
+      "skills": {
+        "what": 20,
+        "whatkind": 10,
+        "howoften": 2,
+        "where": 8,
+        "when": 4,
+        "withwhat": 5,
+        "how": 5,
+        "fromwhere": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_identity",
+      "level": "year4",
+      "topic": "identity",
+      "file": "output/sentence_stretch_year4_identity.json",
+      "tasks": 23,
+      "slots": 47,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 5,
+        "growing": 1,
+        "advanced": 17
+      },
+      "skills": {
+        "what": 12,
+        "whatkind": 14,
+        "where": 9,
+        "howoften": 1,
+        "how": 4,
+        "howmany": 1,
+        "withwhat": 1,
+        "when": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_recycling",
+      "level": "year4",
+      "topic": "recycling",
+      "file": "output/sentence_stretch_year4_recycling.json",
+      "tasks": 12,
+      "slots": 25,
+      "slotsWithChoice": 2,
+      "bands": {
+        "starter": 6,
+        "advanced": 6
+      },
+      "skills": {
+        "what": 11,
+        "whatkind": 4,
+        "fromwhere": 1,
+        "towhom": 1,
+        "where": 2,
+        "how": 2,
+        "when": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_safety",
+      "level": "year4",
+      "topic": "safety",
+      "file": "output/sentence_stretch_year4_safety.json",
+      "tasks": 9,
+      "slots": 25,
+      "slotsWithChoice": 3,
+      "bands": {
+        "starter": 1,
+        "advanced": 8
+      },
+      "skills": {
+        "what": 8,
+        "howoften": 1,
+        "when": 3,
+        "how": 4,
+        "where": 2,
+        "whatkind": 2,
+        "why": 2
+      }
+    },
+    {
+      "key": "year4_schedules",
+      "level": "year4",
+      "topic": "schedules",
+      "file": "output/sentence_stretch_year4_schedules.json",
+      "tasks": 3,
+      "slots": 8,
+      "slotsWithChoice": 2,
+      "bands": {
+        "growing": 1,
+        "advanced": 2
+      },
+      "skills": {
+        "where": 3,
+        "when": 1,
+        "howmany": 1,
+        "whatkind": 1,
+        "how": 1
+      }
+    },
+    {
+      "key": "year4_school",
+      "level": "year4",
+      "topic": "school",
+      "file": "output/sentence_stretch_year4_school.json",
+      "tasks": 9,
+      "slots": 20,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 4,
+        "growing": 1,
+        "advanced": 4
+      },
+      "skills": {
+        "what": 5,
+        "whatkind": 4,
+        "where": 3,
+        "howmany": 1,
+        "how": 2,
+        "when": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_school_subjects",
+      "level": "year4",
+      "topic": "school_subjects",
+      "file": "output/sentence_stretch_year4_school_subjects.json",
+      "tasks": 22,
+      "slots": 43,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 6,
+        "growing": 4,
+        "advanced": 12
+      },
+      "skills": {
+        "whom": 1,
+        "what": 12,
+        "whatkind": 6,
+        "where": 13,
+        "how": 4,
+        "howoften": 1,
+        "when": 2,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_sports",
+      "level": "year4",
+      "topic": "sports",
+      "file": "output/sentence_stretch_year4_sports.json",
+      "tasks": 31,
+      "slots": 60,
+      "slotsWithChoice": 9,
+      "bands": {
+        "starter": 7,
+        "growing": 5,
+        "advanced": 19
+      },
+      "skills": {
+        "what": 15,
+        "whatkind": 9,
+        "where": 13,
+        "when": 5,
+        "withwhat": 2,
+        "howmany": 1,
+        "how": 8,
+        "howoften": 1,
+        "why": 2
+      }
+    },
+    {
+      "key": "year4_street_safety",
+      "level": "year4",
+      "topic": "street_safety",
+      "file": "output/sentence_stretch_year4_street_safety.json",
+      "tasks": 18,
+      "slots": 36,
+      "slotsWithChoice": 2,
+      "bands": {
+        "starter": 6,
+        "growing": 3,
+        "advanced": 9
+      },
+      "skills": {
+        "what": 11,
+        "whatkind": 6,
+        "where": 5,
+        "when": 6,
+        "whom": 1,
+        "howoften": 1,
+        "how": 2,
+        "withwhat": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year4_transport",
+      "level": "year4",
+      "topic": "transport",
+      "file": "output/sentence_stretch_year4_transport.json",
+      "tasks": 21,
+      "slots": 41,
+      "slotsWithChoice": 7,
+      "bands": {
+        "starter": 6,
+        "growing": 2,
+        "advanced": 13
+      },
+      "skills": {
+        "what": 10,
+        "whatkind": 6,
+        "where": 7,
+        "when": 4,
+        "howmany": 1,
+        "whose": 1,
+        "howoften": 1,
+        "how": 5,
+        "why": 2
+      }
+    },
+    {
+      "key": "year5_adjectives",
+      "level": "year5",
+      "topic": "adjectives",
+      "file": "output/sentence_stretch_year5_adjectives.json",
+      "tasks": 23,
+      "slots": 46,
+      "slotsWithChoice": 15,
+      "bands": {
+        "starter": 9,
+        "advanced": 14
+      },
+      "skills": {
+        "what": 14,
+        "whatkind": 12,
+        "howoften": 2,
+        "how": 4,
+        "where": 6,
+        "fromwhere": 1,
+        "howmany": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year5_daily_routine",
+      "level": "year5",
+      "topic": "daily_routine",
+      "file": "output/sentence_stretch_year5_daily_routine.json",
+      "tasks": 5,
+      "slots": 14,
+      "slotsWithChoice": 1,
+      "bands": {
+        "starter": 1,
+        "advanced": 4
+      },
+      "skills": {
+        "whatkind": 3,
+        "what": 2,
+        "howoften": 2,
+        "when": 1,
+        "withwhat": 1,
+        "howmany": 1,
+        "how": 1,
+        "where": 1
+      }
+    },
+    {
+      "key": "year5_events",
+      "level": "year5",
+      "topic": "events",
+      "file": "output/sentence_stretch_year5_events.json",
+      "tasks": 27,
+      "slots": 53,
+      "slotsWithChoice": 8,
+      "bands": {
+        "starter": 10,
+        "advanced": 17
+      },
+      "skills": {
+        "what": 19,
+        "whatkind": 10,
+        "howoften": 4,
+        "where": 7,
+        "whom": 1,
+        "when": 2,
+        "towhom": 1,
+        "forwhom": 2,
+        "withwhat": 1,
+        "howmany": 1,
+        "how": 2,
+        "why": 2
+      }
+    },
+    {
+      "key": "year5_food",
+      "level": "year5",
+      "topic": "food",
+      "file": "output/sentence_stretch_year5_food.json",
+      "tasks": 32,
+      "slots": 60,
+      "slotsWithChoice": 13,
+      "bands": {
+        "starter": 13,
+        "growing": 2,
+        "advanced": 17
+      },
+      "skills": {
+        "what": 12,
+        "whatkind": 15,
+        "how": 7,
+        "howoften": 3,
+        "where": 7,
+        "howmany": 2,
+        "fromwhere": 2,
+        "withwhat": 3,
+        "when": 2,
+        "why": 1
+      }
+    },
+    {
+      "key": "year5_health",
+      "level": "year5",
+      "topic": "health",
+      "file": "output/sentence_stretch_year5_health.json",
+      "tasks": 13,
+      "slots": 32,
+      "slotsWithChoice": 7,
+      "bands": {
+        "starter": 3,
+        "growing": 2,
+        "advanced": 8
+      },
+      "skills": {
+        "what": 6,
+        "howoften": 1,
+        "where": 5,
+        "when": 2,
+        "whatkind": 7,
+        "how": 4,
+        "towhom": 1,
+        "withwhat": 1,
+        "whose": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year5_hobbies",
+      "level": "year5",
+      "topic": "hobbies",
+      "file": "output/sentence_stretch_year5_hobbies.json",
+      "tasks": 19,
+      "slots": 41,
+      "slotsWithChoice": 2,
+      "bands": {
+        "starter": 6,
+        "growing": 2,
+        "advanced": 11
+      },
+      "skills": {
+        "what": 9,
+        "whatkind": 6,
+        "how": 6,
+        "where": 9,
+        "howmany": 1,
+        "howoften": 1,
+        "withwhom": 1,
+        "when": 2,
+        "why": 1
+      }
+    },
+    {
+      "key": "year5_holiday",
+      "level": "year5",
+      "topic": "holiday",
+      "file": "output/sentence_stretch_year5_holiday.json",
+      "tasks": 36,
+      "slots": 67,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 14,
+        "growing": 2,
+        "advanced": 20
+      },
+      "skills": {
+        "what": 15,
+        "whatkind": 19,
+        "howoften": 1,
+        "how": 4,
+        "where": 11,
+        "howmany": 1,
+        "when": 5,
+        "fromwhere": 1,
+        "whom": 1,
+        "withwhat": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year5_life",
+      "level": "year5",
+      "topic": "life",
+      "file": "output/sentence_stretch_year5_life.json",
+      "tasks": 24,
+      "slots": 49,
+      "slotsWithChoice": 6,
+      "bands": {
+        "starter": 9,
+        "growing": 1,
+        "advanced": 14
+      },
+      "skills": {
+        "what": 12,
+        "whom": 2,
+        "howmany": 3,
+        "whatkind": 11,
+        "where": 7,
+        "how": 4,
+        "howoften": 1,
+        "when": 2,
+        "withwhat": 1,
+        "why": 2
+      }
+    },
+    {
+      "key": "year5_people",
+      "level": "year5",
+      "topic": "people",
+      "file": "output/sentence_stretch_year5_people.json",
+      "tasks": 18,
+      "slots": 37,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 4,
+        "growing": 2,
+        "advanced": 12
+      },
+      "skills": {
+        "what": 10,
+        "whatkind": 6,
+        "where": 6,
+        "howmany": 3,
+        "how": 3,
+        "when": 2,
+        "fromwhere": 1,
+        "why": 2
+      }
+    },
+    {
+      "key": "year5_places",
+      "level": "year5",
+      "topic": "places",
+      "file": "output/sentence_stretch_year5_places.json",
+      "tasks": 43,
+      "slots": 78,
+      "slotsWithChoice": 9,
+      "bands": {
+        "starter": 11,
+        "growing": 9,
+        "advanced": 23
+      },
+      "skills": {
+        "what": 18,
+        "whatkind": 15,
+        "howmany": 5,
+        "where": 22,
+        "when": 4,
+        "howoften": 5,
+        "how": 2,
+        "whom": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year5_school",
+      "level": "year5",
+      "topic": "school",
+      "file": "output/sentence_stretch_year5_school.json",
+      "tasks": 33,
+      "slots": 68,
+      "slotsWithChoice": 10,
+      "bands": {
+        "starter": 7,
+        "growing": 3,
+        "advanced": 23
+      },
+      "skills": {
+        "what": 22,
+        "how": 9,
+        "where": 10,
+        "when": 4,
+        "whatkind": 9,
+        "howoften": 1,
+        "howmany": 1,
+        "towhom": 1,
+        "withwhat": 1,
+        "fromwhere": 1,
+        "why": 2
+      }
+    },
+    {
+      "key": "year5_sports",
+      "level": "year5",
+      "topic": "sports",
+      "file": "output/sentence_stretch_year5_sports.json",
+      "tasks": 42,
+      "slots": 75,
+      "slotsWithChoice": 11,
+      "bands": {
+        "starter": 16,
+        "growing": 4,
+        "advanced": 22
+      },
+      "skills": {
+        "what": 28,
+        "whatkind": 9,
+        "how": 9,
+        "where": 13,
+        "withwhat": 3,
+        "howoften": 3,
+        "howmany": 2,
+        "when": 2,
+        "towhom": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year5_vocabulary",
+      "level": "year5",
+      "topic": "vocabulary",
+      "file": "output/sentence_stretch_year5_vocabulary.json",
+      "tasks": 25,
+      "slots": 54,
+      "slotsWithChoice": 9,
+      "bands": {
+        "starter": 4,
+        "growing": 2,
+        "advanced": 19
+      },
+      "skills": {
+        "what": 14,
+        "where": 9,
+        "howmany": 3,
+        "whatkind": 8,
+        "how": 6,
+        "when": 3,
+        "fromwhere": 1,
+        "whose": 1,
+        "why": 2,
+        "howoften": 1
+      }
+    },
+    {
+      "key": "year5_weather",
+      "level": "year5",
+      "topic": "weather",
+      "file": "output/sentence_stretch_year5_weather.json",
+      "tasks": 13,
+      "slots": 25,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 5,
+        "growing": 2,
+        "advanced": 6
+      },
+      "skills": {
+        "what": 6,
+        "whom": 1,
+        "whatkind": 7,
+        "where": 2,
+        "when": 3,
+        "howoften": 2,
+        "how": 2,
+        "why": 1
+      }
+    },
+    {
+      "key": "year5_wildlife",
+      "level": "year5",
+      "topic": "wildlife",
+      "file": "output/sentence_stretch_year5_wildlife.json",
+      "tasks": 34,
+      "slots": 61,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 11,
+        "growing": 7,
+        "advanced": 16
+      },
+      "skills": {
+        "what": 12,
+        "whatkind": 11,
+        "howmany": 2,
+        "whose": 3,
+        "where": 12,
+        "when": 1,
+        "withwhat": 2,
+        "how": 7,
+        "fromwhere": 1,
+        "howoften": 3,
+        "why": 2
+      }
+    },
+    {
+      "key": "year6_adventure",
+      "level": "year6",
+      "topic": "adventure",
+      "file": "output/sentence_stretch_year6_adventure.json",
+      "tasks": 30,
+      "slots": 53,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 11,
+        "growing": 4,
+        "advanced": 15
+      },
+      "skills": {
+        "what": 12,
+        "whatkind": 11,
+        "howoften": 1,
+        "where": 10,
+        "withwhat": 3,
+        "how": 4,
+        "when": 4,
+        "towhom": 1,
+        "why": 2
+      }
+    },
+    {
+      "key": "year6_agriculture",
+      "level": "year6",
+      "topic": "agriculture",
+      "file": "output/sentence_stretch_year6_agriculture.json",
+      "tasks": 4,
+      "slots": 11,
+      "slotsWithChoice": 1,
+      "bands": {
+        "starter": 1,
+        "advanced": 3
+      },
+      "skills": {
+        "what": 2,
+        "how": 3,
+        "where": 3,
+        "whatkind": 1,
+        "fromwhere": 1
+      }
+    },
+    {
+      "key": "year6_careers",
+      "level": "year6",
+      "topic": "careers",
+      "file": "output/sentence_stretch_year6_careers.json",
+      "tasks": 15,
+      "slots": 34,
+      "slotsWithChoice": 3,
+      "bands": {
+        "starter": 6,
+        "advanced": 9
+      },
+      "skills": {
+        "what": 12,
+        "whatkind": 5,
+        "howmany": 1,
+        "when": 2,
+        "fromwhere": 1,
+        "how": 4,
+        "where": 4,
+        "howoften": 1,
+        "withwhat": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year6_concepts",
+      "level": "year6",
+      "topic": "concepts",
+      "file": "output/sentence_stretch_year6_concepts.json",
+      "tasks": 4,
+      "slots": 12,
+      "slotsWithChoice": 2,
+      "bands": {
+        "advanced": 4
+      },
+      "skills": {
+        "what": 2,
+        "whatkind": 4,
+        "where": 3,
+        "how": 1
+      }
+    },
+    {
+      "key": "year6_crafts",
+      "level": "year6",
+      "topic": "crafts",
+      "file": "output/sentence_stretch_year6_crafts.json",
+      "tasks": 24,
+      "slots": 43,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 14,
+        "advanced": 10
+      },
+      "skills": {
+        "what": 15,
+        "whatkind": 12,
+        "how": 5,
+        "howmany": 1,
+        "where": 3,
+        "towhom": 1,
+        "when": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year6_emergency",
+      "level": "year6",
+      "topic": "emergency",
+      "file": "output/sentence_stretch_year6_emergency.json",
+      "tasks": 29,
+      "slots": 44,
+      "slotsWithChoice": 2,
+      "bands": {
+        "starter": 18,
+        "growing": 1,
+        "advanced": 10
+      },
+      "skills": {
+        "what": 13,
+        "whom": 5,
+        "whatkind": 7,
+        "how": 5,
+        "howoften": 1,
+        "when": 3,
+        "where": 2,
+        "withwhat": 1,
+        "howmany": 1,
+        "towhom": 1,
+        "why": 3
+      }
+    },
+    {
+      "key": "year6_emotions",
+      "level": "year6",
+      "topic": "emotions",
+      "file": "output/sentence_stretch_year6_emotions.json",
+      "tasks": 11,
+      "slots": 30,
+      "slotsWithChoice": 2,
+      "bands": {
+        "advanced": 11
+      },
+      "skills": {
+        "what": 4,
+        "whatkind": 6,
+        "whom": 1,
+        "how": 4,
+        "where": 5,
+        "whose": 2,
+        "withwhat": 1,
+        "when": 2,
+        "why": 2
+      }
+    },
+    {
+      "key": "year6_grammar",
+      "level": "year6",
+      "topic": "grammar",
+      "file": "output/sentence_stretch_year6_grammar.json",
+      "tasks": 28,
+      "slots": 58,
+      "slotsWithChoice": 12,
+      "bands": {
+        "starter": 7,
+        "growing": 1,
+        "advanced": 20
+      },
+      "skills": {
+        "what": 15,
+        "whatkind": 8,
+        "howmany": 4,
+        "how": 6,
+        "where": 8,
+        "withwhat": 1,
+        "when": 5,
+        "fromwhere": 1,
+        "why": 4
+      }
+    },
+    {
+      "key": "year6_history",
+      "level": "year6",
+      "topic": "history",
+      "file": "output/sentence_stretch_year6_history.json",
+      "tasks": 30,
+      "slots": 57,
+      "slotsWithChoice": 7,
+      "bands": {
+        "starter": 11,
+        "growing": 2,
+        "advanced": 17
+      },
+      "skills": {
+        "whom": 1,
+        "what": 17,
+        "whatkind": 9,
+        "where": 12,
+        "when": 3,
+        "withwhat": 4,
+        "how": 4,
+        "why": 1
+      }
+    },
+    {
+      "key": "year6_housing",
+      "level": "year6",
+      "topic": "housing",
+      "file": "output/sentence_stretch_year6_housing.json",
+      "tasks": 5,
+      "slots": 14,
+      "slotsWithChoice": 4,
+      "bands": {
+        "advanced": 5
+      },
+      "skills": {
+        "whatkind": 2,
+        "how": 3,
+        "where": 4,
+        "fromwhere": 1,
+        "whereto": 1
+      }
+    },
+    {
+      "key": "year6_lifestyle",
+      "level": "year6",
+      "topic": "lifestyle",
+      "file": "output/sentence_stretch_year6_lifestyle.json",
+      "tasks": 25,
+      "slots": 49,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 11,
+        "growing": 2,
+        "advanced": 12
+      },
+      "skills": {
+        "what": 14,
+        "whom": 2,
+        "whatkind": 10,
+        "howoften": 3,
+        "where": 6,
+        "when": 2,
+        "howmany": 3,
+        "withwhat": 1,
+        "how": 2,
+        "why": 1
+      }
+    },
+    {
+      "key": "year6_music",
+      "level": "year6",
+      "topic": "music",
+      "file": "output/sentence_stretch_year6_music.json",
+      "tasks": 30,
+      "slots": 60,
+      "slotsWithChoice": 9,
+      "bands": {
+        "starter": 11,
+        "advanced": 19
+      },
+      "skills": {
+        "what": 19,
+        "whatkind": 10,
+        "how": 8,
+        "where": 8,
+        "howmany": 2,
+        "howoften": 1,
+        "withwhat": 3,
+        "when": 4,
+        "why": 2
+      }
+    },
+    {
+      "key": "year6_mystery",
+      "level": "year6",
+      "topic": "mystery",
+      "file": "output/sentence_stretch_year6_mystery.json",
+      "tasks": 16,
+      "slots": 36,
+      "slotsWithChoice": 7,
+      "bands": {
+        "starter": 5,
+        "growing": 1,
+        "advanced": 10
+      },
+      "skills": {
+        "what": 8,
+        "whatkind": 8,
+        "how": 5,
+        "howoften": 3,
+        "withwhat": 3,
+        "howmany": 1,
+        "where": 3,
+        "when": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year6_nature",
+      "level": "year6",
+      "topic": "nature",
+      "file": "output/sentence_stretch_year6_nature.json",
+      "tasks": 8,
+      "slots": 20,
+      "slotsWithChoice": 2,
+      "bands": {
+        "starter": 1,
+        "growing": 3,
+        "advanced": 4
+      },
+      "skills": {
+        "what": 3,
+        "where": 4,
+        "fromwhere": 1,
+        "withwhat": 1,
+        "whatkind": 4,
+        "how": 2,
+        "when": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year6_people",
+      "level": "year6",
+      "topic": "people",
+      "file": "output/sentence_stretch_year6_people.json",
+      "tasks": 4,
+      "slots": 11,
+      "slotsWithChoice": 4,
+      "bands": {
+        "starter": 1,
+        "advanced": 3
+      },
+      "skills": {
+        "what": 1,
+        "whatkind": 3,
+        "where": 3,
+        "how": 1
+      }
+    },
+    {
+      "key": "year6_sports",
+      "level": "year6",
+      "topic": "sports",
+      "file": "output/sentence_stretch_year6_sports.json",
+      "tasks": 4,
+      "slots": 11,
+      "slotsWithChoice": 2,
+      "bands": {
+        "starter": 1,
+        "advanced": 3
+      },
+      "skills": {
+        "whom": 1,
+        "whatkind": 3,
+        "what": 2,
+        "when": 1,
+        "how": 1,
+        "where": 1
+      }
+    },
+    {
+      "key": "year6_storytelling",
+      "level": "year6",
+      "topic": "storytelling",
+      "file": "output/sentence_stretch_year6_storytelling.json",
+      "tasks": 23,
+      "slots": 47,
+      "slotsWithChoice": 3,
+      "bands": {
+        "starter": 4,
+        "growing": 4,
+        "advanced": 15
+      },
+      "skills": {
+        "what": 8,
+        "whatkind": 9,
+        "howoften": 5,
+        "where": 7,
+        "when": 2,
+        "fromwhere": 1,
+        "how": 7,
+        "withwhat": 1,
+        "forwhom": 1,
+        "why": 1
+      }
+    },
+    {
+      "key": "year6_transport",
+      "level": "year6",
+      "topic": "transport",
+      "file": "output/sentence_stretch_year6_transport.json",
+      "tasks": 30,
+      "slots": 58,
+      "slotsWithChoice": 5,
+      "bands": {
+        "starter": 10,
+        "growing": 2,
+        "advanced": 18
+      },
+      "skills": {
+        "what": 18,
+        "whatkind": 11,
+        "when": 4,
+        "fromwhere": 1,
+        "whose": 1,
+        "howmany": 3,
+        "whom": 1,
+        "howoften": 2,
+        "how": 4,
+        "where": 5,
+        "withwhat": 2,
+        "why": 2
+      }
+    },
+    {
+      "key": "year6_vocabulary",
+      "level": "year6",
+      "topic": "vocabulary",
+      "file": "output/sentence_stretch_year6_vocabulary.json",
+      "tasks": 16,
+      "slots": 37,
+      "slotsWithChoice": 6,
+      "bands": {
+        "starter": 5,
+        "growing": 1,
+        "advanced": 10
+      },
+      "skills": {
+        "what": 7,
+        "whatkind": 10,
+        "howmany": 1,
+        "when": 5,
+        "how": 4,
+        "where": 3,
+        "withwhat": 1,
+        "fromwhere": 1,
+        "whereto": 1,
+        "why": 1
+      }
+    }
+  ],
+  "bandLabels": {
+    "starter": {
+      "en": "Starter",
+      "ms": "Permulaan",
+      "zh": "入门",
+      "iba": "Pun"
+    },
+    "growing": {
+      "en": "Growing",
+      "ms": "Sederhana",
+      "zh": "进阶",
+      "iba": "Tumbuh"
+    },
+    "advanced": {
+      "en": "Advanced",
+      "ms": "Lanjutan",
+      "zh": "高级",
+      "iba": "Tinggi"
+    }
+  },
+  "skillLabels": {
+    "what": {
+      "en": "What?",
+      "ms": "Apa?",
+      "zh": "什么？",
+      "iba": "Nama?"
+    },
+    "whom": {
+      "en": "Whom?",
+      "ms": "Siapa?",
+      "zh": "谁？",
+      "iba": "Sapa?"
+    },
+    "whatkind": {
+      "en": "What kind?",
+      "ms": "Yang bagaimana?",
+      "zh": "什么样的？",
+      "iba": "Ni macham?"
+    },
+    "howmany": {
+      "en": "How many?",
+      "ms": "Berapa banyak?",
+      "zh": "多少？",
+      "iba": "Berapa iku?"
+    },
+    "whose": {
+      "en": "Whose?",
+      "ms": "Kepunyaan siapa?",
+      "zh": "谁的？",
+      "iba": "Enggi sapa?"
+    },
+    "how": {
+      "en": "How?",
+      "ms": "Bagaimana?",
+      "zh": "怎么样？",
+      "iba": "Baka ni?"
+    },
+    "howoften": {
+      "en": "How often?",
+      "ms": "Berapa kerap?",
+      "zh": "多久一次？",
+      "iba": "Berapa kali?"
+    },
+    "where": {
+      "en": "Where?",
+      "ms": "Di mana?",
+      "zh": "在哪里？",
+      "iba": "Dini?"
+    },
+    "when": {
+      "en": "When?",
+      "ms": "Bila?",
+      "zh": "什么时候？",
+      "iba": "Kemaya?"
+    },
+    "withwhat": {
+      "en": "With what?",
+      "ms": "Dengan apa?",
+      "zh": "用什么？",
+      "iba": "Ngena nama?"
+    },
+    "withwhom": {
+      "en": "With whom?",
+      "ms": "Dengan siapa?",
+      "zh": "和谁？",
+      "iba": "Enggau sapa?"
+    },
+    "forwhom": {
+      "en": "For whom?",
+      "ms": "Untuk siapa?",
+      "zh": "为了谁？",
+      "iba": "Ke sapa?"
+    },
+    "whereto": {
+      "en": "Where to?",
+      "ms": "Ke mana?",
+      "zh": "去哪里？",
+      "iba": "Ngagai dini?"
+    },
+    "fromwhere": {
+      "en": "From where?",
+      "ms": "Dari mana?",
+      "zh": "从哪里？",
+      "iba": "Ari dini?"
+    },
+    "towhom": {
+      "en": "To whom?",
+      "ms": "Kepada siapa?",
+      "zh": "给谁？",
+      "iba": "Ngagai sapa?"
+    },
+    "why": {
+      "en": "Why?",
+      "ms": "Mengapa?",
+      "zh": "为什么？",
+      "iba": "Nama kebuah?"
+    }
+  }
+}
