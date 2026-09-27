@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "generatedAt": 1790488331068,
+  "filesRef": "3f33500af0e9f020a24504da530c69d97ee67dc3",
+  "files": {
+    "phrase_bank.json": {
+      "sha256": "898e193473b8309a3b64c0bc223a51f9ec7fc6c87aefe1561c1c1a0260ef7dd8",
+      "bytes": 6003195
+    },
+    "sentence_builder_remedial.json": {
+      "sha256": "122a5458b27ec66a48b9492f585545dea5af8b0abfca34eca20ba5d2fab3700e",
+      "bytes": 481195
+    },
+    "sentence_builder_year1.json": {
+      "sha256": "5247e5ccf969a003463809cc9557905fdf9d3af3dc6d01f634aa348a24606598",
+      "bytes": 135190
+    },
+    "sentence_builder_year2.json": {
+      "sha256": "09c25579a962d25e809ad929459791d9e5748fc5420a530bbe76efc60f5bcfac",
+      "bytes": 155152
+    },
+    "sentence_builder_year3.json": {
+      "sha256": "072deb26368844903d5d3ba79648e6377b8aee288c6d6a318d91dadfc089c2b5",
+      "bytes": 243069
+    },
+    "sentence_builder_year4.json": {
+      "sha256": "c6779ed49453262a03b3a1027ce1b6c19817fc623c5b099e068218af19821745",
+      "bytes": 302470
+    },
+    "sentence_builder_year5.json": {
+      "sha256": "a05d2fbf04acda7ababe28c3d1e8426ae17bac2513b7be0a3febd8a1b92444da",
+      "bytes": 253448
+    },
+    "sentence_builder_year6.json": {
+      "sha256": "45d7d0b8eda6afbe235bc6a981addb3171e45b2f776223646fd88e00e2c5c0f3",
+      "bytes": 234988
+    },
+    "sentence_stretch_index.json": {
+      "sha256": "5e95a31b2f3999e25594ebfff2fc4ad5b6822db65e4eb9c973a01342bc95f4b8",
+      "bytes": 51272
+    },
+    "sentence_stretch_remedial_vocabulary_adjektif.json": {
+      "sha256": "d58e182de5fb58c8596fb278537ea62a1aaf40a160047e1602dcb7de91ad6504",
+      "bytes": 368207
+    },
+    "sentence_stretch_remedial_vocabulary_kerja.json": {
+      "sha256": "cf56b438c464c2fb0715ab2cc1a311189981c518a35cdd8224e4b25c99c2623b",
+      "bytes": 598720
+    },
+    "sentence_stretch_remedial_vocabulary_nama.json": {
+      "sha256": "5f0e3056f4572d5666b0a19d0ea7ecc9453bb4a3298db10a88c9de2293d5d740",
+      "bytes": 675630
+    },
+    "sentence_stretch_year1_animals.json": {
+      "sha256": "ef247421e93c57f2b6dca873aadb08815ef039d6257e83cd917544cc2dcc41ca",
+      "bytes": 63013
+    },
+    "sentence_stretch_year1_colours.json": {
+      "sha256": "af947f7440a259def425e4ab1ca2fedd033c64eb043a5d9a03fc0e279b742f73",
+      "bytes": 23468
+    },
+    "sentence_stretch_year1_food.json": {
+      "sha256": "149335ba16d2a0d518f8a5f8a28cec90418987e383d2e922b2772c3fcd90281d",
+      "bytes": 91002
+    },
+    "sentence_stretch_year1_greetings.json": {
+      "sha256": "364f5f15105b0d8c075389da3b78bc2beed6286cc555d7bf0cbbe91f09c8233a",
+      "bytes": 38403
+    },
+    "sentence_stretch_year1_nature.json": {
+      "sha256": "5d74adaea79ab4d319eedc8d32cfba93df173d6058c1f65ceaf1f570f57f04a2",
+      "bytes": 9381
+    },
+    "sentence_stretch_year1_numbers.json": {
+      "sha256": "8bd217b09bf3a3787e74229f37f20fd9e261e5d7baea92baacca4c370f5b5575",
+      "bytes": 42141
+    },
+    "sentence_stretch_year1_school.json": {
+      "sha256": "8c1f3f37ef1afbc11aedf6ca734706851481a2cd5caf16ab2853418bb5402bb1",
+      "bytes": 74235
+    },
+    "sentence_stretch_year1_shapes.json": {
+      "sha256": "1a84415dc2eaef41c509994cc1f451c8f8c454a22d22c8b53e8714cf0bae6e75",
+      "bytes": 21670
+    },
+    "sentence_stretch_year1_toys.json": {
+      "sha256": "af441fe215a8fe1810588d0304cda5c5cb73d1d8afa5f86801ec3834d535f4ee",
+      "bytes": 44252
+    },
+    "sentence_stretch_year2_animals.json": {
+      "sha256": "f1be903cc3da18b72297aa879baf7c82cb1f2362907eec6538796c286eb7f34a",
+      "bytes": 58878
+    },
+    "sentence_stretch_year2_beach.json": {
+      "sha256": "b7b149ba07aadea091400f8708d993e4f779aaeff104238319cf0699d0bf86cf",
+      "bytes": 89122
+    },
+    "sentence_stretch_year2_body.json": {
+      "sha256": "e9e9d87162f2f29ee5d6da66763a9fb0fa8d3a3d7af4c43ba281d995cd6a967c",
+      "bytes": 66501
+    },
+    "sentence_stretch_year2_clothes.json": {
+      "sha256": "8d70dc71919a15ee7c593b79d1b86298594376e8e735b68b4010dc07edd4e5d0",
+      "bytes": 99843
+    },
+    "sentence_stretch_year2_free_time.json": {
+      "sha256": "7be342387968d41bbc2a15dee262342e31f7ca865549915d555449374ebd2a3d",
+      "bytes": 62543
+    },
+    "sentence_stretch_year2_home.json": {
+      "sha256": "531556dc26c6fa7e49e99b7bf9d7fad60e06cd40604e9758a2a77c7c2c5b7b76",
+      "bytes": 90492
+    },
+    "sentence_stretch_year2_materials.json": {
+      "sha256": "d0234801592eeb84cc00527556c1ea9075a4b215154318339e0424ca7ef96cab",
+      "bytes": 12999
+    },
+    "sentence_stretch_year2_weather.json": {
+      "sha256": "c84eef44985dd32f7d3a4d2531060d925963a313d014ccc6b42b89e9a64781c0",
+      "bytes": 12636
+    },
+    "sentence_stretch_year2_week.json": {
+      "sha256": "adc210d9560c8d9aabee70f0008537559bbbcde806e1cd3c47ecd2e2e269c95b",
+      "bytes": 44302
+    },
+    "sentence_stretch_year3_animals.json": {
+      "sha256": "8b431367cc215735d2cfc5dd0e7726aafc5b3e2259f3dd9b0a1d0c51e5c939f5",
+      "bytes": 32613
+    },
+    "sentence_stretch_year3_appearance.json": {
+      "sha256": "5da2cb3e518a4adc951b1971ea4caba65e4646aeec3bf2955982801187538ae3",
+      "bytes": 41897
+    },
+    "sentence_stretch_year3_celebrations.json": {
+      "sha256": "c64562118e21b456cd68b5445ca0807da2f6e4be20e3e51eccdf9791c50a3f95",
+      "bytes": 13026
+    },
+    "sentence_stretch_year3_chores.json": {
+      "sha256": "e5709e0c59c3103a8aaf9c3949a40320af9220f19258386b13455a9caef5d537",
+      "bytes": 55458
+    },
+    "sentence_stretch_year3_farm.json": {
+      "sha256": "8a871b25328f40d3b94580a53aaa7e208ba22883a81030c9ab59d1a86fd45dd5",
+      "bytes": 68114
+    },
+    "sentence_stretch_year3_feelings.json": {
+      "sha256": "29380577e001589b793fc13c7e2657ab995c353208ab8873a0ca87232e9641e5",
+      "bytes": 36909
+    },
+    "sentence_stretch_year3_food.json": {
+      "sha256": "a76e6d222fd5a04cdef1272a575170ef605e050b6afd13dd42b68079b5b83408",
+      "bytes": 72480
+    },
+    "sentence_stretch_year3_hobbies.json": {
+      "sha256": "3e887d17b65bed7fcb12eefd3700af8ca2d565fdfb331d1d5558e8910dd4c5c6",
+      "bytes": 31691
+    },
+    "sentence_stretch_year3_home.json": {
+      "sha256": "d052d3fa82bd6f5874d156dbc91cae391a53145bc1c58155a56d3e19dcda0a8e",
+      "bytes": 76055
+    },
+    "sentence_stretch_year3_jobs.json": {
+      "sha256": "381f0ef142359c3af2fab8ea6741482d2f9dd559f5fbadf5703da2062443e40b",
+      "bytes": 66252
+    },
+    "sentence_stretch_year3_numbers.json": {
+      "sha256": "f6c502b54539aadf1d70081740e561a8533ef2f9ef7da7e08896b87e823a76fe",
+      "bytes": 10992
+    },
+    "sentence_stretch_year3_outdoors.json": {
+      "sha256": "dc9b46886f3105399dc58e33bfc1f00a0f625a8a4f4c0675dd3697115600d1d5",
+      "bytes": 94411
+    },
+    "sentence_stretch_year3_places.json": {
+      "sha256": "47cedf6482efbb71b838702aa703effe570ba4a4bc00d770f531133b56734cfe",
+      "bytes": 57624
+    },
+    "sentence_stretch_year3_routine.json": {
+      "sha256": "0645e64b6686cd66e1a5c2513d2dea81d082ad1a6f09077c6bfc138572e9abfa",
+      "bytes": 59622
+    },
+    "sentence_stretch_year3_school.json": {
+      "sha256": "ec514ac8b297499f512c419a1ac5e788be9a30540c5777acb20ca5d6b092006a",
+      "bytes": 30721
+    },
+    "sentence_stretch_year3_sports.json": {
+      "sha256": "3f23989a3736bcacb32576d3bb3c060a1ebfae6f0023328a64e7fdc7a18f6f0e",
+      "bytes": 87448
+    },
+    "sentence_stretch_year3_transport.json": {
+      "sha256": "18f8ca7269969a88b84ebff9b42779b725505fdb98c298ba71189fc387f237d8",
+      "bytes": 48926
+    },
+    "sentence_stretch_year4_ancient_egypt.json": {
+      "sha256": "4b33b2ec20dfad5f4b93387eecb94a59b7bf2eab3520497e0eb86799375c0300",
+      "bytes": 63951
+    },
+    "sentence_stretch_year4_animals.json": {
+      "sha256": "75cc06723f83102bf5103602e77b98e3a9b66350a125aa896a0668fc56c5dee9",
+      "bytes": 105903
+    },
+    "sentence_stretch_year4_camping.json": {
+      "sha256": "f415a8f98da6785a460ec4c8588bb6e6b801099c211b79f88bedc41ad7d40ed9",
+      "bytes": 48343
+    },
+    "sentence_stretch_year4_celebrations.json": {
+      "sha256": "27a362b99bdfcf2ceb950a00255c7b534bf1b162cd06e0800d5b5964076ad548",
+      "bytes": 91605
+    },
+    "sentence_stretch_year4_chores.json": {
+      "sha256": "c21c99bff28973791e30737d4410ef22922bfc1bd6c62db05d630d38caf42dad",
+      "bytes": 29880
+    },
+    "sentence_stretch_year4_environment.json": {
+      "sha256": "ca36fb193c71e5134215e142897fe25912b5f352ab7847eadbfea5621a8cf7a7",
+      "bytes": 24709
+    },
+    "sentence_stretch_year4_food.json": {
+      "sha256": "e9b678886c3a133f50584ad359491ab33614a6053076ae22817a8c67f601e8e3",
+      "bytes": 119141
+    },
+    "sentence_stretch_year4_grammar.json": {
+      "sha256": "ae5891a7af11ca918d2089007bfd3b4cb79b98c219c58244197eed9f1b007b19",
+      "bytes": 35037
+    },
+    "sentence_stretch_year4_health.json": {
+      "sha256": "4a336831e372b91dce7fd54d7ba2edec7699653b2fbd860ee81c7c4ffc7d756f",
+      "bytes": 98818
+    },
+    "sentence_stretch_year4_history.json": {
+      "sha256": "63e521a816d7619c908365bc0f350f596bc3d8f66d1758bf187db7b044ab5884",
+      "bytes": 55002
+    },
+    "sentence_stretch_year4_hobbies.json": {
+      "sha256": "9ff2dcaf07754d1bfda9081bf8964158dc05cd0a4c16db91e7ea053c1c739401",
+      "bytes": 66124
+    },
+    "sentence_stretch_year4_housework.json": {
+      "sha256": "f9d4d05cda93e84f57a84689d4c8c0253cde827418bb3954e15bd06af95aa1f2",
+      "bytes": 79059
+    },
+    "sentence_stretch_year4_identity.json": {
+      "sha256": "9a4ded75dd1b7f24535f53a344fcf9d1e376bb4a11b0741c645800381335d7d9",
+      "bytes": 57941
+    },
+    "sentence_stretch_year4_recycling.json": {
+      "sha256": "7e998d840af8e4052d42958a7cb368d3e675844030dacc04d3e5a91c67a3c77b",
+      "bytes": 32996
+    },
+    "sentence_stretch_year4_safety.json": {
+      "sha256": "e8cd079154a2d53cc363d64c93d0b510eb4ff2d8266be14c602277d2a782d9f1",
+      "bytes": 29642
+    },
+    "sentence_stretch_year4_schedules.json": {
+      "sha256": "7f5aa6f48e67a505b89b090d29fee9df1f3a4f529ac2bd16f96b805a40bf6941",
+      "bytes": 11926
+    },
+    "sentence_stretch_year4_school.json": {
+      "sha256": "b25672a5b7f9cf1cdf79ebf420cb5d4a67201db114751bc2b7ccc578805258a9",
+      "bytes": 26214
+    },
+    "sentence_stretch_year4_school_subjects.json": {
+      "sha256": "b8ad98759724aaee4818bffaa1f8c9dc33bb4d5272daca7a21502b7a5dcdec5c",
+      "bytes": 55259
+    },
+    "sentence_stretch_year4_sports.json": {
+      "sha256": "a713a84c478427499fefd77602954eb9a80dca5d8436cfe15f907de2f9104b19",
+      "bytes": 77132
+    },
+    "sentence_stretch_year4_street_safety.json": {
+      "sha256": "b70af93bafc09823b2a7832ecd618fa8b743147add297981d31ab5a897de46d8",
+      "bytes": 46634
+    },
+    "sentence_stretch_year4_transport.json": {
+      "sha256": "33b168787e5bbe7167d384c7e37f798accb568b84dbe7a69bf1d63b3a763e04d",
+      "bytes": 53361
+    },
+    "sentence_stretch_year5_adjectives.json": {
+      "sha256": "b02630a65d3042160b75c63fb3cdc60d6ba0ed9fa43786d24425145c2459aac1",
+      "bytes": 59939
+    },
+    "sentence_stretch_year5_daily_routine.json": {
+      "sha256": "99ef5e224120106753519691e2fb0a597ab92c6608f3eb589fe3abcd5d47a5ba",
+      "bytes": 17608
+    },
+    "sentence_stretch_year5_events.json": {
+      "sha256": "2ac808e1b90cf5d55fcb535cee103128b57a27cda9e24b454beb2273973da334",
+      "bytes": 68563
+    },
+    "sentence_stretch_year5_food.json": {
+      "sha256": "e5bf897a128477af26006ea7753454b31430ef2b137318864e46dfe808df4772",
+      "bytes": 77864
+    },
+    "sentence_stretch_year5_health.json": {
+      "sha256": "47a291453c5d04661af90002858180bb49b9618eaa957761df029f6040d6c5e3",
+      "bytes": 37750
+    },
+    "sentence_stretch_year5_hobbies.json": {
+      "sha256": "bed08fbe0599898f53f39ba5417d77f3a335800d3fa0958af8790fc12d905baf",
+      "bytes": 49422
+    },
+    "sentence_stretch_year5_holiday.json": {
+      "sha256": "d68e78d26c6e12e864830968c3bda8b4b7bb9e8e9c4cc0c1b84bcf785d8c5783",
+      "bytes": 86573
+    },
+    "sentence_stretch_year5_life.json": {
+      "sha256": "a3a915e1251bc9f218ee7bd7d2345dfb31ba8ccbf4572843449e1591cb49692a",
+      "bytes": 61334
+    },
+    "sentence_stretch_year5_people.json": {
+      "sha256": "02aee69d889c5963562aca98e92c47733ce97dc97770cdfc85c4be5d5ae4504d",
+      "bytes": 46734
+    },
+    "sentence_stretch_year5_places.json": {
+      "sha256": "39f0fe63cee327c2127591f034beeb3a92943831468c1c57882999df677fabba",
+      "bytes": 101172
+    },
+    "sentence_stretch_year5_school.json": {
+      "sha256": "10087dd3eb2178e2d1e57a78e10b2fb69b75a319fbcb601ca21d0e74fbbcad3c",
+      "bytes": 85003
+    },
+    "sentence_stretch_year5_sports.json": {
+      "sha256": "357eb97368af32a20bc2fc2246b7f564cb17474dafc078fa36e85a17366317f4",
+      "bytes": 98962
+    },
+    "sentence_stretch_year5_vocabulary.json": {
+      "sha256": "3703c7e8c20c295e38246d16408f63b68314a49b7623da302b7170b6a6186240",
+      "bytes": 66672
+    },
+    "sentence_stretch_year5_weather.json": {
+      "sha256": "cf9e53abf3c1a535bd6999811b20401210e9eaaaf2b7b1596fca8e6642e1f7f7",
+      "bytes": 34037
+    },
+    "sentence_stretch_year5_wildlife.json": {
+      "sha256": "0f0318e7a3f5c36e062070d78da80ef0dd88b9e633fa080321fe15f00a444262",
+      "bytes": 80100
+    },
+    "sentence_stretch_year6_adventure.json": {
+      "sha256": "619517615f8ef292f219b0c629d6ca380968ab23508c6d884c7a18f4c1a751c4",
+      "bytes": 71835
+    },
+    "sentence_stretch_year6_agriculture.json": {
+      "sha256": "d46e28a75117d81a84bb2e0f4fac421076aa3a8597f5841e03c38280dcf0a3bb",
+      "bytes": 14952
+    },
+    "sentence_stretch_year6_careers.json": {
+      "sha256": "4a1104439db75a2d491f20bfa2c6cd32ab3bfd311615fa2c11d8d8a1402992e4",
+      "bytes": 41937
+    },
+    "sentence_stretch_year6_concepts.json": {
+      "sha256": "62f506cb498abd33f012d0ab49f665281d6a4bb6a26e653e42b64386486f55e3",
+      "bytes": 15408
+    },
+    "sentence_stretch_year6_crafts.json": {
+      "sha256": "c81b0fd45cd360d29317a534799c978f00198d51c290ff6629803c6b3078c2ad",
+      "bytes": 57701
+    },
+    "sentence_stretch_year6_emergency.json": {
+      "sha256": "0c3e7fd6f98dd5ce91da5fbd42f6343b1741ce25a4cecb2db854edc809976324",
+      "bytes": 64968
+    },
+    "sentence_stretch_year6_emotions.json": {
+      "sha256": "13abf58fc072779f5306a68492cb0fec06a73391dd98259428751f8c5afa457b",
+      "bytes": 33609
+    },
+    "sentence_stretch_year6_grammar.json": {
+      "sha256": "51f95ed7f9a2237c68d6663e610a436b98993ce58941710966932c6d1e5beab9",
+      "bytes": 73708
+    },
+    "sentence_stretch_year6_history.json": {
+      "sha256": "e075f284a8ca9733b3a1c45c893516b96338c64af33cc061f14f28d5fb7ca7f8",
+      "bytes": 73976
+    },
+    "sentence_stretch_year6_housing.json": {
+      "sha256": "5f5f3b743117499357f1bc90e89b08f6476547333a2f239c3ce4ce3aa18add02",
+      "bytes": 18094
+    },
+    "sentence_stretch_year6_lifestyle.json": {
+      "sha256": "d7ae19fb3cb22bfe180f6b36ce5dcc7c2d8ec04e720c3deae0f711a73a2267f3",
+      "bytes": 63132
+    },
+    "sentence_stretch_year6_music.json": {
+      "sha256": "1d314dbd2e22e472f66d513b0d8fba85f46ca9d3c78bbb171e9a147a5437fdf9",
+      "bytes": 75824
+    },
+    "sentence_stretch_year6_mystery.json": {
+      "sha256": "2774bbe59d34cdbe36704dbf18e9809509dd364f33a458f211d6d05ff8b43027",
+      "bytes": 45635
+    },
+    "sentence_stretch_year6_nature.json": {
+      "sha256": "68b35d2617c7b264e4fc50ed978a8cd6408155122ef61a8f54426b38c8f985aa",
+      "bytes": 24988
+    },
+    "sentence_stretch_year6_people.json": {
+      "sha256": "cef0db736c5403c8d8982f8ee3e19a724e244b9c9d868e59f050e465a0c8a88d",
+      "bytes": 15013
+    },
+    "sentence_stretch_year6_sports.json": {
+      "sha256": "a38e1f77fa77c50407ad3158ac5db2e7776cb97c20687fadeee3828b438f1f69",
+      "bytes": 14964
+    },
+    "sentence_stretch_year6_storytelling.json": {
+      "sha256": "80cc320ce88a4328ff2d30a84229fc53b90d98fd513c415d57958b5fde3784ca",
+      "bytes": 60130
+    },
+    "sentence_stretch_year6_transport.json": {
+      "sha256": "637ad772ffb16e67f97d18a4818653671363953900412fc3e383cee8aa146652",
+      "bytes": 74463
+    },
+    "sentence_stretch_year6_vocabulary.json": {
+      "sha256": "487b53427110367adfcd9aec4f86dd4f2902c241fc2655815c69b9619a35890e",
+      "bytes": 44935
+    }
+  }
+}
